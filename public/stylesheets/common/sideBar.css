@@ -1,0 +1,19 @@
+
+div.sideBar { padding-top: 80px; }
+
+div.sideBar div.notice { padding: 0 30px 20px 30px; border-bottom: 1px solid #e1e1e1; }
+div.sideBar div.notice h3 { color: #464646; font-size: 16px; font-weight: bold; margin-top: 0; }
+div.sideBar div.notice h3 div.more { float: right; width: 20px; height: 20px; line-height: 20px; text-align: center; font-weight: lighter; color: #fff; background-color: #a5a5a5; cursor: pointer; }
+div.sideBar div.notice table tr td img { margin-bottom: 5px; }
+div.sideBar div.notice table tr td ul { padding-left: 20px; }
+div.sideBar div.notice table tr td ul li { font-size: 13px; line-height: 22px; }
+
+div.sideBar div.menuList { }
+div.sideBar div.menuList div.menu { padding: 20px 30px 20px 30px; height: 100px; border-bottom: 1px solid #e1e1e1; }
+div.sideBar div.menuList div.menu div.list { width: 70%; float: left; }
+div.sideBar div.menuList div.menu div.list h3 { color: #464646; font-size: 16px; font-weight: bold; margin-top: 0; }
+div.sideBar div.menuList div.menu div.list h3 a:link,
+div.sideBar div.menuList div.menu div.list h3 a:active,
+div.sideBar div.menuList div.menu div.list h3 a:visited  {text-decoration: none; color: #464646; }
+div.sideBar div.menuList div.menu div.list h3 i { color: #a5a5a5; font-size: 1.2em; line-height: 17px; }
+div.sideBar div.menuList div.menu div.picto { float: right; margin-top: -5px; }

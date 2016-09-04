@@ -1,0 +1,29 @@
+<div class="intro job">
+  <!-- Common Style Template -->
+  <div class="pageTitle">
+    <h1>채용정보</h1>
+    <div class="decoLine"></div>
+  </div>
+
+  <div class="breadCrumb">
+    <ul>
+      <li><i class="fa fa-home" aria-hidden="true"></i></li>
+      <li>HOME</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>회사소개</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>채용정보</li>
+    </ul>
+  </div>
+
+  <div class="jobMenu">
+    <ul>
+      <li ng-class="{active: jobMenu.active}" ng-repeat="jobMenu in job.routeConfig" ng-click="job.toSubMenu($index)">{{jobMenu.name}}</li>
+    </ul>
+  </div>
+
+  <div ng-include="job.currentPage"></div>
+
+
+
+</div>

@@ -1,0 +1,43 @@
+<div class="sideMenu">
+
+  <div class="header">
+    <a href="/"><img src="images/logos/logo.png"></a>
+  </div>
+
+  <div class="lang">
+    <div class="ko langActive" ng-click="nav.lang('ko')">KOR</div>
+    <div class="en " ng-click="nav.lang('en')">ENG</div>
+  </div>
+
+  <div class="mainMenus">
+    <div class="menuList" ng-repeat="route in nav.routeConfig" ng-click="nav.menuClick(route)">
+      <h1>{{route.name}} <i class="fa fa-angle-right" aria-hidden="true"></i></h1>
+    </div>
+  </div>
+
+  <div class="extraLinks">
+    <div class="brochure"><i class="fa fa-book" aria-hidden="true"></i> E-brochure</div>
+    <div class="misc">
+      <ul>
+        <li>개인정보취급방침</li>
+        <li>이용약관</li>
+        <li>사이트맵</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="info">
+    <img src="images/logos/logo.png">
+    <address>서울특별시 강남구 역삼동 681-26 역삼하나빌 305 신기씨엔에스㈜</address>
+    <div class="copyright">
+      Copyright&copy; <br/>2016 SHINGI CABLE & SYSTEM <br/>All rights reserved.
+    </div>
+  </div>
+
+</div>
+
+<div class="sideSubMenu" ng-if="nav.menuClicked">
+  <div class="list" ng-style="($first)? {'margin-top': nav.subMenu.marginTop} : {}" ng-repeat="subMenu in nav.subMenu.subMenu">
+    <h3><a ng-href="{{subMenu.href}}" ng-click="nav.subMenuClick()">{{subMenu.name}}</a></h3>
+  </div>
+</div>
