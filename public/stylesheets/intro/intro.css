@@ -27,8 +27,8 @@ div.info div.content p { font-size: 13px; color: #999; line-height: 24px; margin
 
 
 div.vision {}
-div.vision div.content {}
-div.vision div.content div.top { overflow: hidden; }
+div.vision div.content { overflow: auto; }
+div.vision div.content div.top {}
 div.vision div.content div.top div.leftContent { width: 60%; float: left; }
 div.vision div.content div.top div.rightContent { width: 40%; float: left; }
 div.vision div.content div.top div.leftContent p:first-child { font-size: 21px; font-weight: bold; color: #555; line-height: 36px; width: 450px; margin-top: 25px; }
@@ -60,7 +60,7 @@ div.vision div.content div.mid div.bottomContent div.rightContent span { display
 
 
 div.history {}
-div.history div.content {}
+div.history div.content { overflow: auto; }
 div.history div.content div.topContent { overflow: auto; }
 div.history div.content div.topContent div.leftContent { width: 60%; float: left; }
 div.history div.content div.topContent div.rightContent { width: 40%; float: left; }
@@ -85,7 +85,7 @@ div.history div.content div.bottomContent div.rightContent span.year { color: #4
 
 
 div.org {}
-div.org div.content {}
+div.org div.content { overflow: auto; }
 div.org div.content p:first-child { font-size: 21px; font-weight: bold; color: #555; line-height: 36px; }
 div.org div.content p { font-size: 13px; color: #999; line-height: 24px; margin-top: 25px; }
 div.org div.content img { margin-top: 20px; width: 100%; }
@@ -117,7 +117,7 @@ div.job div.content div.rightContent div.jobCore p { float: left; margin:0 }
 
 div.job div.content table tr td img { margin: 0; width: 38px;; height: 38px; }
 div.job div.content table tr th { color: #333; text-align: center; vertical-align: middle; }
-div.job div.content table tr td { color: #717171; vertical-align: middle; }
+div.job div.content table tr td { color: #717171; text-align: center; vertical-align: middle; }
 div.job div.content table tr td span { font-size: 10px; }
 
 div.job div.content div.addressBlock { overflow: auto; }
