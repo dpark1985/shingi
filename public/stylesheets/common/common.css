@@ -22,3 +22,8 @@ div.breadCrumb ul { list-style-type: none; float: right; }
 div.breadCrumb ul li { float: left; margin-right: 5px; }
 div.breadCrumb ul li:first-child { display: block; width: 18px; height: 18px; line-height: 18px; text-align: center; font-size: 0.9em; color: #fff; background-color: #ababab; border-radius: 50%; }
 div.breadCrumb ul li:last-child { color: #249adf; }
+
+div.blankBlock { width: 100%; height: 280px; clear:both; }
+div.blankBlock100 { width: 100%; height: 100px; clear:both; }
+
+div.clearFloat { clear: both; }

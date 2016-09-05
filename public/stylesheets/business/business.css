@@ -1,0 +1,24 @@
+div.business {
+  background: url("/images/business/sub_bg2.jpg") left top no-repeat;
+  background-size: 100% 154px;
+  height: 100%;
+  overflow: auto;
+  padding: 0 40px 40px 40px;
+}
+
+div.business div.subMenus { overflow: auto; }
+div.business div.subMenus ul { list-style-type: none; padding: 0; }
+div.business div.subMenus ul li { float: left; display: block; width: 100px; height: 40px; line-height: 40px; text-align: center; font-size: 16px; font-weight: bold; cursor: pointer; color: #464646; background-color: #e4e6ea; margin-right: 5px; }
+div.business div.subMenus ul li:hover { color: #fff; background-color: #52647b; }
+div.business div.subMenus ul li.active { color: #fff; background-color: #52647b; }
+
+div.business div.content { overflow: auto; }
+div.business div.content h1 { font-weight: bold; font-size: 21px; color: #0b4da2; display: inline-block; }
+div.business div.content div.leftContent { width: 50%; padding-right: 25px; float: left;}
+div.business div.content div.leftContent img { width: 100%; }
+div.business div.content div.rightContent { width: 50%; padding-left: 25px; float: left;}
+div.business div.content div.rightContent img { width: 100%; }
+
+div.business span.leftBar { display: block; padding-left: 10px; border-left: 4px solid #d4d4d4; font-weight: bold; font-size: 17px; color: #5d5d5d; margin-bottom: 10px; }
+div.business p { margin-top: 10px; }
+div.business ul { padding: 0 0 20px 15px; }

@@ -1,0 +1,40 @@
+div.cr {
+  background: url("/images/intro/sub_bg.jpg") left top no-repeat;
+  background-size: 100% 154px;
+  height: 100%;
+  overflow: auto;
+  padding: 0 40px 40px 40px;
+}
+
+div.contact table { margin-top: 40px; }
+div.contact table tr { }
+div.contact table tr:first-child { background-color: #a5a5a5; }
+div.contact table tr th { text-align: center; vertical-align: middle; font-weight: bold; color: #fff; }
+div.contact table tr td { text-align: center; vertical-align: middle; color: #464646; }
+
+div.cr div.content {}
+div.cr div.content h1 { font-size: 20px; font-weight: bold; color: #464646;}
+div.cr div.content h2 { font-size: 18px; font-weight: bold; color: #464646;}
+
+div.cr div.content div.radio { text-align: center; }
+div.cr div.content div.radio label { margin-right: 20px; }
+
+div.inquiry div.content table.inquiryForm {};
+div.inquiry div.content table.inquiryForm tr:first-child { background-color: #fff; }
+div.inquiry div.content table.inquiryForm tr:first-child td { border-top: 1px solid #6d9dcf; }
+div.inquiry div.content table.inquiryForm tr:last-child td { border-bottom: 1px solid #ddd;}
+div.inquiry div.content table.inquiryForm tr td {}
+div.inquiry div.content table.inquiryForm tr td:first-child { font-weight: bold; width: 20%; background-color: #f6f9fd; text-align: center; }
+div.inquiry div.content table.inquiryForm tr td:last-child input { width: 40%; }
+div.inquiry div.content table.inquiryForm tr td:last-child input.title { width: 100%; }
+div.inquiry div.content table.inquiryForm tr td:last-child div.radio { text-align: left; margin: 0;}
+div.inquiry div.content table.inquiryForm tr td:last-child select { width: 30%; float: left; margin-right: 10px;}
+div.inquiry div.content table.inquiryForm tr td:last-child button { margin-left: 10px; font-size: 11px; }
+div.inquiry div.sendInquiry { text-align: center; }
+
+div.notice table { margin-top: 20px; }
+div.notice table tr {}
+div.notice table tr:first-child { background-color: #e4e4e4;}
+div.notice table tr:first-child td { font-weight: bold; border-top: 1px solid #8c8c8c; }
+div.notice table tr:last-child td { border-bottom: 1px solid #ddd; }
+div.notice table tr td { text-align: center; }
