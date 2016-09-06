@@ -89,7 +89,7 @@ var h3Framework = angular.module('h3Framework')
 			$nav.menuClicked = false;
 			$nav.menuClickedCount = 0;
 			$scope.$apply();
-		}, 2000);
+		}, 1500);
 	});
 
 	/*	clear settimeout if mouseenter	*/

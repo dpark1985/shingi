@@ -1,0 +1,64 @@
+<div class="content">
+  <div class="row header" ng-if="!pCable.subSubMenuOn">
+    <div class="col-xs-12">
+      <img src="images/icons/picture2.png">
+      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
+      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
+    </div>
+    <div class="col-xs-8">
+      <div class="well well-lg">
+        <p><strong>신기의 다양한 산업 특성에 맞는 제어용케이블을 제공합니다.</strong></p>
+        <p>제어용 케이블은 각종 산업, 건축, 보안시설에서 기기간 제어신호를 전달하는 케이블입니다. 케이블 용도에 따라 절연, 시스재료, 차폐, 외장 및 규격 등을 고려해 사용되며, 발전소, 변전소, 공장 등에서 기기의 원격조작 및 자동제어용으로 사용되고 있습니다.</p>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div>
+        <h4>Control Cable</h4>
+      </div>
+      <img src="images/product/cable/2/Picture1.png">
+      <img src="images/product/cable/2/Picture2.png">
+    </div>
+  </div>
+
+  <div ng-if="!pCable.subSubMenuOn" class="row prodList" ng-repeat="prod in pCable.controlCable" ng-click="pCable.selectProduct(prod)">
+    <div class="col-xs-2">
+      <img ng-src="{{prod.imgSrc}}">
+    </div>
+    <div class="col-xs-10">
+      <p><strong>{{prod.name}}</strong></p>
+      <p ng-if="prod.desc" ng-bind-html="prod.desc"></p>
+      <p ng-if="!prod.desc">xxxxx</p>
+      <ul>
+        <li ng-if="prod.usage">용도 : {{prod.usage}}</li>
+        <li ng-if="prod.std">규격 : {{prod.std}}</li>
+        <li ng-if="!prod.usage">용도 : xxxxx</li>
+        <li ng-if="!prod.std">규격 : xxxxx</li>
+      </ul>
+    </div>
+  </div>
+
+  <div ng-if="pCable.subSubMenuOn" class="subSubMenu">
+    <div class="row">
+      <div class="col-xs-2">
+        <img ng-src="{{pCable.selectedItem.imgSrc}}">
+      </div>
+      <div class="col-xs-10">
+        <p><strong>{{pCable.selectedItem.name}}</strong></p>
+        <p ng-bind-html="prod.desc"></p>
+        <ul>
+          <li>용도 : {{pCable.selectedItem.usage}}</li>
+          <li>규격 : {{pCable.selectedItem.std}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p><strong>상세 제품 설명</strong></p>
+      </div>
+    </div>
+
+
+
+    <div class="blankBlock"></div>
+  </div>
+</div>

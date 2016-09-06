@@ -1,0 +1,64 @@
+<div class="content">
+  <div class="row header" ng-if="!pCable.subSubMenuOn">
+    <div class="col-xs-12">
+      <img src="images/icons/picture2.png">
+      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
+      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
+    </div>
+    <div class="col-xs-8">
+      <div class="well well-lg">
+        <p><strong>신기의 다양한 산업 특성에 맞는 전연케이블을 제공합니다.</strong></p>
+        <p>절연전선이란 750V 이하 옥내외 배선에 사용되는 전선으로 도체 위에 PVC 또는 XLPE로 절연한 전선입니다. 저압으로 단선 또는 연선에 절연물을 피복한 것으로 종류로는 IV, DV, GV, OW등이 있습니다.</p>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div>
+        <h4>Insulated Wire</h4>
+      </div>
+      <img src="images/product/cable/1/Picture1.png">
+      <img src="images/product/cable/1/Picture2.png">
+    </div>
+  </div>
+
+  <div ng-if="!pCable.subSubMenuOn" class="row prodList" ng-repeat="prod in pCable.insulatedWire" ng-click="pCable.selectProduct(prod)">
+    <div class="col-xs-2">
+      <img ng-src="{{prod.imgSrc}}">
+    </div>
+    <div class="col-xs-10">
+      <p><strong>{{prod.name}}</strong></p>
+      <p ng-if="prod.desc" ng-bind-html="prod.desc"></p>
+      <p ng-if="!prod.desc">xxxxx</p>
+      <ul>
+        <li ng-if="prod.usage">용도 : {{prod.usage}}</li>
+        <li ng-if="prod.std">규격 : {{prod.std}}</li>
+        <li ng-if="!prod.usage">용도 : xxxxx</li>
+        <li ng-if="!prod.std">규격 : xxxxx</li>
+      </ul>
+    </div>
+  </div>
+
+  <div ng-if="pCable.subSubMenuOn" class="subSubMenu">
+    <div class="row">
+      <div class="col-xs-2">
+        <img ng-src="{{pCable.selectedItem.imgSrc}}">
+      </div>
+      <div class="col-xs-10">
+        <p><strong>{{pCable.selectedItem.name}}</strong></p>
+        <p ng-bind-html="prod.desc"></p>
+        <ul>
+          <li>용도 : {{pCable.selectedItem.usage}}</li>
+          <li>규격 : {{pCable.selectedItem.std}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p><strong>상세 제품 설명</strong></p>
+      </div>
+    </div>
+
+
+
+    <div class="blankBlock"></div>
+  </div>
+</div>
