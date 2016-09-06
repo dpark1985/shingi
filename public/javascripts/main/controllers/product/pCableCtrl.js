@@ -233,7 +233,6 @@ var h3Framework = angular.module('h3Framework')
 
 
 	$pCable.selectProduct = function (item) {
-		console.log(item);
 		$pCable.subSubMenuOn = true;
 		$pCable.selectedItem = item;
 	};
