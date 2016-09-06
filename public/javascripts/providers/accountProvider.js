@@ -103,7 +103,7 @@ var h3FrameworkProviders = angular.module('h3FrameworkProviders')
 		 *	var errMsgs = $h3Account.validation(res.data);
 		*/
 		validation: function (data){
-			let errMsgs = [];
+			var errMsgs = [];
 
 			if(data.indexOf("loginError1") > 0){
 				errMsgs.push("아이디 또는 비밀번호가 맞지 않습니다.");
