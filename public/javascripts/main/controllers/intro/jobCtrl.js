@@ -11,10 +11,6 @@ var h3Framework = angular.module('h3Framework')
 		{name: '채용공고', templateUrl: 'templates/main/intro/job/3.html', active: false},
 	];
 
-	// initial page to load
-	$job.currentPage = $job.routeConfig[0].templateUrl;
-
-
 	// clear all active class
 	$job.clearActive = function () {
 		for(var i=0; i<$job.routeConfig.length; i++){
@@ -26,7 +22,12 @@ var h3Framework = angular.module('h3Framework')
 	$job.toSubMenu = function (index){
 		$job.clearActive();
 		$job.routeConfig[index].active = true;
-		$job.currentPage = $job.routeConfig[index].templateUrl;
+		$job.currentPageUrl = $job.routeConfig[index].templateUrl;
 	}
+
+	// initial page to load
+	$job.currentPageUrl = $job.routeConfig[0].templateUrl;
+
+
 
 }]);

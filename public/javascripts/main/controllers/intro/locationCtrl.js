@@ -10,8 +10,6 @@ var h3Framework = angular.module('h3Framework')
 		{name: '문류센터', templateUrl: 'templates/main/intro/location/2.html', active: false},
 	];
 
-	// initial page to load
-	$loc.currentPage = $loc.routeConfig[0].templateUrl;
 
 	// clear all active class
 	$loc.clearActive = function () {
@@ -24,8 +22,12 @@ var h3Framework = angular.module('h3Framework')
 	$loc.toSubMenu = function (index){
 		$loc.clearActive();
 		$loc.routeConfig[index].active = true;
-		$loc.currentPage = $loc.routeConfig[index].templateUrl;
+		$loc.currentPageUrl = $loc.routeConfig[index].templateUrl;
 	}
+
+
+	// initial page to load
+	$loc.currentPageUrl = $loc.routeConfig[0].templateUrl;
 
 
 }]);

@@ -9,10 +9,6 @@ var h3Framework = angular.module('h3Framework')
 		{name: '사업영역', templateUrl: 'templates/main/business/re/1.html', active: false}
 	];
 
-	// initial page to load
-	$bRealestate.currentPage = $bRealestate.routeConfig[0].templateUrl;
-
-
 	// clear all active class
 	$bRealestate.clearActive = function () {
 		for(var i=0; i<$bRealestate.routeConfig.length; i++){
@@ -24,7 +20,13 @@ var h3Framework = angular.module('h3Framework')
 	$bRealestate.toSubMenu = function (index){
 		$bRealestate.clearActive();
 		$bRealestate.routeConfig[index].active = true;
-		$bRealestate.currentPage = $bRealestate.routeConfig[index].templateUrl;
+		$bRealestate.currentPageUrl = $bRealestate.routeConfig[index].templateUrl;
 	}
+
+
+	// initial page to load
+	$bRealestate.currentPageUrl = $bRealestate.routeConfig[0].templateUrl;
+
+
 
 }]);

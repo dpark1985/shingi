@@ -44,7 +44,7 @@
       </div>
       <div class="col-xs-10">
         <p><strong>{{pCable.selectedItem.name}}</strong></p>
-        <p ng-bind-html="prod.desc"></p>
+        <p ng-bind-html="pCable.selectedItem.desc"></p>
         <ul>
           <li>용도 : {{pCable.selectedItem.usage}}</li>
           <li>규격 : {{pCable.selectedItem.std}}</li>
@@ -56,9 +56,12 @@
         <p><strong>상세 제품 설명</strong></p>
       </div>
     </div>
-
-
-
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="details" ng-bind-html="pCable.selectedItem.details"></div>
+      </div>
+    </div>
     <div class="blankBlock"></div>
   </div>
+
 </div>

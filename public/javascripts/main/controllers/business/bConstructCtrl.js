@@ -9,10 +9,6 @@ var h3Framework = angular.module('h3Framework')
 		{name: '사업영역', templateUrl: 'templates/main/business/construct/1.html', active: false}
 	];
 
-	// initial page to load
-	$bConstruct.currentPage = $bConstruct.routeConfig[0].templateUrl;
-
-
 	// clear all active class
 	$bConstruct.clearActive = function () {
 		for(var i=0; i<$bConstruct.routeConfig.length; i++){
@@ -24,7 +20,12 @@ var h3Framework = angular.module('h3Framework')
 	$bConstruct.toSubMenu = function (index){
 		$bConstruct.clearActive();
 		$bConstruct.routeConfig[index].active = true;
-		$bConstruct.currentPage = $bConstruct.routeConfig[index].templateUrl;
+		$bConstruct.currentPageUrl = $bConstruct.routeConfig[index].templateUrl;
 	}
+
+
+	// initial page to load
+	$bConstruct.currentPageUrl = $bConstruct.routeConfig[0].templateUrl;
+
 
 }]);

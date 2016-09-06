@@ -1,8 +1,8 @@
 
 var h3Framework = angular.module('h3Framework')
 
-.controller('indexCtrl', ['$http', '$window', '$h3Account', function ($http, $window, $h3Account) {
-	var $index = this;
+.controller('indexCtrl', ['$http', '$window', function ($http, $window) {
+	var $index = this;	//ControllerAs
 
 	$('.imgBG').slick({
 	  slidesToShow: 1,
@@ -19,7 +19,6 @@ var h3Framework = angular.module('h3Framework')
 
 
 	$index.init = function(){
-		$index.userData = $h3Account.getUserData();
 		$index.title = $('title').text();
 	}
 

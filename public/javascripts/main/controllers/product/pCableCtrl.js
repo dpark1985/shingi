@@ -3,21 +3,30 @@ var h3Framework = angular.module('h3Framework')
 .controller('pCableCtrl', ['$http', function ($http) {
 	var $pCable = this;
 
-	$pCable.subSubMenuOn = false;
-	$pCable.selectedItem = null;
-
 	// cable menu config
 	$pCable.routeConfig = [
-		{name: '전력케이블', templateUrl: 'templates/main/product/cable/0.html', active: true},
-		{name: '전연케이블', templateUrl: 'templates/main/product/cable/1.html', active: false},
-		{name: '제어용케이블', templateUrl: 'templates/main/product/cable/2.html', active: false},
-		{name: '통신케이블', templateUrl: 'templates/main/product/cable/3.html', active: false},
-		{name: '소방케이블', templateUrl: 'templates/main/product/cable/4.html', active: false}
+		{name: '전력케이블',	enName: "powerCable", templateUrl: 'templates/main/product/cable/0.html', active: true},
+		{name: '전연케이블', enName: "insulatedWire", templateUrl: 'templates/main/product/cable/1.html', active: false},
+		{name: '제어용케이블', enName: "controlCable", templateUrl: 'templates/main/product/cable/2.html', active: false},
+		{name: '통신케이블', enName: "communicationCable", templateUrl: 'templates/main/product/cable/3.html', active: false},
+		{name: '소방케이블', enName: "fireCable", templateUrl: 'templates/main/product/cable/4.html', active: false}
 	];
 
-	// initial page to load
-	$pCable.currentPage = $pCable.routeConfig[0].templateUrl;
-
+	// Pull data from server
+	// ALL DATA MUST FORMATTED AS JSON
+	$pCable.getCableData = function(currentPage) {
+		// set the rest API url
+		var restAPIURL = "http://127.0.0.1:3000"+"";
+		$http.get(restAPIURL).then(function(data){
+			if(currentPage === "powerCable") 								{ $pCable.powerCable 					= data; }
+			else if (currentPage === "insulatedWire") 			{ $pCable.insulatedWire 			= data; }
+			else if (currentPage === "controlCable") 				{ $pCable.controlCable 				= data; }
+			else if (currentPage === "communicationCable")	{ $pCable.communicationCable 	= data; }
+			else if (currentPage === "fireCable") 					{ $pCable.fireCable 					= data; }
+		}, function(err){
+			console.log(err);
+		});
+	};
 
 	// clear all active class
 	$pCable.clearActive = function () {
@@ -29,12 +38,33 @@ var h3Framework = angular.module('h3Framework')
 	// SubMenu Click
 	$pCable.toSubMenu = function (index){
 		$pCable.clearActive();
-		$pCable.routeConfig[index].active = true;
-		$pCable.subSubMenuOn = false;
-		$pCable.selectedItem = null;
-		$pCable.currentPage = $pCable.routeConfig[index].templateUrl;
+		$pCable.routeConfig[index].active 	= true;
+		$pCable.subSubMenuOn								= false;
+		$pCable.selectedItem 								= null;
+		$pCable.currentPageUrl 							= $pCable.routeConfig[index].templateUrl;
+		$pCable.currentPage 								= $pCable.routeConfig[index].enName;
+
+		/*
+		// UNCOMMENT THE FOLLOWING CODE IF REST API SERVER IS SETUP
+		$pCable.getCableData($pCable.currentPage);
+		*/
 	}
 
+	// Item Select
+	$pCable.selectProduct = function (item) {
+		$pCable.subSubMenuOn = true;
+		$pCable.selectedItem = item;
+	};
+
+
+	/*
+		THE FOLLOWING VARIABLES CAN BE DELTED ONCE REST API SERVER IS SETUP
+			$pCable.powerCable
+			$pCable.insulatedWire
+			$pCable.controlCable
+			$pCable.communicationCable
+			$pCable.fireCable
+	*/
 	$pCable.powerCable = [
 		{
 			prodID: "101",
@@ -231,10 +261,17 @@ var h3Framework = angular.module('h3Framework')
 	];
 
 
+	$pCable.subSubMenuOn = false;
+	$pCable.selectedItem = null;
 
-	$pCable.selectProduct = function (item) {
-		$pCable.subSubMenuOn = true;
-		$pCable.selectedItem = item;
-	};
+	// initial page to load
+	$pCable.currentPageUrl = $pCable.routeConfig[0].templateUrl;
+	$pCable.currentPage = $pCable.routeConfig[0].enName;
+	/*
+	// UNCOMMENT THE FOLLOWING CODE IF REST API SERVER IS SETUP
+	$pCable.getCableData($pCable.currentPage);
+	*/
+
+
 
 }]);

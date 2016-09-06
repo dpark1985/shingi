@@ -3,10 +3,7 @@ var h3Framework = angular.module('h3Framework')
 
 .controller('navCtrl', ['$scope', function ($scope) {
 
-	/*	ControllerAs	*/
-	var $nav = this;
-
-	/*	jquery integrated vairables must be initialized here	*/
+	var $nav = this;								//ControllerAs
 	var menuout = null;							//mouseleave settimeout
 
 	/*	Initialize variables	*/
@@ -15,9 +12,6 @@ var h3Framework = angular.module('h3Framework')
 		$nav.menuClickedCount = 0;			//MainMenu Click Count
 		$nav.subMenu = null;						//SubMenu Object
 	}
-
-	/*	Initialize variables	*/
-	$nav.initVariables();
 
 	/*	menu & submenu config	*/
 	$nav.routeConfig = [
@@ -99,7 +93,7 @@ var h3Framework = angular.module('h3Framework')
 		}
 	});
 
-
-
+	/*	Initialize variables	*/
+	$nav.initVariables();
 
 }]);
