@@ -1,29 +1,83 @@
 div.product {
-  background: url("/images/business/sub_bg2.jpg") left top no-repeat;
-  background-size: 100% 154px;
-  height: 100%;
-  overflow: auto;
-  padding: 0 40px 40px 40px;
+    background: url("/images/business/sub_bg2.jpg") left top no-repeat;
+    background-size: 100% 154px;
+    height: 100%;
+    overflow: auto;
+    padding: 0 40px 40px 40px;
 }
-
-div.product div.subMenus { overflow: auto; }
-div.product div.subMenus ul { list-style-type: none; padding: 0; }
-div.product div.subMenus ul li { float: left; display: block; width: 100px; height: 40px; line-height: 40px; text-align: center; font-size: 16px; font-weight: bold; cursor: pointer; color: #464646; background-color: #e4e6ea; margin-right: 5px; }
-div.product div.subMenus ul li:hover { color: #fff; background-color: #52647b; }
-div.product div.subMenus ul li.active { color: #fff; background-color: #52647b; }
-
-div.product div.content { overflow: auto; }
-div.product div.content div.header { margin-top: 40px; }
-div.product div.content div.header div.col-xs-4 div { overflow: auto; }
-div.product div.content div.header div.col-xs-4 div h4 { color: #464646; font-weight: bold; display: inline-block; float: left; }
-div.product div.content div.header div.col-xs-4 img { width: 50%; float: left; }
-div.product div.content div.header div.col-xs-12 img { width: 35px; height: 35px; float: right; }
-
-div.product div.content div.prodList { margin-top: 20px; border-bottom: 1px solid #ddd; cursor: pointer; }
-div.product div.content div.prodList div.col-xs-2 img { width: 100%; }
-div.product div.content div.prodList strong { font-size: 14px; }
-
-div.product div.content div.subSubMenu { margin-top: 40px; }
-div.product div.content div.subSubMenu div.col-xs-2 img { width: 100%; }
-div.product div.content div.subSubMenu div.col-xs-12 { margin-top: 20px;}
-div.product div.content div.subSubMenu strong { font-size: 14px; }
+div.product div.subMenus {
+    overflow: auto;
+}
+div.product div.subMenus ul {
+    list-style-type: none;
+    padding: 0;
+}
+div.product div.subMenus ul li {
+    float: left;
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #464646;
+    background-color: #e4e6ea;
+    margin-right: 5px;
+}
+div.product div.subMenus ul li:hover {
+    color: #fff;
+    background-color: #52647b;
+}
+div.product div.subMenus ul li.active {
+    color: #fff;
+    background-color: #52647b;
+}
+div.product div.content {
+    overflow: auto;
+}
+div.product div.content div.header {
+    margin-top: 40px;
+}
+div.product div.content div.header div.col-xs-4 div {
+    overflow: auto;
+}
+div.product div.content div.header div.col-xs-4 div h4 {
+    color: #464646;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+}
+div.product div.content div.header div.col-xs-4 img {
+    width: 50%;
+    float: left;
+}
+div.product div.content div.header div.col-xs-12 img {
+    width: 35px;
+    height: 35px;
+    float: right;
+}
+div.product div.content div.prodList {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+div.product div.content div.prodList div.col-xs-2 img {
+    width: 100%;
+}
+div.product div.content div.prodList strong {
+    font-size: 14px;
+}
+div.product div.content div.subSubMenu {
+    margin-top: 40px;
+}
+div.product div.content div.subSubMenu div.col-xs-2 img {
+    width: 100%;
+}
+div.product div.content div.subSubMenu div.col-xs-12 {
+    margin-top: 20px;
+}
+div.product div.content div.subSubMenu strong {
+    font-size: 14px;
+}

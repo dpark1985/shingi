@@ -1,7 +1,24 @@
-
-div.index { }
-div.index div.imgBG div.slick-list div.slick-track img { }
-div.index div.imgBG ul.slick-dots { list-style-type: none; position: absolute; top: 100px; right: 20px; }
-div.index div.imgBG ul.slick-dots li { margin-bottom: 5px; height: 16px; width: 16px; }
-div.index div.imgBG ul.slick-dots li button { border-radius: 50%; width: 100%; height: 100%; padding: 3px; border: 3px solid #acacac; background-color: rgba(255, 255, 255, 0); text-indent: -9999px; }
-div.index div.imgBG ul.slick-dots li.slick-active button { background-color: #009bef; border: 5px solid #009bef; }
+div.index {} div.index div.imgBG div.slick-list div.slick-track img {} div.index div.imgBG ul.slick-dots {
+    list-style-type: none;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+div.index div.imgBG ul.slick-dots li {
+    margin-bottom: 5px;
+    height: 16px;
+    width: 16px;
+}
+div.index div.imgBG ul.slick-dots li button {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    border: 3px solid #acacac;
+    background-color: rgba(255, 255, 255, 0);
+    text-indent: -9999px;
+}
+div.index div.imgBG ul.slick-dots li.slick-active button {
+    background-color: #009bef;
+    border: 5px solid #009bef;
+}
