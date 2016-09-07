@@ -11,6 +11,7 @@ router.get('/*', function (req, res, next) {
 
 	// response index.ejs
 	res.render('index');
+	// res.render('backup');
 });
 
 

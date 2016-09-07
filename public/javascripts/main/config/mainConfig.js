@@ -9,5 +9,6 @@ var h3Framework = angular.module('h3Framework', [
 	'ngRoute',
 	'ngAnimate',
 	'ngSanitize',
-	'h3FrameworkProviders'
+	'h3FrameworkProviders',
+	'h3FrameworkFilters'
 ]);

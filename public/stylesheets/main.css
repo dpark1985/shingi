@@ -7,10 +7,10 @@ nav-bar {
     background-color: #fff;
 }
 div.main-content {
-    position: absolute;
-    ;
+    position: relative;
+    overflow: scroll;
+    height: 100%;
     margin-left: 190px;
-    margin-right: 392px;
     min-width: 900px;
     background-color: #fff;
     border-left: 1px solid #e1e1e1;

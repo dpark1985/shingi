@@ -1,4 +1,6 @@
-div.index {} div.index div.imgBG div.slick-list div.slick-track img {} div.index div.imgBG ul.slick-dots {
+div.index {}
+div.index div.imgBG div.slick-list div.slick-track img {}
+div.index div.imgBG ul.slick-dots {
     list-style-type: none;
     position: absolute;
     top: 100px;

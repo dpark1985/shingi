@@ -38,6 +38,7 @@ var h3Framework = angular.module('h3Framework')
 			{url: '/cr/contact', 						templateUrl: 'templates/main/cr/contact.html', 						controller: 'contactCtrl', 			controllerAs: 'contact'},
 			{url: '/cr/inquiry', 						templateUrl: 'templates/main/cr/inquiry.html', 						controller: 'inquiryCtrl', 			controllerAs: 'inquiry'},
 			{url: '/cr/notice', 						templateUrl: 'templates/main/cr/notice.html', 						controller: 'noticeCtrl', 			controllerAs: 'notice'},
+			{url: '/cr/notice/:noticeId',		templateUrl: 'templates/main/cr/noticeDetail.html', 			controller: 'noticeCtrl', 			controllerAs: 'notice'}
 		]
 
 		for(var i=0; i<routeConfig.length; i++){

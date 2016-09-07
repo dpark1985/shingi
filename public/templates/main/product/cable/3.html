@@ -26,7 +26,10 @@
       <img ng-src="{{prod.imgSrc}}">
     </div>
     <div class="col-xs-10">
-      <p><strong>{{prod.name}}</strong></p>
+      <p>
+        <strong ng-if="prod.name">{{prod.name}}</strong>
+        <strong ng-if="!prod.name">xxxxx</strong>
+      </p>
       <p ng-if="prod.desc" ng-bind-html="prod.desc"></p>
       <p ng-if="!prod.desc">xxxxx</p>
       <ul>
@@ -44,11 +47,16 @@
         <img ng-src="{{pCable.selectedItem.imgSrc}}">
       </div>
       <div class="col-xs-10">
-        <p><strong>{{pCable.selectedItem.name}}</strong></p>
-        <p ng-bind-html="pCable.selectedItem.desc"></p>
+        <p>
+          <strong ng-if="pCable.selectedItem.name">{{pCable.selectedItem.name}}</strong>
+          <strong ng-if="!pCable.selectedItem.name">xxxxx</strong>
+        </p>
+        <p ng-bind-html="prod.desc"></p>
         <ul>
-          <li>용도 : {{pCable.selectedItem.usage}}</li>
-          <li>규격 : {{pCable.selectedItem.std}}</li>
+          <li ng-if="pCable.selectedItem.usage">용도 : {{pCable.selectedItem.usage}}</li>
+          <li ng-if="!pCable.selectedItem.usage">용도 : xxxxx</li>
+          <li ng-if="pCable.selectedItem.std">규격 : {{pCable.selectedItem.std}}</li>
+          <li ng-if="!pCable.selectedItem.std">규격 : xxxxx</li>
         </ul>
       </div>
     </div>
@@ -59,10 +67,8 @@
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <div class="details" ng-bind-html="pCable.selectedItem.details"></div>
+        <div ng-bind-html="pConstruct.selectedItem.descSrc"></div>
       </div>
     </div>
-    <div class="blankBlock"></div>
   </div>
-
 </div>

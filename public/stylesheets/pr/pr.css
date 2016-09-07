@@ -1,5 +1,8 @@
 div.pr {
-    background: url("/images/intro/sub_bg.jpg") left top no-repeat;
+    background-image: url("/images/intro/sub_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: local;
     background-size: 100% 154px;
     height: 100%;
     overflow: auto;

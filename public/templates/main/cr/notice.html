@@ -23,28 +23,16 @@
       <td>작성일</td>
       <td>조회수</td>
     </tr>
-    <tr>
-      <td>6</td>
-      <td>필리핀 부수양가 공항준공</td>
-      <td>2015-12-03</td>
-      <td>455</td>
-    </td>
-    <tr>
-      <td>5</td>
-      <td>필리핀 부수양가 공항준공</td>
-      <td>2015-12-03</td>
-      <td>455</td>
-    </td>
-    <tr>
-      <td>4</td>
-      <td>필리핀 부수양가 공항준공</td>
-      <td>2015-12-03</td>
-      <td>455</td>
-    </td>
+
+    <tr ng-repeat="list in notice.noticeList | reverse" ng-click="notice.selectNotice(list)">
+      <td>{{list.index}}</td>
+      <td>{{list.title}}</td>
+      <td>{{list.date}}</td>
+      <td>{{list.visits}}</td>
+    </tr>
+
 
   </table>
-
-  <div class="blankBlock"></div>
 
 
 </div>

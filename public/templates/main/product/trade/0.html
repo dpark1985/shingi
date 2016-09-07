@@ -1,0 +1,72 @@
+<div class="content">
+  <div class="row header" ng-if="!pTrade.subSubMenuOn">
+    <div class="col-xs-12">
+      <img src="images/icons/picture2.png">
+      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
+      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
+    </div>
+    <div class="col-xs-8">
+      <div class="well well-lg">
+        <p><strong>고객 요구사항에 대한 최고의 가치 및 솔루션을 제공합니다.  </strong></p>
+        <p>xxxxxxx</p>
+      </div>
+    </div>
+    <div class="col-xs-4 single">
+      <div>
+        <h4>Aviation</h4>
+      </div>
+      <img src="images/product/trade/0/Picture1.png">
+    </div>
+  </div>
+
+  <div ng-if="!pTrade.subSubMenuOn" class="row prodList" ng-repeat="prod in pTrade.aviation" ng-click="pTrade.selectProduct(prod)">
+    <div class="col-xs-2">
+      <img ng-src="{{prod.imgSrc}}">
+    </div>
+    <div class="col-xs-10">
+      <p>
+        <strong ng-if="prod.name">{{prod.name}}</strong>
+        <strong ng-if="!prod.name">xxxxx</strong>
+      </p>
+      <p ng-if="prod.desc" ng-bind-html="prod.desc"></p>
+      <p ng-if="!prod.desc">xxxxx</p>
+      <ul>
+        <li ng-if="prod.usage">용도 : {{prod.usage}}</li>
+        <li ng-if="prod.std">규격 : {{prod.std}}</li>
+        <li ng-if="!prod.usage">용도 : xxxxx</li>
+        <li ng-if="!prod.std">규격 : xxxxx</li>
+      </ul>
+    </div>
+  </div>
+
+  <div ng-if="pTrade.subSubMenuOn" class="subSubMenu">
+    <div class="row">
+      <div class="col-xs-2">
+        <img ng-src="{{pTrade.selectedItem.imgSrc}}">
+      </div>
+      <div class="col-xs-10">
+        <p>
+          <strong ng-if="pTrade.selectedItem.name">{{pTrade.selectedItem.name}}</strong>
+          <strong ng-if="!pTrade.selectedItem.name">xxxxx</strong>
+        </p>
+        <p ng-bind-html="prod.desc"></p>
+        <ul>
+          <li ng-if="pTrade.selectedItem.usage">용도 : {{pTrade.selectedItem.usage}}</li>
+          <li ng-if="!pTrade.selectedItem.usage">용도 : xxxxx</li>
+          <li ng-if="pTrade.selectedItem.std">규격 : {{pTrade.selectedItem.std}}</li>
+          <li ng-if="!pTrade.selectedItem.std">규격 : xxxxx</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p><strong>상세 제품 설명</strong></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div ng-bind-html="pConstruct.selectedItem.descSrc"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,26 @@
-<h1>trade</h1>
+<div class="product trade">
+  <!-- Common Style Template -->
+  <div class="pageTitle">
+    <h1>무역사업부</h1>
+    <div class="decoLine"></div>
+  </div>
+
+  <div class="breadCrumb">
+    <ul>
+      <li><i class="fa fa-home" aria-hidden="true"></i></li>
+      <li>HOME</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>회사소개</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>무역사업부</li>
+    </ul>
+  </div>
+
+  <div class="subMenus">
+    <ul>
+      <li ng-class="{active: subMebu.active}" ng-repeat="subMebu in pTrade.routeConfig" ng-click="pTrade.toSubMenu($index)">{{subMebu.name}}</li>
+    </ul>
+  </div>
+
+  <div ng-include="pTrade.currentPageUrl"></div>
+</div>
