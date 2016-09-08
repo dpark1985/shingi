@@ -445,3 +445,31 @@ div.job div.content div.addressBlock ul li {} div.job div.content div.addressBlo
     display: inline-block;
     margin: 0;
 }
+div.job div.content table.jobDetail {
+    margin-top: 40px;
+}
+div.job div.content table.jobDetail tr {
+    cursor: auto;
+}
+div.job div.content table.jobDetail thead {
+    background-color: #e4e4e4;
+    border-top: 2px solid #8c8c8c;
+    cursor: auto;
+}
+div.job div.content table.jobDetail thead tr {
+    background-color: #e4e4e4;
+}
+div.job div.content table.jobDetail thead tr th {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+div.job div.content table.jobDetail thead tr td {
+    background-color: #fff;
+    text-align: center;
+}
+div.job div.content table.jobDetail tbody tr td {
+    background-color: #fff;
+    text-align: center;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

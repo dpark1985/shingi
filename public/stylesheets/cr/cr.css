@@ -120,4 +120,5 @@ div.notice table.noticeDetail tbody tr td {
     background-color: #fff;
     text-align: center;
     text-align: left;
+    border-top: none;
 }

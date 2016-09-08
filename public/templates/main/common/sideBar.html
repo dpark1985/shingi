@@ -6,17 +6,12 @@
       <tbody>
         <tr>
           <td width="115">
-            <img src="http://dummyimage.com/105x78/000/fff">
-            <img src="http://dummyimage.com/105x78/000/fff">
+            <img src="images/sidebar/1.jpg">
+            <img src="images/sidebar/2.jpg">
           </td>
           <td valign="top">
             <ul>
-              <li><a href="#">필리핀 부수앙가 공항...</a></li>
-              <li><a href="#">동탄산업훈장 수훈(인...</a></li>
-              <li><a href="#">소방방재청장 표창수...</a></li>
-              <li><a href="#">대옽령 표창 수상(여...</a></li>
-              <li><a href="#">국무총리상 수상</a></li>
-              <li><a href="#">인천공한 1단계사업...</a></li>
+              <li ng-repeat="list in side.noticeList | reverse | limitTo: 7"><a href="cr/notice/{{list.id}}">{{list.title | limitTo: 15}}...</a></li>
             </ul>
           </td>
         </tr>

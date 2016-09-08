@@ -62,3 +62,7 @@ div.sideBar div.menuList div.menu div.picto {
     float: right;
     margin-top: -5px;
 }
+div.sideBar div.menuList div.menu div.picto img {
+    width: 70px;
+    height: 70px;
+}

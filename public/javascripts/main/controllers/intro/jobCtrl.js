@@ -1,6 +1,6 @@
 var h3Framework = angular.module('h3Framework')
 
-.controller('jobCtrl', ['$http', function ($http) {
+.controller('jobCtrl', ['$shingi', function ($shingi) {
 	var $job = this;
 
 	// job menu config
@@ -10,6 +10,12 @@ var h3Framework = angular.module('h3Framework')
 		{name: '인사제도', templateUrl: 'templates/main/intro/job/2.html', active: false},
 		{name: '채용공고', templateUrl: 'templates/main/intro/job/3.html', active: false},
 	];
+
+	$job.init = function() {
+		// job list click status
+		$job.jobListOn = false;
+		$job.selectedItem = null;
+	}
 
 	// clear all active class
 	$job.clearActive = function () {
@@ -21,13 +27,30 @@ var h3Framework = angular.module('h3Framework')
 	// SubMenu Click
 	$job.toSubMenu = function (index){
 		$job.clearActive();
+		$job.init();
 		$job.routeConfig[index].active = true;
 		$job.currentPageUrl = $job.routeConfig[index].templateUrl;
 	}
 
-	// initial page to load
+	// Job list click
+	$job.selectJob = function (job){
+		$job.jobListOn = true;
+		$job.selectedItem = job;
+	}
+
+	// toBack
+	$job.toBack = function() {
+		$job.init();
+	}
+
+	// initialize page to load
 	$job.currentPageUrl = $job.routeConfig[0].templateUrl;
 
+	// initialize joblist
+	$job.jobList = $shingi.getJobList();
+
+	// init
+	$job.init();
 
 
 }]);
