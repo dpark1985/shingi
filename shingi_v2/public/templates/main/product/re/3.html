@@ -1,0 +1,60 @@
+<div class="content">
+  <div class="row header" ng-if="!pRealestate.subSubMenuOn">
+    <div class="col-xs-12">
+      <img src="images/icons/picture2.png">
+      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
+      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
+    </div>
+    <div class="col-xs-8">
+      <div class="well well-lg">
+        <p><strong>xxxxxxx</strong></p>
+        <p>xxxxxxx</p>
+      </div>
+    </div>
+    <div class="col-xs-4 single">
+      <div>
+        <h4>Others</h4>
+      </div>
+      <img src="images/product/re/2/Picture1.png">
+    </div>
+  </div>
+
+  <div ng-if="!pRealestate.subSubMenuOn" class="row prodList" ng-repeat="prod in pRealestate.mgmtRE" ng-click="pRealestate.selectProduct(prod)">
+    <div class="col-xs-2">
+      <img ng-src="{{prod.imgSrc}}">
+    </div>
+    <div class="col-xs-10">
+      <p><strong ng-if="prod.desc">{{prod.desc}}</strong></p>
+      <p><strong>서비스 영역:</strong></p>
+      <ul>
+        <li ng-repeat="service in prod.service">{{service}}</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div ng-if="pRealestate.subSubMenuOn" class="subSubMenu">
+    <div class="row">
+      <div class="col-xs-2">
+        <img ng-src="{{pRealestate.selectedItem.imgSrc}}">
+      </div>
+      <div class="col-xs-10">
+        <p><strong ng-if="pRealestate.selectedItem.desc">{{pRealestate.selectedItem.desc}}</strong></p>
+        <p><strong>서비스 영역:</strong></p>
+        <ul>
+          <li ng-repeat="service in pRealestate.selectedItem.service">{{service}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p><strong>상세 제품 설명</strong></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div ng-bind-html="pRealestate.selectedItem.descSrc"></div>
+      </div>
+    </div>
+  </div>
+</div>

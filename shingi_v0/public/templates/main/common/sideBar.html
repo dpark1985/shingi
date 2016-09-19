@@ -1,0 +1,41 @@
+
+<div class="sideBar">
+  <div class="notice">
+    <h3>공지사항 <div class="more">+</div></h3>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr>
+          <td width="115">
+            <img src="http://dummyimage.com/105x78/000/fff">
+            <img src="http://dummyimage.com/105x78/000/fff">
+          </td>
+          <td valign="top">
+            <ul>
+              <li><a href="#">필리핀 부수앙가 공항...</a></li>
+              <li><a href="#">동탄산업훈장 수훈(인...</a></li>
+              <li><a href="#">소방방재청장 표창수...</a></li>
+              <li><a href="#">대옽령 표창 수상(여...</a></li>
+              <li><a href="#">국무총리상 수상</a></li>
+              <li><a href="#">인천공한 1단계사업...</a></li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="menuList">
+    <div class="menu" ng-repeat="route in side.routeConfig">
+      <div class="list">
+        <h3><a href="{{route.href}}">{{route.title}} <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a></h3>
+        <div class="descrption">{{route.desc}}</div>
+      </div>
+      <div class="picto"><img ng-src="{{route.img}}"></div>
+
+    </div>
+
+  </div>
+
+
+
+</div>

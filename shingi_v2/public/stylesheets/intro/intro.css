@@ -1,0 +1,475 @@
+div.intro {
+    background-image: url("/images/intro/sub_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: local;
+    background-size: 100% 154px;
+    height: 100%;
+    overflow: auto;
+    padding: 0 40px 40px 40px;
+}
+div.ceo {} div.ceo div.content {} div.ceo div.content p:first-child {
+    font-size: 21px;
+    color: #555;
+    line-height: 36px;
+}
+div.ceo div.content p:first-child span {
+    color: #0b4da2;
+    font-size: 25px;
+    font-weight: bold;
+}
+div.ceo div.content p {
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+    margin-top: 25px;
+}
+div.ceo div.content p {
+    color: #777;
+}
+div.ceo div.content img {
+    width: 100%;
+}
+div.ceo div.content div.signature {
+    text-align: right;
+}
+div.ceo div.content div.signature h3 {
+    display: inline-block;
+    padding-left: 10px;
+    border-left: 3px solid #368eff;
+    font-size: 15px;
+    font-weight: bold;
+}
+div.ceo div.content div.signature h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+div.info {} div.info div.content {} div.info div.content p:first-child {
+    font-size: 21px;
+    font-weight: bold;
+    color: #555;
+    line-height: 36px;
+}
+div.info div.content p {
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+    margin-top: 25px;
+}
+div.vision {} div.vision div.content {
+    overflow: auto;
+}
+div.vision div.content div.top {} div.vision div.content div.top div.leftContent {
+    width: 60%;
+    float: left;
+}
+div.vision div.content div.top div.rightContent {
+    width: 40%;
+    float: left;
+}
+div.vision div.content div.top div.leftContent p:first-child {
+    font-size: 21px;
+    font-weight: bold;
+    color: #555;
+    line-height: 36px;
+    width: 450px;
+    margin-top: 25px;
+}
+div.vision div.content div.top div.leftContent h3 {
+    margin-top: 40px;
+    color: #464646;
+    font-weight: bold;
+}
+div.vision div.content div.top div.leftContent p {
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+    margin-top: 10px;
+}
+div.vision div.content h3 {
+    margin-top: 40px;
+    color: #464646;
+    font-weight: bold;
+}
+div.vision div.content div.mid div.topContent {
+    overflow: hidden;
+}
+div.vision div.content div.mid div.topContent div.leftContent {
+    padding-right: 25px;
+    width: 50%;
+    float: left;
+}
+div.vision div.content div.mid div.topContent div.leftContent h4 {
+    display: inline-block;
+    color: #464646;
+    font-weight: bold;
+}
+div.vision div.content div.mid div.topContent div.leftContent h5 {
+    display: inline-block;
+    float: right;
+}
+div.vision div.content div.mid div.topContent div.leftContent span {
+    display: block;
+    color: #464646;
+    margin: 10px 0 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border-top: 1px solid #e3e3e3;
+}
+div.vision div.content div.mid div.topContent div.rightContent {
+    padding-left: 25px;
+    width: 50%;
+    float: left;
+}
+div.vision div.content div.mid div.topContent div.rightContent h4 {
+    display: inline-block;
+    color: #464646;
+    font-weight: bold;
+}
+div.vision div.content div.mid div.topContent div.rightContent h5 {
+    display: inline-block;
+    float: right;
+}
+div.vision div.content div.mid div.topContent div.rightContent span {
+    display: block;
+    color: #464646;
+    margin: 10px 0 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border-top: 1px solid #e3e3e3;
+}
+div.vision div.content div.mid div.bottomContent {} div.vision div.content div.mid div.bottomContent div.leftContent {
+    padding-right: 25px;
+    width: 50%;
+    float: left;
+}
+div.vision div.content div.mid div.bottomContent div.leftContent h4 {
+    display: inline-block;
+    color: #464646;
+    font-weight: bold;
+}
+div.vision div.content div.mid div.bottomContent div.leftContent h5 {
+    display: inline-block;
+    float: right;
+}
+div.vision div.content div.mid div.bottomContent div.leftContent span {
+    display: block;
+    color: #464646;
+    margin: 10px 0 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border-top: 1px solid #e3e3e3;
+}
+div.vision div.content div.mid div.bottomContent div.rightContent {
+    padding-left: 25px;
+    width: 50%;
+    float: left;
+}
+div.vision div.content div.mid div.bottomContent div.rightContent h4 {
+    display: inline-block;
+    color: #464646;
+    font-weight: bold;
+}
+div.vision div.content div.mid div.bottomContent div.rightContent h5 {
+    display: inline-block;
+    float: right;
+}
+div.vision div.content div.mid div.bottomContent div.rightContent span {
+    display: block;
+    color: #464646;
+    margin: 10px 0 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border-top: 1px solid #e3e3e3;
+}
+div.history {} div.history div.content {
+    overflow: auto;
+}
+div.history div.content div.topContent {
+    overflow: auto;
+}
+div.history div.content div.topContent div.leftContent {
+    width: 60%;
+    float: left;
+}
+div.history div.content div.topContent div.rightContent {
+    width: 40%;
+    float: left;
+}
+div.history div.content div.topContent div.leftContent p:first-child {
+    font-size: 21px;
+    font-weight: bold;
+    color: #555;
+    line-height: 36px;
+    width: 450px;
+    margin-top: 25px;
+}
+div.history div.content div.topContent div.leftContent p {
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+    margin-top: 10px;
+}
+div.history div.content div.bottomContent {
+    overflow: auto;
+}
+div.history div.content div.bottomContent div.leftContent {
+    width: 50%;
+    float: left;
+}
+div.history div.content div.bottomContent div.leftContent h3 {
+    color: #0b4da2;
+    font-weight: bold;
+    padding-left: 80px;
+}
+div.history div.content div.bottomContent div.leftContent ul {
+    margin-top: 20px;
+    padding-left: 100px;
+}
+div.history div.content div.bottomContent div.leftContent ul li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+div.history div.content div.bottomContent div.leftContent span.year {
+    color: #464646;
+    font-weight: bold;
+}
+div.history div.content div.bottomContent div.rightContent {
+    width: 50%;
+    float: left;
+}
+div.history div.content div.bottomContent div.rightContent h3 {
+    color: #0b4da2;
+    font-weight: bold;
+    padding-left: 80px;
+}
+div.history div.content div.bottomContent div.rightContent ul {
+    margin-top: 20px;
+    padding-left: 100px;
+}
+div.history div.content div.bottomContent div.rightContent ul li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+div.history div.content div.bottomContent div.rightContent span.year {
+    color: #464646;
+    font-weight: bold;
+}
+div.org {} div.org div.content {
+    overflow: auto;
+}
+div.org div.content p:first-child {
+    font-size: 21px;
+    font-weight: bold;
+    color: #555;
+    line-height: 36px;
+}
+div.org div.content p {
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+    margin-top: 25px;
+}
+div.org div.content img {
+    margin-top: 20px;
+    width: 100%;
+}
+div.job {} div.job div.jobMenu {
+    overflow: auto;
+}
+div.job div.jobMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+div.job div.jobMenu ul li {
+    float: left;
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #464646;
+    background-color: #e4e6ea;
+    margin-right: 5px;
+}
+div.job div.jobMenu ul li:hover {
+    color: #fff;
+    background-color: #52647b;
+}
+div.job div.jobMenu ul li.active {
+    color: #fff;
+    background-color: #52647b;
+}
+div.job div.content {} div.job div.content div.wrapper {
+    overflow: auto;
+}
+div.job div.content img {
+    margin-top: 20px;
+    width: 100%;
+}
+div.job div.content p {
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+    margin-top: 25px;
+}
+div.job div.content p:last-child {
+    float: left;
+    margin-top: 20px;
+}
+div.job div.content h3 {
+    font-weight: bold;
+    color: #464646;
+    clear: both;
+    margin-top: 40px;
+}
+div.job div.content h4 {
+    color: #464646;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+div.job div.content div.leftContent {
+    width: 50%;
+    padding-right: 25px;
+    float: left;
+}
+div.job div.content div.leftContent img {
+    width: 100%;
+}
+div.job div.content div.leftContent h3 {
+    color: #464646;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+}
+div.job div.content div.rightContent {
+    width: 50%;
+    padding-left: 25px;
+    float: left;
+}
+div.job div.content div.rightContent h3 {
+    color: #464646;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+div.job div.content div.rightContent h3.italic {
+    font-style: italic;
+}
+div.job div.content div.rightContent div.jobCore {
+    overflow: auto;
+    float: left;
+    padding-left: 10px;
+    border-left: 3px solid #368eff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+div.job div.content div.rightContent div.jobCore h4 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #464646;
+    display: inline-block;
+    float: left;
+    margin: 0
+}
+div.job div.content div.rightContent div.jobCore h4.italic {
+    font-style: italic;
+}
+div.job div.content div.rightContent div.jobCore p {
+    float: left;
+    margin: 0
+}
+div.job div.content table tr:first-child {
+    background-color: #b9b7b7;
+    color: #fff;
+}
+div.job div.content table.jobTable tr:nth-child(n+2) {
+    cursor: pointer;
+}
+div.job div.content table.jobTable tr.jobListing {
+    background-color: #f6f9fb;
+}
+div.job div.content table.jobTable tr.jobListing th {
+    border-top: 1px solid #6d9dcf;
+}
+div.job div.content table.jobTable tr:last-child td {
+    border-bottom: 1px solid #ddd;
+}
+div.job div.content table tr td img {
+    margin: 0;
+    width: 38px;
+    ;
+    height: 38px;
+}
+div.job div.content table tr th {
+    color: #333;
+    text-align: center;
+    vertical-align: middle;
+}
+div.job div.content table tr td {
+    color: #717171;
+    text-align: center;
+    vertical-align: middle;
+}
+div.job div.content table tr td span {
+    font-size: 10px;
+}
+div.job div.content div.addressBlock {
+    overflow: auto;
+}
+div.job div.content div.addressBlock img {
+    width: 20%;
+    float: left;
+}
+div.job div.content a img {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+}
+div.job div.content div.addressBlock ul {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+div.job div.content div.addressBlock ul li {} div.job div.content div.addressBlock ul li address {
+    display: inline-block;
+    margin: 0;
+}
+div.job div.content table.jobDetail {
+    margin-top: 40px;
+}
+div.job div.content table.jobDetail tr {
+    cursor: auto;
+}
+div.job div.content table.jobDetail thead {
+    background-color: #e4e4e4;
+    border-top: 2px solid #8c8c8c;
+    cursor: auto;
+}
+div.job div.content table.jobDetail thead tr {
+    background-color: #e4e4e4;
+}
+div.job div.content table.jobDetail thead tr th {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+div.job div.content table.jobDetail thead tr td {
+    background-color: #fff;
+    text-align: center;
+}
+div.job div.content table.jobDetail tbody tr td {
+    background-color: #fff;
+    text-align: center;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

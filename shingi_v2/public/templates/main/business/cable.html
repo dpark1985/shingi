@@ -1,0 +1,28 @@
+<div class="business cable">
+  <!-- Common Style Template -->
+  <div class="pageTitle">
+    <h1>케이블사업부</h1>
+    <div class="decoLine"></div>
+  </div>
+
+  <div class="breadCrumb">
+    <ul>
+      <li><i class="fa fa-home" aria-hidden="true"></i></li>
+      <li>HOME</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>회사소개</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>케이블사업부</li>
+    </ul>
+  </div>
+
+  <div class="subMenus">
+    <ul>
+      <li ng-class="{active: subMebu.active}" ng-repeat="subMebu in bCable.routeConfig" ng-click="bCable.toSubMenu($index)">{{subMebu.name}}</li>
+    </ul>
+  </div>
+
+  <div ng-include="bCable.currentPageUrl"></div>
+
+
+</div>

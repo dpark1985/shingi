@@ -1,0 +1,60 @@
+<div class="content">
+  <div class="row header" ng-if="!pRealestate.subSubMenuOn">
+    <div class="col-xs-12">
+      <img src="images/icons/picture2.png">
+      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
+      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
+    </div>
+    <div class="col-xs-8">
+      <div class="well well-lg">
+        <p><strong>풍부한 부동산 경험 및 최적의 맞춤형 컨설팅을 통해 최고의 자산 자문 및 관리 서비스를 제공합니다.</strong></p>
+        <p>부동산 시장 전반에 걸쳐 폭넓은 서비스를 제공하는 신기는 특히 부동산 투자 분야에 집중하여 성장하고 있습니다. 신기는 상업용 부동산 시장에서 투자, 재개발 및 자사 사옥용 등 다양한 부동산 수요를 가진 고객층을 대상으로 전문 서비스를 제공합니다.</p>
+      </div>
+    </div>
+    <div class="col-xs-4 single">
+      <div>
+        <h4>Investments</h4>
+      </div>
+      <img src="images/product/re/0/Picture1.png">
+    </div>
+  </div>
+
+  <div ng-if="!pRealestate.subSubMenuOn" class="row prodList" ng-repeat="prod in pRealestate.investRE" ng-click="pRealestate.selectProduct(prod)">
+    <div class="col-xs-2">
+      <img ng-src="{{prod.imgSrc}}">
+    </div>
+    <div class="col-xs-10">
+      <p><strong ng-if="prod.desc">{{prod.desc}}</strong></p>
+      <p><strong>서비스 영역:</strong></p>
+      <ul>
+        <li ng-repeat="service in prod.service">{{service}}</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div ng-if="pRealestate.subSubMenuOn" class="subSubMenu">
+    <div class="row">
+      <div class="col-xs-2">
+        <img ng-src="{{pRealestate.selectedItem.imgSrc}}">
+      </div>
+      <div class="col-xs-10">
+        <p><strong ng-if="pRealestate.selectedItem.desc">{{pRealestate.selectedItem.desc}}</strong></p>
+        <p><strong>서비스 영역:</strong></p>
+        <ul>
+          <li ng-repeat="service in pRealestate.selectedItem.service">{{service}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p><strong>상세 제품 설명</strong></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div ng-bind-html="pRealestate.selectedItem.descSrc"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,75 @@
+<div class="content">
+  <div class="row header" ng-if="!pConstruct.subSubMenuOn">
+    <div class="col-xs-12">
+      <img src="images/icons/picture2.png">
+      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
+      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
+    </div>
+    <div class="col-xs-8">
+      <div class="well well-lg">
+        <p><strong>축적된 통신공사 노하우 및 전문인력을 기반으로 최고의 서비스를 제공합니다.</strong></p>
+        <p>신재생에너지는 햇빛, 물, 지열 등 천연자원을 이용하여 새로운 에너지로 변환시키는 친환경 에너지입니다. 강화이엔씨에서는 태양광 발전 및 전력저장장치(ESS)등의 안전하고 품질 좋은 에너지를 공급하기위해 노력하고 있습니다<p>
+      </div>
+    </div>
+    <div class="col-xs-4 single">
+      <div>
+        <h4>Green Construction</h4>
+      </div>
+      <img src="images/product/construct/3/Picture1.png">
+    </div>
+  </div>
+
+  <div ng-if="!pConstruct.subSubMenuOn" class="row prodList" ng-repeat="prod in pConstruct.greenConstruct" ng-click="pConstruct.selectProduct(prod)">
+    <div class="col-xs-2">
+      <img ng-src="{{prod.imgSrc}}">
+    </div>
+    <div class="col-xs-10">
+      <p>
+        <strong ng-if="prod.categoy">{{prod.categoy}}</strong>
+      </p>
+      <ul>
+        <li ng-if="prod.extinguishment">소화설비 : {{prod.extinguishment}}</li>
+        <li ng-if="prod.alarm">경보설비 : {{prod.alarm}}</li>
+        <li ng-if="prod.shelter">피난설비 : {{prod.shelter}}</li>
+        <li ng-if="prod.fireDemandWater">소화용수설비  : {{prod.fireDemandWater}}</li>
+        <li ng-if="prod.extinguishActive">소화활동설비  : {{prod.extinguishActive}}</li>
+        <li ng-if="prod.desc">{{prod.desc}}</li>
+      </ul>
+    </div>
+  </div>
+  <div ng-if="!pConstruct.subSubMenuOn && pConstruct.greenConstructList" class="row prodList construct">
+    <ul>
+      <li ng-repeat="list in pConstruct.greenConstructList">{{list}}</li>
+    </ul>
+  </div>
+
+  <div ng-if="pConstruct.subSubMenuOn" class="subSubMenu">
+    <div class="row">
+      <div class="col-xs-2">
+        <img ng-src="{{pConstruct.selectedItem.imgSrc}}">
+      </div>
+      <div class="col-xs-10">
+        <p>
+          <strong ng-if="pConstruct.selectedItem.categoy">{{pConstruct.selectedItem.categoy}}</strong>
+        </p>
+        <ul>
+          <li ng-if="pConstruct.selectedItem.extinguishment">소화설비 : {{pConstruct.selectedItem.extinguishment}}</li>
+          <li ng-if="pConstruct.selectedItem.alarm">경보설비 : {{pConstruct.selectedItem.alarm}}</li>
+          <li ng-if="pConstruct.selectedItem.shelter">피난설비 : {{pConstruct.selectedItem.shelter}}</li>
+          <li ng-if="pConstruct.selectedItem.fireDemandWater">소화용수설비  : {{pConstruct.selectedItem.fireDemandWater}}</li>
+          <li ng-if="pConstruct.selectedItem.extinguishActive">소화활동설비  : {{pConstruct.selectedItem.extinguishActive}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p><strong>상세 제품 설명</strong></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div ng-bind-html="pConstruct.selectedItem.descSrc"></div>
+      </div>
+    </div>
+  </div>
+</div>

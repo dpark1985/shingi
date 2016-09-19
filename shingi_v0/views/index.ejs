@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="h3Framework" ng-controller="mainCtrl" ng-cloak>
+
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title ng-bind="titleText"></title>
+
+  <!-- Bootstrap -->
+  <link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font-awesome -->
+  <link href="libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Slick -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+  <!-- Main -->
+  <link href="stylesheets/main.css" rel="stylesheet">
+
+  <!-- Common -->
+  <link href="stylesheets/common/common.css" rel="stylesheet">
+
+  <!-- NavBar & SideBar -->
+  <link href="stylesheets/common/navBar.css" rel="stylesheet">
+  <link href="stylesheets/common/sideBar.css" rel="stylesheet">
+
+  <!-- Index -->
+  <link href="stylesheets/index/index.css" rel="stylesheet">
+
+  <!-- Intro -->
+  <link href="stylesheets/intro/intro.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+      var socket = io.connect();
+  </script>
+</head>
+
+<body>
+
+	<nav-bar></nav-bar>
+	<div ng-view class="main-content"></div>
+  <side-bar></side-bar>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script type="text/javascript" src="libraries/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="libraries/jquery-ui/jquery-ui.min.js"></script>
+
+  <!-- Slick -->
+  <script type="text/javascript" src="libraries/slick/slick.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script type="text/javascript" src="libraries/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Angular -->
+  <script type="text/javascript" src="libraries/angular/angular.min.js"></script>
+  <script type="text/javascript" src="libraries/angular/angular-animate.min.js"></script>
+  <script type="text/javascript" src="libraries/angular/angular-route.min.js"></script>
+  <script type="text/javascript" src="libraries/angular/angular-sanitize.min.js"></script>
+
+  <!-- Global Config -->
+  <script type="text/javascript" src="javascripts/main/config/mainConfig.js"></script>
+  <script type="text/javascript" src="javascripts/main/config/routeConfig.js"></script>
+
+  <!-- Common Providers -->
+  <script type="text/javascript" src="javascripts/providers/config/providerConfig.js"></script>
+  <script type="text/javascript" src="javascripts/providers/socketProvider.js"></script>
+  <script type="text/javascript" src="javascripts/providers/accountProvider.js"></script>
+
+  <!-- Directives -->
+  <script type="text/javascript" src="javascripts/main/directives/navDirective.js"></script>
+  <script type="text/javascript" src="javascripts/main/directives/sideBarDirective.js"></script>
+
+  <!-- Main Controllers -->
+  <script type="text/javascript" src="javascripts/main/controllers/mainCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/index/indexCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/common/navCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/common/sideCtrl.js"></script>
+
+  <!-- Intro Controllers -->
+  <script type="text/javascript" src="javascripts/main/controllers/intro/ceoCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/intro/infoCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/intro/visionCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/intro/historyCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/intro/orgCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/intro/jobCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/intro/locationCtrl.js"></script>
+
+  <!-- Business Controllers -->
+  <script type="text/javascript" src="javascripts/main/controllers/business/bCableCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/business/bTradeCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/business/bConstructCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/business/bRealestateCtrl.js"></script>
+
+  <!-- Product Controllers -->
+  <script type="text/javascript" src="javascripts/main/controllers/product/pCableCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/product/pTradeCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/product/pConstructCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/product/pRealestateCtrl.js"></script>
+
+  <!-- PR Controllers -->
+  <script type="text/javascript" src="javascripts/main/controllers/pr/mgmtCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/pr/certCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/pr/isoCtrl.js"></script>
+
+  <!-- CR Controllers -->
+  <script type="text/javascript" src="javascripts/main/controllers/cr/contactCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/cr/inquiryCtrl.js"></script>
+  <script type="text/javascript" src="javascripts/main/controllers/cr/noticeCtrl.js"></script>
+
+
+
+
+</body>
+
+</html>

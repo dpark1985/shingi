@@ -1,0 +1,145 @@
+div.sideMenu {} div.sideMenu div.header {
+    padding: 25px;
+}
+div.sideMenu div.header img {
+    width: 100%;
+    cursor: pointer;
+}
+div.sideMenu div.lang {
+    border-top: 1px solid #e1e1e1;
+    height: 30px;
+    width: 100%;
+}
+div.sideMenu div.lang div {
+    float: left;
+    height: 29px;
+    width: 50%;
+    line-height: 29px;
+    text-align: center;
+    font-weight: bold;
+    color: #898989;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+div.sideMenu div.lang div:first-child {
+    border-right: 1px solid #e1e1e1;
+}
+div.sideMenu div.lang div.langActive {
+    color: #0b4da2;
+    background-color: #fff;
+}
+div.sideMenu div.mainMenus div.menuList {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    padding-left: 20px;
+    cursor: pointer;
+}
+div.sideMenu div.mainMenus div.menuList:hover {
+    background-color: #0b4da2;
+    color: #fff;
+}
+div.sideMenu div.mainMenus div.menuList h1 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+}
+div.sideMenu div.mainMenus div.menuList h1 i {
+    float: right;
+    line-height: 50px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+div.sideMenu div.extraLinks {
+    padding: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+div.sideMenu div.extraLinks div.brochure {
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+div.sideMenu div.extraLinks div.misc {
+    margin-top: 20px;
+}
+div.sideMenu div.extraLinks div.misc ul {
+    padding-left: 20px;
+}
+div.sideMenu div.extraLinks div.misc ul li {
+    cursor: pointer;
+}
+div.sideMenu div.info {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 10px;
+}
+div.sideMenu div.info img {
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Chrome, Safari, Opera */
+
+    filter: grayscale(100%);
+}
+div.sideMenu div.info address {
+    margin-top: 10px;
+    color: #918b8a;
+}
+div.sideMenu div.info div.copyright {
+    color: #b7b7b7;
+}
+div.sideSubMenu {
+    position: absolute;
+    left: 190px;
+    top: 0;
+    width: 135px;
+    height: 100%;
+    background-color: #ececec;
+    z-index: 10;
+    padding-top: 117px;
+}
+div.sideSubMenu div.list {
+    height: 35px;
+    border-bottom: 1px solid #d3d3d3;
+}
+div.sideSubMenu div.list:first-child {
+    border-top: 1px solid #d3d3d3;
+}
+div.sideSubMenu div.list:hover {
+    background-color: #fff;
+}
+div.sideSubMenu div.list h3 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 35px;
+}
+div.sideSubMenu div.list h3 a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+}
+.sideSubMenu.ng-enter,
+.sideSubMenu.ng-leave {
+    transition: 0.5s linear all;
+}
+.sideSubMenu.ng-enter {
+    opacity: 0;
+}
+.sideSubMenu.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+.sideSubMenu.ng-leave {
+    opacity: 1;
+}
+.sideSubMenu.ng-leave.ng-leave-active {
+    opacity: 0;
+}

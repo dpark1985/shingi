@@ -1,0 +1,39 @@
+<div class="cr notice">
+  <!-- Common Style Template -->
+  <div class="pageTitle">
+    <h1>공지사항</h1>
+    <div class="decoLine"></div>
+  </div>
+
+  <div class="breadCrumb">
+    <ul>
+      <li><i class="fa fa-home" aria-hidden="true"></i></li>
+      <li>HOME</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>회사소개</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>공지사항</li>
+    </ul>
+  </div>
+
+  <table class="table noticeDetail">
+    <thead>
+      <tr>
+        <th >제목</th>
+        <td colspan="3">{{notice.selectedItem.title}}</td>
+      </tr>
+      <tr>
+        <th >작성자</th>
+        <td >{{notice.selectedItem.author}}</td>
+        <th >작성일</th>
+        <td >{{notice.selectedItem.date}}</td>
+      </tr>
+    </thead>
+    <tr>
+      <td colspan="4">{{notice.selectedItem.desc}}</td>
+    </tr>
+  </table>
+  <button class="btn btn-darker" type="button" ng-click="notice.toBack()">목록</button>
+
+
+</div>

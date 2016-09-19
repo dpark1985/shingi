@@ -1,0 +1,74 @@
+<div class="content">
+  <div class="row header" ng-if="!pCable.subSubMenuOn">
+    <div class="col-xs-12">
+      <img src="images/icons/picture2.png">
+      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
+      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
+    </div>
+    <div class="col-xs-8">
+      <div class="well well-lg">
+        <p><strong>신기의 다양한 산업 특성에 맞는 통신케이블을 제공합니다.</strong></p>
+        <p>내부도체에 동선, 절연체에 (고)발포 폴리에틸렌, 외부도체에 알루미늄 라미네이트 플라스틱 테이브와 주석 도금 연동선 편조를 사용하고, 외부 도체 상에 비닐을 피복한 손실이 매우 적으며 차폐 특성이 뛰어난 케이블입니다.
+차폐를 3중으로 실시하여 광대역(5.75 ~ 750)에서 사용 가능하고 종합 유선방송 기자재 형식승인을 취득하였습니다.</p>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div>
+        <h4>Communication Cable</h4>
+      </div>
+      <img src="images/product/cable/3/Picture1.png">
+      <img src="images/product/cable/3/Picture2.png">
+    </div>
+  </div>
+
+  <div ng-if="!pCable.subSubMenuOn" class="row prodList" ng-repeat="prod in pCable.communicationCable" ng-click="pCable.selectProduct(prod)">
+    <div class="col-xs-2">
+      <img ng-src="{{prod.imgSrc}}">
+    </div>
+    <div class="col-xs-10">
+      <p>
+        <strong ng-if="prod.name">{{prod.name}}</strong>
+        <strong ng-if="!prod.name">xxxxx</strong>
+      </p>
+      <p ng-if="prod.desc" ng-bind-html="prod.desc"></p>
+      <p ng-if="!prod.desc">xxxxx</p>
+      <ul>
+        <li ng-if="prod.usage">용도 : {{prod.usage}}</li>
+        <li ng-if="prod.std">규격 : {{prod.std}}</li>
+        <li ng-if="!prod.usage">용도 : xxxxx</li>
+        <li ng-if="!prod.std">규격 : xxxxx</li>
+      </ul>
+    </div>
+  </div>
+
+  <div ng-if="pCable.subSubMenuOn" class="subSubMenu">
+    <div class="row">
+      <div class="col-xs-2">
+        <img ng-src="{{pCable.selectedItem.imgSrc}}">
+      </div>
+      <div class="col-xs-10">
+        <p>
+          <strong ng-if="pCable.selectedItem.name">{{pCable.selectedItem.name}}</strong>
+          <strong ng-if="!pCable.selectedItem.name">xxxxx</strong>
+        </p>
+        <p ng-bind-html="prod.desc"></p>
+        <ul>
+          <li ng-if="pCable.selectedItem.usage">용도 : {{pCable.selectedItem.usage}}</li>
+          <li ng-if="!pCable.selectedItem.usage">용도 : xxxxx</li>
+          <li ng-if="pCable.selectedItem.std">규격 : {{pCable.selectedItem.std}}</li>
+          <li ng-if="!pCable.selectedItem.std">규격 : xxxxx</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p><strong>상세 제품 설명</strong></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div ng-bind-html="pConstruct.selectedItem.descSrc"></div>
+      </div>
+    </div>
+  </div>
+</div>
