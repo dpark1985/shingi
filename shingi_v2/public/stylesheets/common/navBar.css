@@ -1,4 +1,12 @@
-div.sideMenu {} div.sideMenu div.header {
+div.sideMenu {
+    height: 100%;
+    width: 190px;
+    position: fixed;
+    border-right: 1px solid #e1e1e1;
+    z-index: 11;
+    background-color: #fff;
+}
+div.sideMenu div.header {
     padding: 25px;
 }
 div.sideMenu div.header img {
@@ -94,12 +102,13 @@ div.sideMenu div.info div.copyright {
     color: #b7b7b7;
 }
 div.sideSubMenu {
-    position: absolute;
+    position: fixed;
     left: 190px;
     top: 0;
     width: 135px;
     height: 100%;
-    background-color: #ececec;
+    background-color: #fff;
+    border-right: 1px solid #e1e1e1;
     z-index: 10;
     padding-top: 117px;
 }

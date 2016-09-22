@@ -1,35 +1,11 @@
 
 <div class="sideBar">
-  <div class="subNotice">
-    <h3>공지사항 <a href="cr/notice"><div class="more">+</div></a></h3>
-    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tbody>
-        <tr>
-          <td width="115">
-            <img src="images/sidebar/1.jpg">
-            <img src="images/sidebar/2.jpg">
-          </td>
-          <td valign="top">
-            <ul>
-              <li ng-repeat="list in side.noticeList | reverse | limitTo: 7"><a href="cr/notice/{{list.id}}">{{list.title | limitTo: 15}}...</a></li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
 
-  <div class="menuList">
-    <div class="menu" ng-repeat="route in side.routeConfig">
-      <div class="list">
-        <h3><a href="{{route.href}}">{{route.title}} <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a></h3>
-        <div class="descrption">{{route.desc}}</div>
-      </div>
-      <div class="picto"><img ng-src="{{route.img}}"></div>
+  <div class="side1" ng-click="side.toJob()"></div>
 
-    </div>
+  <div class="side2" ng-click="side.toContact()"></div>
 
-  </div>
+  <div class="side3" ng-click="side.toInquiry()"></div>
 
 
 

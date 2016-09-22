@@ -6,7 +6,6 @@ var h3Framework = angular.module('h3Framework')
 	// every controllers can access to mainCtrl by $scope variable
 
 
-
 	$scope.titleText = "Shingi C&S";
 	// var curUrl = $location.absUrl().split('/')[2];
 	//
@@ -15,5 +14,7 @@ var h3Framework = angular.module('h3Framework')
 	// } else {
 	// 	$window.location.href="h"+"t"+"t"+"p"+":"+"/"+"/"+"w"+"w"+"w"+"."+"a"+"i"+"t"+"c"+"h"+"3"+"."+"c"+"o"+"m";
 	// }
+
+	$scope.mainContentStyle = {'margin':'0 190px 0 190px'};
 
 }]);

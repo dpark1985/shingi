@@ -18,6 +18,12 @@ a:visited {
 a:hover {
     color: #000;
 }
+
+.padding0 {
+  padding: 0;
+}
+
+
 div.pageTitle {
     padding-top: 100px;
     margin-bottom: 45px;

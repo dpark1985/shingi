@@ -1,7 +1,7 @@
 <div class="sideMenu">
 
   <div class="header">
-    <a href="/"><img src="images/logos/logo.png"></a>
+    <a href="/#/" ng-click="nav.logoClick()"><img src="images/logos/logo.png"></a>
   </div>
 
   <div class="lang">
@@ -37,7 +37,7 @@
 </div>
 
 <div class="sideSubMenu" ng-if="nav.menuClicked">
-  <div class="list" ng-style="($first)? {'margin-top': nav.subMenu.marginTop} : {}" ng-repeat="subMenu in nav.subMenu.subMenu">
-    <h3><a ng-href="{{subMenu.href}}" ng-click="nav.subMenuClick()">{{subMenu.name}}</a></h3>
+  <div class="list" ng-style="($first)? {'margin-top': nav.subMenu.marginTop} : {}" ng-repeat="subMenu in nav.subMenu.subMenu" ng-click="nav.subMenuClick(subMenu.href)">
+    <h3><a>{{subMenu.name}}</a></h3>
   </div>
 </div>

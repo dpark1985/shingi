@@ -1,8 +1,24 @@
-<div class="index">
-  <div class="imgBG">
-    <img src="images/bg/bg1-min.png">
-    <img src="images/bg/bg2-min.png">
-    <img src="images/bg/bg3-min.png">
-    <img src="images/bg/bg4-min.png">
+<div class="container-fluid padding0 index">
+
+
+
+
+
+  <div class="content imgSlide">
+    <img src="images/bg/bg1-min.png"></img>
+    <img src="images/bg/bg2-min.png"></img>
+    <img src="images/bg/bg3-min.png"></img>
+    <img src="images/bg/bg4-min.png"></img>
   </div>
+
+  <ul class="indexLinks">
+    <li ng-repeat="link in index.links" ng-style="($even)? {'background-color': 'rgb(49, 49, 49)'}: {'background-color': 'rgb(57, 57, 57)'}">
+      <a ng-href="{{link.href}}">
+        <h2>{{link.title}}</h2>
+        <h3>{{link.subTitle}}</h3>
+      </a>
+    </li>
+
+  </ul>
+
 </div>

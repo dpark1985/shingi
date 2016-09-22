@@ -6,7 +6,8 @@ div.product {
     background-size: 100% 154px;
     height: 100%;
     overflow: auto;
-    padding: 0 40px 40px 40px;
+    padding: 0 90px 40px 90px;
+    overflow: auto;
 }
 div.product div.subMenus {
     overflow: auto;
