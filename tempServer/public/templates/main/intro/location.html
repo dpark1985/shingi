@@ -1,0 +1,26 @@
+<div class="intro job">
+  <!-- Common Style Template -->
+  <div class="pageTitle">
+    <h1>오시는길</h1>
+    <div class="decoLine"></div>
+  </div>
+
+  <div class="breadCrumb">
+    <ul>
+      <li><i class="fa fa-home" aria-hidden="true"></i></li>
+      <li>HOME</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>회사소개</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>오시는길</li>
+    </ul>
+  </div>
+
+  <div class="jobMenu">
+    <ul>
+      <li ng-class="{active: locMenu.active}" ng-repeat="locMenu in loc.routeConfig" ng-click="loc.toSubMenu($index)">{{locMenu.name}}</li>
+    </ul>
+  </div>
+
+  <div ng-include="loc.currentPageUrl"></div>
+</div>

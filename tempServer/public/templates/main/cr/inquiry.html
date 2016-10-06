@@ -1,0 +1,127 @@
+<div class="cr inquiry">
+  <!-- Common Style Template -->
+  <div class="pageTitle">
+    <h1>고객문의</h1>
+    <div class="decoLine"></div>
+  </div>
+
+  <div class="breadCrumb">
+    <ul>
+      <li><i class="fa fa-home" aria-hidden="true"></i></li>
+      <li>HOME</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>회사소개</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>고객문의</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h1>개인정보 보호를 위한 이용자 동의</h1>
+    <h2>자세한 내용은 개인정보 취급방침을 확인해주세요.</h2>
+
+    <pre>
+1. 개인정보의 수집 및 이용목적
+신기씨엔에스는 수집한 개인정보를 다음의 목적을 위해 활용합니다.
+- 서비스 제공을 위한 본인 식별 절차에 이용
+- 고객 문의 및 온라인 제보 내용에 대한 진행 및 결과 알림 및 추가 확인
+2. 수집하는 개인정보 항목
+신기씨엔에스는 고객문의, 채용문의, IR문의 등을 위해 아래와 같은 개인정보를 수집하고 있습니다.
+- 수집항목 : 이름, 이메일, 연락처
+- 수집방법 : 홈페이지(고객문의, 채용문의, IR문의)
+3. 개인정보의 보유 및 이용기간
+원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 
+관계법령의 규정에 의하여 보존할 필요가 있는 경우 일진전기 아래와 같이 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.
+- 보존항목 : 이름, 이메일, 연락처
+    </pre>
+
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" ng-model="inquiry.termsAgree">
+        동의함
+      </label>
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" ng-model="inquiry.termsDisagree">
+        동의하지 않음
+      </label>
+    </div>
+
+    <table class="table inquiryForm">
+      <tr>
+        <td>이름</td>
+        <td><input type="text" ng-model="inquiry.formData.name"></td>
+      </tr>
+      <tr>
+        <td>이메일</td>
+        <td><input type="email" ng-model="inquiry.formData.email"></td>
+      </tr>
+      <tr>
+        <td>연락처</td>
+        <td><input type="text" ng-model="inquiry.formData.phone"></td>
+      </tr>
+      <tr>
+        <td>구분</td>
+        <td>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="제품문의" ng-model="inquiry.formData.category">
+              제품문의
+            </label>
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="투자문의" ng-model="inquiry.formData.category">
+              투자문의
+            </label>
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="채용문의" ng-model="inquiry.formData.category">
+              채용문의
+            </label>
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="기타문의" ng-model="inquiry.formData.category">
+              기타문의
+            </label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>사업분야</td>
+        <td>
+          <select ng-model="inquiry.formData.select1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <select ng-model="inquiry.formData.select2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>제목</td>
+        <td><input type="text" class="title" ng-model="inquiry.formData.title"></td>
+      </tr>
+      <tr>
+        <td>내용</td>
+        <td><textarea class="form-control" rows="3" ng-model="inquiry.formData.content"></textarea></td>
+      </tr>
+      <tr>
+        <td>첨부파일</td>
+        <td><input type="text"><button type="button" class="btn btn-primary btn-xs" ng-model="inquiry.formData.file">파일찾기</button></td>
+      </tr>
+
+
+    </table>
+
+    <div class="sendInquiry">
+      <button type="button" class="btn btn-primary" ng-click="inquiry.send()">보내기</button>
+    </div>
+  </div>
+
+
+
+</div>
