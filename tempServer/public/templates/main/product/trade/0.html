@@ -1,25 +1,25 @@
 <div class="content">
   <div class="row header">
     <div class="col-xs-12">
-      <img src="images/icons/picture2.png">
+      <a href="pdfs/trade2016.pdf" target="_blank"><img src="images/icons/picture2.png"></a>
       <a href="cr/contact"><img src="images/icons/picture1.png"></a>
       <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
     </div>
     <div class="col-xs-8">
       <div class="well well-lg">
-        <p><strong>고객 요구사항에 대한 최고의 가치 및 솔루션을 제공합니다.  </strong></p>
-        <p>xxxxxxx</p>
+        <p><strong>{{pTrade.dataSet.header.strongTxt}}</strong></p>
+        <p>{{pTrade.dataSet.header.defaultTxt}}</p>
       </div>
     </div>
     <div class="col-xs-4 single">
       <div>
-        <h4>Aviation</h4>
+        <h4>{{pTrade.dataSet.title}}</h4>
       </div>
-      <img src="images/product/trade/0/Picture1.png">
+      <img ng-src="{{pTrade.dataSet.header.imgSrc}}">
     </div>
   </div>
 
-  <div ng-if="!pTrade.subSubMenuOn" class="row prodList" ng-repeat="prod in pTrade.aviation" ng-click="pTrade.selectProduct(prod)" ng-style="pTrade.cursorStyle">
+  <div ng-if="!pTrade.subSubMenuOn" class="row prodList" ng-repeat="prod in pTrade.dataSet.data" ng-click="pTrade.selectProduct(prod)" ng-style="pTrade.cursorStyle">
     <div class="col-xs-10">
       <div class="prodTitle padding10">
         <p ng-if="prod.name">

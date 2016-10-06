@@ -1,7 +1,7 @@
 div.sideMenu {
     height: 100%;
     width: 190px;
-    /*position: fixed;*/
+    position: fixed;
     border-right: 1px solid #e1e1e1;
     z-index: 11;
     background-color: #f6f6f6;
@@ -135,14 +135,14 @@ div.sideSubMenu div.title h1 {
     font-weight: bold;
     text-align: center;
     margin: 0;
-    margin-top: 48px;
+    margin-top: 49px;
 }
 .sideSubMenuBorderTop {
     border-top: 1px solid #d3d3d3;
 }
 div.sideSubMenu div.list {
-    height: 35px;
-    margin-top: 1px;
+    /*height: 35px;*/
+    /*margin-top: 1px;*/
     border-bottom: 1px solid #d3d3d3;
     cursor: pointer;
 }
@@ -150,7 +150,7 @@ div.sideSubMenu div.list:first-child {
     border-top: 1px solid #d3d3d3;
 }
 div.sideSubMenu div.list:hover {
-    background-color: #0b4da2;
+    background-color: rgb(0, 39, 118);
 }
 div.sideSubMenu div.list:hover h3 a {
     color: #fff;
@@ -159,7 +159,8 @@ div.sideSubMenu div.list:hover h3 a {
     color: #fff;
 }
 .activeTextColor {
-    color: #2351d6;
+    color: rgb(0, 39, 118);
+    border-left: 3px solid rgb(0, 39, 118);
 }
 div.sideSubMenu div.list h3 {
     margin: 0;

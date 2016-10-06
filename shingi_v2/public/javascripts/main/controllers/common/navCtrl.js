@@ -104,14 +104,14 @@ var h3Framework = angular.module('h3Framework')
 		subMenu.active = true;
 		$location.path(subMenu.href);
 		$scope.mainContentStyle = {'margin':'0 190px 0 325px'};
-	}
+	};
 
 	// Logo Click
 	$nav.logoClick = function() {
 		$nav.menuClicked = false;
 		$nav.clearMainMenuActive();
 		$nav.clearSubMenuActive();
-	}
+	};
 
 	// Resize window and set the menus active status
 	$nav.resizeWindownSubMenu = function() {
@@ -165,7 +165,7 @@ var h3Framework = angular.module('h3Framework')
 		$nav.resizeWindownSubMenu();
 	} else {
 		$nav.menuClicked = false;
-	}
+	};
 
 
 

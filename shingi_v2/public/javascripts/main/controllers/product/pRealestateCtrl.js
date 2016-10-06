@@ -39,6 +39,10 @@ var h3Framework = angular.module('h3Framework')
 		$pRealestate.currentPageUrl 						= $pRealestate.routeConfig[index].templateUrl;
 		$pRealestate.currentPage 								= $pRealestate.routeConfig[index].enName;
 
+		/*
+		// UNCOMMENT THE FOLLOWING CODE IF REST API SERVER IS SETUP
+		$pRealestate.getCableData($pRealestate.currentPage);
+		*/
 		if($pRealestate.routeConfig[index].enName === "investRE"){
 			$pRealestate.dataSet = $pRealestate.investRE;
 		} else if($pRealestate.routeConfig[index].enName === "structureRE"){
@@ -76,8 +80,6 @@ var h3Framework = angular.module('h3Framework')
 			$pRealestate.otherRe
 
 	*/
-
-
 	$pRealestate.investRE = {
 		title: "Investments",
 		header: {

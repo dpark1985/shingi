@@ -1,26 +1,26 @@
 <div class="content">
   <div class="row header">
     <div class="col-xs-12">
-      <img src="images/icons/picture2.png">
-      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
-      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
+      <a href="pdfs/cable2016A.pdf" target="_blank"><img src="images/icons/picture2.png"></a>
+      <a href="pdfs/cable2016B.pdf" target="_blank"><img src="images/icons/picture2.png"></a>
+      <a href="#cr/contact"><img src="images/icons/picture1.png"></a>
+      <a href="#cr/inquiry"><img src="images/icons/picture3.png"></a>
     </div>
     <div class="col-xs-8">
       <div class="well well-lg">
-        <p><strong>신기의 다양한 산업 특성에 맞는 전력케이블을 제공합니다.</strong></p>
-        <p>전력용 케이블은 도체 위에 비닐, 폴리에틸렌, 가교폴리에틸렌 등의 절연재료로 원형의 압출물로 성형하여 제작된 송배전용 케이블을 말합니다. 0.6/1kV부터 22.9kV까지의 일반 전력용 배전 케이블을 공급하고 있으며, 우수한 내열 성능과 기능에 따라 난연, 내화성능을 강화한 친환경 케이블을 생산/공급하고 있습니다.</p>
+        <p><strong>{{pCable.dataSet.header.strongTxt}}</strong></p>
+        <p>{{pCable.dataSet.header.defaultTxt}}</p>
       </div>
     </div>
     <div class="col-xs-4">
       <div>
-        <h4>Power Cable</h4>
+        <h4>{{pCable.dataSet.title}}</h4>
       </div>
-      <img src="images/product/cable/0/Picture1.png">
-      <img src="images/product/cable/0/Picture2.png">
+      <img ng-repeat="src in pCable.dataSet.header.imgSrc" ng-src="{{src}}">
     </div>
   </div>
 
-  <div ng-if="!pCable.subSubMenuOn" class="row prodList" ng-repeat="prod in pCable.powerCable" ng-click="pCable.selectProduct(prod)">
+  <div ng-if="!pCable.subSubMenuOn" class="row prodList" ng-repeat="prod in pCable.dataSet.data" ng-click="pCable.selectProduct(prod)">
     <div class="col-xs-10">
       <div class="prodTitle padding10">
         <p ng-if="prod.name">
