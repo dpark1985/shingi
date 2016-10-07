@@ -296,7 +296,7 @@ var h3Framework = angular.module('h3Framework')
 						<tr>
 					    <td>240</td>
 							<td>원형압축</td>
-					    <td>20.5</td>
+					    <td>18.3</td>
 					    <td>1.7</td>
 					    <td>1.7</td>
 					    <td>27</td>
@@ -538,7 +538,7 @@ var h3Framework = angular.module('h3Framework')
 						<tr>
 					    <td>240</td>
 							<td>원형압축</td>
-					    <td>20.5</td>
+					    <td>18.3</td>
 					    <td>1.8</td>
 					    <td>2.6</td>
 					    <td>53</td>
@@ -662,6 +662,696 @@ var h3Framework = angular.module('h3Framework')
 					    <td>5.9</td>
 					    <td>0.9</td>
 					    <td>1.8</td>
+					    <td>23</td>
+					    <td>0.727</td>
+							<td>3,500</td>
+					    <td>975</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>0.9</td>
+					    <td>1.8</td>
+					    <td>25</td>
+					    <td>0.524</td>
+							<td>3,500</td>
+					    <td>1,287</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>1</td>
+					    <td>1.8</td>
+					    <td>29</td>
+					    <td>0.387</td>
+							<td>3,500</td>
+					    <td>1,693</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>1.1</td>
+					    <td>1.9</td>
+					    <td>33</td>
+					    <td>0.268</td>
+							<td>3,500</td>
+					    <td>2,383</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>1.1</td>
+					    <td>2</td>
+					    <td>37</td>
+					    <td>0.193</td>
+							<td>3,500</td>
+					    <td>3,224</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>1.2</td>
+					    <td>2.1</td>
+					    <td>41</td>
+					    <td>0.153</td>
+							<td>3,500</td>
+					    <td>4,036</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>1.4</td>
+					    <td>2.3</td>
+					    <td>46</td>
+					    <td>0.124</td>
+							<td>3,500</td>
+					    <td>4,840</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>1.6</td>
+					    <td>2.4</td>
+					    <td>50</td>
+					    <td>0.0991</td>
+							<td>3,500</td>
+					    <td>5,975</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>1.7</td>
+					    <td>2.6</td>
+					    <td>57</td>
+					    <td>0.0754</td>
+							<td>3,500</td>
+					    <td>7,641</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+					    <td>원형압축</td>
+					    <td>20.5</td>
+					    <td>1.8</td>
+					    <td>2.7</td>
+					    <td>62</td>
+					    <td>0.0601</td>
+							<td>3,500</td>
+					    <td>9,638</td>
+					  </tr>
+					</tbody>
+				</table>
+
+				<h1>0.6 / 1kV F-CV - 4심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td>1.5</td>
+					    <td>7/0.53</td>
+					    <td>1.59</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>12.5</td>
+					    <td>12.1</td>
+					    <td>3,500</td>
+					    <td>179</td>
+					  </tr>
+						<tr>
+					    <td>2.5</td>
+					    <td>7/0.67</td>
+					    <td>2.01</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>13.5</td>
+					    <td>7.41</td>
+					    <td>3,500</td>
+					    <td>226</td>
+					  </tr>
+						<tr>
+					    <td>4</td>
+					    <td>7/0.85</td>
+					    <td>2.55</td>
+							<td>0.7</td>
+					    <td>1.8</td>
+					    <td>14.5</td>
+					    <td>4.61</td>
+							<td>3,500</td>
+					    <td>305</td>
+					  </tr>
+						<tr>
+					    <td>6</td>
+					    <td>7/1.04</td>
+					    <td>3.12</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>16</td>
+					    <td>3.08</td>
+							<td>3,500</td>
+					    <td>397</td>
+					  </tr>
+						<tr>
+					    <td>10</td>
+					    <td>7/1.35</td>
+					    <td>4.05</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>20</td>
+					    <td>1.83</td>
+							<td>3,500</td>
+					    <td>585</td>
+					  </tr>
+						<tr>
+					    <td>16</td>
+							<td>원형압축</td>
+					    <td>4.7</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>22</td>
+					    <td>1.15</td>
+							<td>3,500</td>
+					    <td>816</td>
+					  </tr>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>0.9</td>
+					    <td>1.8</td>
+					    <td>26</td>
+					    <td>0.727</td>
+							<td>3,500</td>
+					    <td>1,242</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>0.9</td>
+					    <td>1.8</td>
+					    <td>28</td>
+					    <td>0.524</td>
+							<td>3,500</td>
+					    <td>1,661</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>1</td>
+					    <td>1.8</td>
+					    <td>32</td>
+					    <td>0.387</td>
+							<td>3,500</td>
+					    <td>2,215</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>1.1</td>
+					    <td>1.8</td>
+					    <td>36</td>
+					    <td>0.268</td>
+							<td>3,500</td>
+					    <td>3,110</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>1.1</td>
+					    <td>1.8</td>
+					    <td>42</td>
+					    <td>0.193</td>
+							<td>3,500</td>
+					    <td>4,207</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>1.2</td>
+					    <td>1.9</td>
+					    <td>46</td>
+					    <td>0.153</td>
+							<td>3,500</td>
+					    <td>5,307</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>1.4</td>
+					    <td>2</td>
+					    <td>51</td>
+					    <td>0.124</td>
+							<td>3,500</td>
+					    <td>6,327</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>1.6</td>
+					    <td>2.1</td>
+					    <td>56</td>
+					    <td>0.0991</td>
+							<td>3,500</td>
+					    <td>7,846</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>1.7</td>
+					    <td>2.3</td>
+					    <td>63</td>
+					    <td>0.0754</td>
+							<td>3,500</td>
+					    <td>10.038</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+					    <td>원형압축</td>
+					    <td>20.5</td>
+					    <td>1.8</td>
+					    <td>2.4</td>
+					    <td>70</td>
+					    <td>0.0601</td>
+							<td>3,500</td>
+					    <td>12,609</td>
+					  </tr>
+					</tbody>
+				</table>
+				`,
+				imgSrc: "images/product/cable/0/Picture1.png"
+			},
+			{
+				prodID: "102",
+				name: "0.6 / 1kV HFCO",
+				desc: ["0.6 / 1kV 가교 폴리에틸렌 절연 저독성 난연 폴리올레핀 시스 트레이용 케이블 "],
+				usage: ['주거 및 상업적 용도의 건물내 및 산업용 배전 회로에 사용하는 전력용 케이블', '전기설비 기술 기준령에 준한 트레이용 난연 케이블'],
+				std: [
+					{stdName: "KS C IEC 60502-1", desc: ["정격 전압 1~30kV 압출성형", "절연 전력 케이블 및 그 부속품 – 제1부 : 케이블 (1kV 및 3kV)"]},
+				],
+				desc2: "",	// 제품설명
+				materials: {
+					conductor: "2등급(연선) 연동선",		// 도체
+					internalFire: "",								// 내화층
+					internal: "",										// 내부 반도전
+					insulation: ["가교 폴리에틸렌(XPLE), 내열 온도 90℃"],								// 절연체
+					external: "",										// 외부 반도전
+					neutralConductor: "",						// 중성선
+					daeyeon: "",											// 대연
+					shielding: "",									// 차폐
+					alliance: "2심 이상인 경우 절연된 선심을 원형으로 꼬음",										// 연합
+					sheath: "흑색 저독성 난연 폴리올레핀"											// 시스
+				},
+				color: ["1심 : 자연색(XPLE)", "2심 : 흑, 백", "3심 : 흑, 백, 적", "4심 : 흑, 백, 적, 녹"],
+				prdStd: {
+					kc: true,		//전기용품 안전인증
+					k: true,		//한국 산업 규격
+					em: true, 	//환경표지 인증
+				},
+				descSrc: `
+				<h1>0.6 / 1kV HFCO - 단심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td>1.5</td>
+					    <td>7/0.53</td>
+					    <td>1.59</td>
+					    <td>0.7</td>
+					    <td>1.4</td>
+					    <td>6.3</td>
+					    <td>12.1</td>
+					    <td>3,500</td>
+					    <td>53</td>
+					  </tr>
+						<tr>
+					    <td>2.5</td>
+					    <td>7/0.67</td>
+					    <td>2.01</td>
+					    <td>0.7</td>
+					    <td>1.4</td>
+					    <td>6.7</td>
+					    <td>7.41</td>
+					    <td>3,500</td>
+					    <td>65</td>
+					  </tr>
+						<tr>
+					    <td>4</td>
+					    <td>7/0.85</td>
+					    <td>2.55</td>
+							<td>0.7</td>
+					    <td>1.4</td>
+					    <td>7.2</td>
+					    <td>4.61</td>
+							<td>3,500</td>
+					    <td>81</td>
+					  </tr>
+						<tr>
+					    <td>6</td>
+					    <td>7/1.04</td>
+					    <td>3.12</td>
+					    <td>0.7</td>
+					    <td>1.4</td>
+					    <td>7.8</td>
+					    <td>3.08</td>
+							<td>3,500</td>
+					    <td>108</td>
+					  </tr>
+						<tr>
+					    <td>10</td>
+					    <td>7/1.35</td>
+					    <td>4.05</td>
+					    <td>0.7</td>
+					    <td>1.4</td>
+					    <td>9.4</td>
+					    <td>1.83</td>
+							<td>3,500</td>
+					    <td>155</td>
+					  </tr>
+						<tr>
+					    <td>16</td>
+							<td>원형압축</td>
+					    <td>4.7</td>
+					    <td>0.7</td>
+					    <td>1.4</td>
+					    <td>10</td>
+					    <td>1.15</td>
+							<td>3,500</td>
+					    <td>210</td>
+					  </tr>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>0.9</td>
+					    <td>1.4</td>
+					    <td>12</td>
+					    <td>0.727</td>
+							<td>3,500</td>
+					    <td>315</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>0.9</td>
+					    <td>1.4</td>
+					    <td>13</td>
+					    <td>0.524</td>
+							<td>3,500</td>
+					    <td>414</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>1</td>
+					    <td>1.4</td>
+					    <td>14.5</td>
+					    <td>0.387</td>
+							<td>3,500</td>
+					    <td>542</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>1.1</td>
+					    <td>1.4</td>
+					    <td>16</td>
+					    <td>0.268</td>
+							<td>3,500</td>
+					    <td>761</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>1.1</td>
+					    <td>1.5</td>
+					    <td>18.5</td>
+					    <td>0.193</td>
+							<td>3,500</td>
+					    <td>1,026</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>1.2</td>
+					    <td>1.5</td>
+					    <td>20</td>
+					    <td>0.153</td>
+							<td>3,500</td>
+					    <td>1,279</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>1.4</td>
+					    <td>1.6</td>
+					    <td>22</td>
+					    <td>0.124</td>
+							<td>3,500</td>
+					    <td>1,524</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>1.6</td>
+					    <td>1.6</td>
+					    <td>24</td>
+					    <td>0.0991</td>
+							<td>3,500</td>
+					    <td>1,872</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>1.7</td>
+					    <td>1.7</td>
+					    <td>27</td>
+					    <td>0.0754</td>
+							<td>3,500</td>
+					    <td>2,391</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+					    <td>원형압축</td>
+					    <td>20.5</td>
+					    <td>1.8</td>
+					    <td>1.8</td>
+					    <td>30</td>
+					    <td>0.0601</td>
+							<td>3,500</td>
+					    <td>3,023</td>
+					  </tr>
+						<tr>
+					    <td>400</td>
+					    <td>원형압축</td>
+					    <td>23.2</td>
+					    <td>2</td>
+					    <td>1.9</td>
+					    <td>34</td>
+					    <td>0.047</td>
+							<td>3,500</td>
+					    <td>3,975</td>
+					  </tr>
+						<tr>
+					    <td>500</td>
+					    <td>원형압축</td>
+					    <td>26.4</td>
+					    <td>2.2</td>
+					    <td>2</td>
+					    <td>37</td>
+					    <td>0.03666</td>
+							<td>3,500</td>
+					    <td>4,894</td>
+					  </tr>
+						<tr>
+					    <td>630</td>
+					    <td>원형압축</td>
+					    <td>30.2</td>
+					    <td>2.4</td>
+					    <td>2.2</td>
+					    <td>42</td>
+					    <td>0.0283</td>
+							<td>3,500</td>
+					    <td>6,283</td>
+					  </tr>
+					</tbody>
+				</table>
+
+				<h1>0.6 / 1kV HFCO - 2심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td>1.5</td>
+					    <td>7/0.53</td>
+					    <td>1.59</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>11</td>
+					    <td>12.1</td>
+					    <td>3,500</td>
+					    <td>127</td>
+					  </tr>
+						<tr>
+					    <td>2.5</td>
+					    <td>7/0.67</td>
+					    <td>2.01</td>
+					    <td>0.7</td>
+					    <td>1.18</td>
+					    <td>12</td>
+					    <td>7.41</td>
+					    <td>3,500</td>
+					    <td>153</td>
+					  </tr>
+						<tr>
+					    <td>4</td>
+					    <td>7/0.85</td>
+					    <td>2.55</td>
+							<td>0.7</td>
+					    <td>1.8</td>
+					    <td>13</td>
+					    <td>4.61</td>
+							<td>3,500</td>
+					    <td>197</td>
+					  </tr>
+						<tr>
+					    <td>6</td>
+					    <td>7/1.04</td>
+					    <td>3.12</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>14</td>
+					    <td>3.08</td>
+							<td>3,500</td>
+					    <td>252</td>
+					  </tr>
+						<tr>
+					    <td>10</td>
+					    <td>7/1.35</td>
+					    <td>4.05</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>17</td>
+					    <td>1.83</td>
+							<td>3,500</td>
+					    <td>357</td>
+					  </tr>
+						<tr>
+					    <td>16</td>
+							<td>원형압축</td>
+					    <td>4.7</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>18.5</td>
+					    <td>1.15</td>
+							<td>3,500</td>
+					    <td>487</td>
+					  </tr>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>0.9</td>
+					    <td>1.8</td>
 					    <td>22</td>
 					    <td>0.727</td>
 							<td>3,500</td>
@@ -747,7 +1437,7 @@ var h3Framework = angular.module('h3Framework')
 						<tr>
 					    <td>240</td>
 							<td>원형압축</td>
-					    <td>20.5</td>
+					    <td>18.3</td>
 					    <td>1.8</td>
 					    <td>2.6</td>
 					    <td>53</td>
@@ -768,37 +1458,425 @@ var h3Framework = angular.module('h3Framework')
 					  </tr>
 					</tbody>
 				</table>
+
+				<h1>0.6 / 1kV HFCO - 3심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td>1.5</td>
+					    <td>7/0.53</td>
+					    <td>1.59</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>11.5</td>
+					    <td>12.1</td>
+					    <td>3,500</td>
+					    <td>148</td>
+					  </tr>
+						<tr>
+					    <td>2.5</td>
+					    <td>7/0.67</td>
+					    <td>2.01</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>12.5</td>
+					    <td>7.41</td>
+					    <td>3,500</td>
+					    <td>189</td>
+					  </tr>
+						<tr>
+					    <td>4</td>
+					    <td>7/0.85</td>
+					    <td>2.55</td>
+							<td>0.7</td>
+					    <td>1.8</td>
+					    <td>13.5</td>
+					    <td>4.61</td>
+							<td>3,500</td>
+					    <td>245</td>
+					  </tr>
+						<tr>
+					    <td>6</td>
+					    <td>7/1.04</td>
+					    <td>3.12</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>14.5</td>
+					    <td>3.08</td>
+							<td>3,500</td>
+					    <td>321</td>
+					  </tr>
+						<tr>
+					    <td>10</td>
+					    <td>7/1.35</td>
+					    <td>4.05</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>18</td>
+					    <td>1.83</td>
+							<td>3,500</td>
+					    <td>464</td>
+					  </tr>
+						<tr>
+					    <td>16</td>
+							<td>원형압축</td>
+					    <td>4.7</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>19.5</td>
+					    <td>1.15</td>
+							<td>3,500</td>
+					    <td>649</td>
+					  </tr>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>0.9</td>
+					    <td>1.8</td>
+					    <td>23</td>
+					    <td>0.727</td>
+							<td>3,500</td>
+					    <td>975</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>0.9</td>
+					    <td>1.8</td>
+					    <td>25</td>
+					    <td>0.524</td>
+							<td>3,500</td>
+					    <td>1,287</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>1</td>
+					    <td>1.8</td>
+					    <td>29</td>
+					    <td>0.387</td>
+							<td>3,500</td>
+					    <td>1,693</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>1.1</td>
+					    <td>1.9</td>
+					    <td>33</td>
+					    <td>0.268</td>
+							<td>3,500</td>
+					    <td>2,383</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>1.1</td>
+					    <td>2</td>
+					    <td>37</td>
+					    <td>0.193</td>
+							<td>3,500</td>
+					    <td>3,224</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>1.2</td>
+					    <td>2.1</td>
+					    <td>41</td>
+					    <td>0.153</td>
+							<td>3,500</td>
+					    <td>4,036</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>1.4</td>
+					    <td>2.3</td>
+					    <td>46</td>
+					    <td>0.124</td>
+							<td>3,500</td>
+					    <td>4,840</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>1.6</td>
+					    <td>2.4</td>
+					    <td>50</td>
+					    <td>0.0991</td>
+							<td>3,500</td>
+					    <td>5,975</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>1.7</td>
+					    <td>2.6</td>
+					    <td>57</td>
+					    <td>0.0754</td>
+							<td>3,500</td>
+					    <td>7,641</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+					    <td>원형압축</td>
+					    <td>20.5</td>
+					    <td>1.8</td>
+					    <td>2.7</td>
+					    <td>62</td>
+					    <td>0.0601</td>
+							<td>3,500</td>
+					    <td>9,638</td>
+					  </tr>
+					</tbody>
+				</table>
+
+				<h1>0.6 / 1kV HFCO - 4심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td>1.5</td>
+					    <td>7/0.53</td>
+					    <td>1.59</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>12.5</td>
+					    <td>12.1</td>
+					    <td>3,500</td>
+					    <td>179</td>
+					  </tr>
+						<tr>
+					    <td>2.5</td>
+					    <td>7/0.67</td>
+					    <td>2.01</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>13.5</td>
+					    <td>7.41</td>
+					    <td>3,500</td>
+					    <td>226</td>
+					  </tr>
+						<tr>
+					    <td>4</td>
+					    <td>7/0.85</td>
+					    <td>2.55</td>
+							<td>0.7</td>
+					    <td>1.8</td>
+					    <td>14.5</td>
+					    <td>4.61</td>
+							<td>3,500</td>
+					    <td>305</td>
+					  </tr>
+						<tr>
+					    <td>6</td>
+					    <td>7/1.04</td>
+					    <td>3.12</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>16</td>
+					    <td>3.08</td>
+							<td>3,500</td>
+					    <td>397</td>
+					  </tr>
+						<tr>
+					    <td>10</td>
+					    <td>7/1.35</td>
+					    <td>4.05</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>20</td>
+					    <td>1.83</td>
+							<td>3,500</td>
+					    <td>585</td>
+					  </tr>
+						<tr>
+					    <td>16</td>
+							<td>원형압축</td>
+					    <td>4.7</td>
+					    <td>0.7</td>
+					    <td>1.8</td>
+					    <td>22</td>
+					    <td>1.15</td>
+							<td>3,500</td>
+					    <td>816</td>
+					  </tr>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>0.9</td>
+					    <td>1.8</td>
+					    <td>26</td>
+					    <td>0.727</td>
+							<td>3,500</td>
+					    <td>1,242</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>0.9</td>
+					    <td>1.8</td>
+					    <td>28</td>
+					    <td>0.524</td>
+							<td>3,500</td>
+					    <td>1,661</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>1</td>
+					    <td>1.8</td>
+					    <td>32</td>
+					    <td>0.387</td>
+							<td>3,500</td>
+					    <td>2,215</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>1.1</td>
+					    <td>1.8</td>
+					    <td>36</td>
+					    <td>0.268</td>
+							<td>3,500</td>
+					    <td>3,110</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>1.1</td>
+					    <td>1.8</td>
+					    <td>42</td>
+					    <td>0.193</td>
+							<td>3,500</td>
+					    <td>4,207</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>1.2</td>
+					    <td>1.9</td>
+					    <td>46</td>
+					    <td>0.153</td>
+							<td>3,500</td>
+					    <td>5,307</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>1.4</td>
+					    <td>2</td>
+					    <td>51</td>
+					    <td>0.124</td>
+							<td>3,500</td>
+					    <td>6,327</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>1.6</td>
+					    <td>2.1</td>
+					    <td>56</td>
+					    <td>0.0991</td>
+							<td>3,500</td>
+					    <td>7,846</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>1.7</td>
+					    <td>2.3</td>
+					    <td>63</td>
+					    <td>0.0754</td>
+							<td>3,500</td>
+					    <td>10.038</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+					    <td>원형압축</td>
+					    <td>20.5</td>
+					    <td>1.8</td>
+					    <td>2.4</td>
+					    <td>70</td>
+					    <td>0.0601</td>
+							<td>3,500</td>
+					    <td>12,609</td>
+					  </tr>
+					</tbody>
+				</table>
 				`,
-				imgSrc: "images/product/cable/0/Picture1.png"
-			},
-			{
-				prodID: "102",
-				name: "0.6 / 1kV HFCO",
-				desc: ["0.6 / 1kV 가교 폴리에틸렌 절연 저독성 난연 폴리올레핀 시스 트레이용 케이블 "],
-				usage: ['주거 및 상업적 용도의 건물내 및 산업용 배전 회로에 사용하는 전력용 케이블', '전기설비 기술 기준령에 준한 트레이용 난연 케이블'],
-				std: [
-					{stdName: "KS C IEC 60502-1", desc: ["정격 전압 1~30kV 압출성형", "절연 전력 케이블 및 그 부속품 – 제1부 : 케이블 (1kV 및 3kV)"]},
-				],
-				desc2: "",	// 제품설명
-				materials: {
-					conductor: "2등급(연선) 연동선",		// 도체
-					internalFire: "",								// 내화층
-					internal: "",										// 내부 반도전
-					insulation: ["가교 폴리에틸렌(XPLE), 내열 온도 90℃"],								// 절연체
-					external: "",										// 외부 반도전
-					neutralConductor: "",						// 중성선
-					daeyeon: "",											// 대연
-					shielding: "",									// 차폐
-					alliance: "2심 이상인 경우 절연된 선심을 원형으로 꼬음",										// 연합
-					sheath: "흑색 저독성 난연 폴리올레핀"											// 시스
-				},
-				color: ["1심 : 자연색(XPLE)", "2심 : 흑, 백", "3심 : 흑, 백, 적", "4심 : 흑, 백, 적, 녹"],
-				prdStd: {
-					kc: true,		//전기용품 안전인증
-					k: true,		//한국 산업 규격
-					em: true, 	//환경표지 인증
-				},
-				descSrc: null,
 				imgSrc: "images/product/cable/0/Picture2.png"
 			},
 			{
@@ -828,7 +1906,326 @@ var h3Framework = angular.module('h3Framework')
 					k: false,		//한국 산업 규격
 					em: false, 	//환경표지 인증
 				},
-				descSrc: null,
+				descSrc: `
+				<h1>6 / 10kV F-CV - 단심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>3.4</td>
+					    <td>1.5</td>
+					    <td>21</td>
+					    <td>0.727</td>
+							<td>21</td>
+					    <td>547</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>3.4</td>
+					    <td>1.6</td>
+					    <td>22</td>
+					    <td>0.524</td>
+							<td>21</td>
+					    <td>671</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>3.4</td>
+					    <td>1.6</td>
+					    <td>23</td>
+					    <td>0.387</td>
+							<td>21</td>
+					    <td>812</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>3.4</td>
+					    <td>1.7</td>
+					    <td>25</td>
+					    <td>0.26821</td>
+							<td>21</td>
+					    <td>1,056</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>3.4</td>
+					    <td>1.7</td>
+					    <td>27</td>
+					    <td>0.193</td>
+							<td>21</td>
+					    <td>1,337</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>3.4</td>
+					    <td>1.8</td>
+					    <td>28</td>
+					    <td>0.153</td>
+							<td>21</td>
+					    <td>1,617</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>3.4</td>
+					    <td>1.8</td>
+					    <td>30</td>
+					    <td>0.124</td>
+							<td>21</td>
+					    <td>1,858</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>3.4</td>
+					    <td>1.9</td>
+					    <td>32</td>
+					    <td>0.0991</td>
+							<td>21</td>
+					    <td>2,225</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>3.4</td>
+					    <td>2</td>
+					    <td>35</td>
+					    <td>0.0754</td>
+							<td>21</td>
+					    <td>2,779</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+							<td>원형압축</td>
+					    <td>20.5</td>
+					    <td>3.4</td>
+					    <td>3</td>
+					    <td>37</td>
+					    <td>0.0601</td>
+							<td>21</td>
+					    <td>3,416</td>
+					  </tr>
+						<tr>
+					    <td>400</td>
+					    <td>원형압축</td>
+					    <td>23.2</td>
+					    <td>3.4</td>
+					    <td>2.2</td>
+					    <td>40</td>
+					    <td>0.047</td>
+							<td>21</td>
+					    <td>4,406</td>
+					  </tr>
+						<tr>
+					    <td>500</td>
+					    <td>원형압축</td>
+					    <td>26.4</td>
+					    <td>3.4</td>
+					    <td>2.2</td>
+					    <td>43</td>
+					    <td>0.0366</td>
+							<td>21</td>
+					    <td>5,328</td>
+					  </tr>
+						<tr>
+					    <td>630</td>
+					    <td>원형압축</td>
+					    <td>30.2</td>
+					    <td>3.4</td>
+					    <td>2.3</td>
+					    <td>48</td>
+					    <td>0.0283</td>
+							<td>21</td>
+					    <td>6,677</td>
+					  </tr>
+					</tbody>
+				</table>
+
+				<h1>6 / 10kV F-CV - 3심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>3.4</td>
+					    <td>2.2</td>
+					    <td>41</td>
+					    <td>727</td>
+							<td>21</td>
+					    <td>1,835</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>3.4</td>
+					    <td>2.3</td>
+					    <td>43</td>
+					    <td>0.524</td>
+							<td>21</td>
+					    <td>2,221</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>3.4</td>
+					    <td>2.4</td>
+					    <td>46</td>
+					    <td>0.387</td>
+							<td>21</td>
+					    <td>2,699</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>3.4</td>
+					    <td>2.5</td>
+					    <td>50</td>
+					    <td>0.268</td>
+							<td>21</td>
+					    <td>3,474</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>3.4</td>
+					    <td>2.6</td>
+					    <td>53</td>
+					    <td>0.193</td>
+							<td>21</td>
+					    <td>4,398</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>3.4</td>
+					    <td>2.7</td>
+					    <td>57</td>
+					    <td>0.153</td>
+							<td>21</td>
+					    <td>5,267</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>3.4</td>
+					    <td>2.8</td>
+					    <td>60</td>
+					    <td>0.124</td>
+							<td>21</td>
+					    <td>6,071</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>3.4</td>
+					    <td>2.9</td>
+					    <td>64</td>
+					    <td>0.0991</td>
+							<td>21</td>
+					    <td>7,232</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>3.4</td>
+					    <td>3.1</td>
+					    <td>69</td>
+					    <td>0.0754</td>
+							<td>21</td>
+					    <td>9,009</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+							<td>원형압축</td>
+					    <td>20.5</td>
+					    <td>3.4</td>
+					    <td>3.3</td>
+					    <td>74</td>
+					    <td>0.0601</td>
+							<td>21</td>
+					    <td>11,098</td>
+					  </tr>
+					</tbody>
+				</table>
+				`,
 				imgSrc: "images/product/cable/0/Picture3.png"
 			},
 			{
@@ -858,7 +2255,326 @@ var h3Framework = angular.module('h3Framework')
 					k: true,		//한국 산업 규격
 					em: true, 	//환경표지 인증
 				},
-				descSrc: null,
+				descSrc: `
+				<h1>6 / 10kV HFCO - 단심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>3.4</td>
+					    <td>1.5</td>
+					    <td>21</td>
+					    <td>0.727</td>
+							<td>21</td>
+					    <td>547</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>3.4</td>
+					    <td>1.6</td>
+					    <td>22</td>
+					    <td>0.524</td>
+							<td>21</td>
+					    <td>671</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>3.4</td>
+					    <td>1.6</td>
+					    <td>23</td>
+					    <td>0.387</td>
+							<td>21</td>
+					    <td>812</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>3.4</td>
+					    <td>1.7</td>
+					    <td>25</td>
+					    <td>0.26821</td>
+							<td>21</td>
+					    <td>1,056</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>3.4</td>
+					    <td>1.7</td>
+					    <td>27</td>
+					    <td>0.193</td>
+							<td>21</td>
+					    <td>1,337</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>3.4</td>
+					    <td>1.8</td>
+					    <td>28</td>
+					    <td>0.153</td>
+							<td>21</td>
+					    <td>1,617</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>3.4</td>
+					    <td>1.8</td>
+					    <td>30</td>
+					    <td>0.124</td>
+							<td>21</td>
+					    <td>1,858</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>3.4</td>
+					    <td>1.9</td>
+					    <td>32</td>
+					    <td>0.0991</td>
+							<td>21</td>
+					    <td>2,225</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>3.4</td>
+					    <td>2</td>
+					    <td>35</td>
+					    <td>0.0754</td>
+							<td>21</td>
+					    <td>2,779</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+							<td>원형압축</td>
+					    <td>20.5</td>
+					    <td>3.4</td>
+					    <td>3</td>
+					    <td>37</td>
+					    <td>0.0601</td>
+							<td>21</td>
+					    <td>3,416</td>
+					  </tr>
+						<tr>
+					    <td>400</td>
+					    <td>원형압축</td>
+					    <td>23.2</td>
+					    <td>3.4</td>
+					    <td>2.2</td>
+					    <td>40</td>
+					    <td>0.047</td>
+							<td>21</td>
+					    <td>4,406</td>
+					  </tr>
+						<tr>
+					    <td>500</td>
+					    <td>원형압축</td>
+					    <td>26.4</td>
+					    <td>3.4</td>
+					    <td>2.2</td>
+					    <td>43</td>
+					    <td>0.0366</td>
+							<td>21</td>
+					    <td>5,328</td>
+					  </tr>
+						<tr>
+					    <td>630</td>
+					    <td>원형압축</td>
+					    <td>30.2</td>
+					    <td>3.4</td>
+					    <td>2.3</td>
+					    <td>48</td>
+					    <td>0.0283</td>
+							<td>21</td>
+					    <td>6,677</td>
+					  </tr>
+					</tbody>
+				</table>
+
+				<h1>6 / 10kV HFCO - 3심</h1>
+				<table class="table table-bordered">
+					<thead>
+					  <tr>
+					    <th colspan="3">도체</th>
+					    <th rowspan="2">절연 두께</th>
+					    <th rowspan="2">시스 두께</th>
+					    <th rowspan="2">완성품 외경</th>
+					    <th rowspan="2">도체 저항 20℃</th>
+					    <th rowspan="2">시험 전압</th>
+					    <th rowspan="2">개산 무게</th>
+					  </tr>
+					  <tr>
+					    <th>공칭 단면적</th>
+					    <th>소선수/소선지름</th>
+					    <th>외경</th>
+					  </tr>
+					  <tr>
+					    <th>mm2</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>mm</th>
+					    <th>Ω/㎞</th>
+					    <th>V</th>
+					    <th>(kg/km)</th>
+					  </tr>
+					</thead>
+					<tbody>
+						<tr>
+					    <td>25</td>
+							<td>원형압축</td>
+					    <td>5.9</td>
+					    <td>3.4</td>
+					    <td>2.2</td>
+					    <td>41</td>
+					    <td>727</td>
+							<td>21</td>
+					    <td>1,835</td>
+					  </tr>
+						<tr>
+					    <td>35</td>
+							<td>원형압축</td>
+					    <td>6.9</td>
+					    <td>3.4</td>
+					    <td>2.3</td>
+					    <td>43</td>
+					    <td>0.524</td>
+							<td>21</td>
+					    <td>2,221</td>
+					  </tr>
+						<tr>
+					    <td>50</td>
+							<td>원형압축</td>
+					    <td>8.1</td>
+					    <td>3.4</td>
+					    <td>2.4</td>
+					    <td>46</td>
+					    <td>0.387</td>
+							<td>21</td>
+					    <td>2,699</td>
+					  </tr>
+						<tr>
+					    <td>70</td>
+							<td>원형압축</td>
+					    <td>9.8</td>
+					    <td>3.4</td>
+					    <td>2.5</td>
+					    <td>50</td>
+					    <td>0.268</td>
+							<td>21</td>
+					    <td>3,474</td>
+					  </tr>
+						<tr>
+					    <td>95</td>
+							<td>원형압축</td>
+					    <td>11.4</td>
+					    <td>3.4</td>
+					    <td>2.6</td>
+					    <td>53</td>
+					    <td>0.193</td>
+							<td>21</td>
+					    <td>4,398</td>
+					  </tr>
+						<tr>
+					    <td>120</td>
+							<td>원형압축</td>
+					    <td>12.9</td>
+					    <td>3.4</td>
+					    <td>2.7</td>
+					    <td>57</td>
+					    <td>0.153</td>
+							<td>21</td>
+					    <td>5,267</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+							<td>원형압축</td>
+					    <td>14.4</td>
+					    <td>3.4</td>
+					    <td>2.8</td>
+					    <td>60</td>
+					    <td>0.124</td>
+							<td>21</td>
+					    <td>6,071</td>
+					  </tr>
+						<tr>
+					    <td>185</td>
+							<td>원형압축</td>
+					    <td>15.9</td>
+					    <td>3.4</td>
+					    <td>2.9</td>
+					    <td>64</td>
+					    <td>0.0991</td>
+							<td>21</td>
+					    <td>7,232</td>
+					  </tr>
+						<tr>
+					    <td>240</td>
+							<td>원형압축</td>
+					    <td>18.3</td>
+					    <td>3.4</td>
+					    <td>3.1</td>
+					    <td>69</td>
+					    <td>0.0754</td>
+							<td>21</td>
+					    <td>9,009</td>
+					  </tr>
+						<tr>
+					    <td>300</td>
+							<td>원형압축</td>
+					    <td>20.5</td>
+					    <td>3.4</td>
+					    <td>3.3</td>
+					    <td>74</td>
+					    <td>0.0601</td>
+							<td>21</td>
+					    <td>11,098</td>
+					  </tr>
+					</tbody>
+				</table>
+				`,
 				imgSrc: "images/product/cable/0/Picture4.png"
 			},
 			{
@@ -888,7 +2604,138 @@ var h3Framework = angular.module('h3Framework')
 					k: false,		//한국 산업 규격
 					em: false, 	//환경표지 인증
 				},
-				descSrc: null,
+				descSrc: `
+				<h1>6 / 10kV 22.9kV CN / CV-W, 22.9kV TR-CN / CV-W </h1>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th colspan="3">도체</th>
+							<th rowspan="2">절연 두께</th>
+							<th rowspan="2">시스 두께</th>
+							<th rowspan="2">완성품 외경</th>
+							<th rowspan="2">도체 저항 20℃</th>
+							<th rowspan="2">시험 전압</th>
+							<th rowspan="2">개산 무게</th>
+						</tr>
+						<tr>
+							<th>공칭 단면적</th>
+							<th rowspan="2">소선수/소선지름</th>
+							<th>외경</th>
+						</tr>
+						<tr>
+							<th>mm2</th>
+							<th>mm</th>
+							<th>mm</th>
+							<th>mm</th>
+							<th>mm</th>
+							<th>Ω/㎞</th>
+							<th>V</th>
+							<th>(kg/km)</th>
+						</tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td>60</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>9.3</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>36</td>
+					    <td>0.305</td>
+					    <td>3,000</td>
+					    <td>1,760</td>
+					  </tr>
+						<tr>
+					    <td>100</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>12</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>40</td>
+					    <td>0.183</td>
+					    <td>2,500</td>
+					    <td>2,430</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>14.7</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>43</td>
+					    <td>0.122</td>
+					    <td>2,000</td>
+					    <td>3,150</td>
+					  </tr>
+						<tr>
+					    <td>200</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>17</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>45</td>
+					    <td>0.0915</td>
+					    <td>2,000</td>
+					    <td>3,980</td>
+					  </tr>
+						<tr>
+					    <td>250</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>19</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>48</td>
+					    <td>0.0739</td>
+					    <td>2,000</td>
+					    <td>4,700</td>
+					  </tr>
+						<tr>
+					    <td>325</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>21.7</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>51</td>
+					    <td>0.0568</td>
+					    <td>2,000</td>
+					    <td>5,750</td>
+					  </tr>
+						<tr>
+					    <td>400</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>24.1</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>54</td>
+					    <td>0.0462</td>
+					    <td>1,500</td>
+					    <td>6,800</td>
+					  </tr>
+						<tr>
+					    <td>500</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>26.9</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>57</td>
+					    <td>0.0369</td>
+					    <td>1,500</td>
+					    <td>8,240</td>
+					  </tr>
+						<tr>
+					    <td>600</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>29.5</td>
+					    <td>6.6</td>
+					    <td>4</td>
+					    <td>61</td>
+					    <td>0.0308</td>
+					    <td>1,500</td>
+					    <td>10,050</td>
+					  </tr>
+					</tbody>
+				</table>
+				`,
 				imgSrc: "images/product/cable/0/Picture5.png"
 			},
 			{
@@ -918,7 +2765,138 @@ var h3Framework = angular.module('h3Framework')
 					k: false,		//한국 산업 규격
 					em: false, 	//환경표지 인증
 				},
-				descSrc: null,
+				descSrc: `
+				<h1>22.9kV FR-CN/CO-W</h1>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th colspan="3">도체</th>
+							<th rowspan="2">절연 두께</th>
+							<th rowspan="2">시스 두께</th>
+							<th rowspan="2">완성품 외경</th>
+							<th rowspan="2">도체 저항 20℃</th>
+							<th rowspan="2">시험 전압</th>
+							<th rowspan="2">개산 무게</th>
+						</tr>
+						<tr>
+							<th>공칭 단면적</th>
+							<th rowspan="2">소선수/소선지름</th>
+							<th>외경</th>
+						</tr>
+						<tr>
+							<th>mm2</th>
+							<th>mm</th>
+							<th>mm</th>
+							<th>mm</th>
+							<th>mm</th>
+							<th>Ω/㎞</th>
+							<th>V</th>
+							<th>(kg/km)</th>
+						</tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td>60</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>9.3</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>36</td>
+					    <td>0.305</td>
+					    <td>3,000</td>
+					    <td>1,760</td>
+					  </tr>
+						<tr>
+					    <td>100</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>12</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>40</td>
+					    <td>0.183</td>
+					    <td>2,500</td>
+					    <td>2,430</td>
+					  </tr>
+						<tr>
+					    <td>150</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>14.7</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>43</td>
+					    <td>0.122</td>
+					    <td>2,000</td>
+					    <td>3,150</td>
+					  </tr>
+						<tr>
+					    <td>200</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>17</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>45</td>
+					    <td>0.0915</td>
+					    <td>2,000</td>
+					    <td>3,980</td>
+					  </tr>
+						<tr>
+					    <td>250</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>19</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>48</td>
+					    <td>0.0739</td>
+					    <td>2,000</td>
+					    <td>4,700</td>
+					  </tr>
+						<tr>
+					    <td>325</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>21.7</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>51</td>
+					    <td>0.0568</td>
+					    <td>2,000</td>
+					    <td>5,750</td>
+					  </tr>
+						<tr>
+					    <td>400</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>24.1</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>54</td>
+					    <td>0.0462</td>
+					    <td>1,500</td>
+					    <td>6,800</td>
+					  </tr>
+						<tr>
+					    <td>500</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>26.9</td>
+					    <td>6.6</td>
+					    <td>3</td>
+					    <td>57</td>
+					    <td>0.0369</td>
+					    <td>1,500</td>
+					    <td>8,240</td>
+					  </tr>
+						<tr>
+					    <td>600</td>
+					    <td>원형압축연선<br>(수밀형)</td>
+					    <td>29.5</td>
+					    <td>6.6</td>
+					    <td>4</td>
+					    <td>61</td>
+					    <td>0.0308</td>
+					    <td>1,500</td>
+					    <td>10,050</td>
+					  </tr>
+					</tbody>
+				</table>
+				`,
 				imgSrc: "images/product/cable/0/Picture6.png"
 			},
 		]
