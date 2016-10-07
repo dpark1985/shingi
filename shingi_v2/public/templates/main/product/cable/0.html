@@ -23,7 +23,7 @@
   <div ng-if="!pCable.subSubMenuOn" class="row prodList" ng-repeat="prod in pCable.dataSet.data" ng-click="pCable.selectProduct(prod)">
     <div class="col-xs-10">
       <div class="prodTitle padding10">
-        <p ng-if="prod.name">
+        <p class="white" ng-if="prod.name">
           <strong>{{prod.name}}</strong>
         </p>
         <ul class="noULstyle padding0" ng-if="prod.desc">
@@ -116,7 +116,7 @@
 
     <div class="row">
       <div class="col-xs-12">
-        <div ng-bind-html="pConstruct.selectedItem.descSrc"></div>
+        <div class="desc" ng-bind-html="pCable.selectedItem.descSrc"></div>
       </div>
     </div>
   </div>

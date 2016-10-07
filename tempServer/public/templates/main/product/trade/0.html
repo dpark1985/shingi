@@ -22,7 +22,7 @@
   <div ng-if="!pTrade.subSubMenuOn" class="row prodList" ng-repeat="prod in pTrade.dataSet.data" ng-click="pTrade.selectProduct(prod)" ng-style="pTrade.cursorStyle">
     <div class="col-xs-10">
       <div class="prodTitle padding10">
-        <p ng-if="prod.name">
+        <p class="white" ng-if="prod.name">
           <strong>{{prod.name}}</strong>
         </p>
         <ul class="noULstyle padding0" ng-if="prod.desc">
