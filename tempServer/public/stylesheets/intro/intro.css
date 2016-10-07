@@ -62,9 +62,6 @@ div.info div.content img {
     border-top: 1px solid #d3d3d3;
     width: 100%;
 }
-div.vision {} div.vision div.content {
-    overflow: auto;
-}
 div.vision div.content div.top {} div.vision div.content div.top div.leftContent {
     width: 60%;
     float: left;

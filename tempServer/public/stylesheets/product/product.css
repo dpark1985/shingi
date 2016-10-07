@@ -38,9 +38,6 @@ div.product div.subMenus ul li.active {
     color: #fff;
     background-color: #52647b;
 }
-div.product div.content {
-    overflow: auto;
-}
 div.product div.content div.header {
     margin-top: 40px;
 }
