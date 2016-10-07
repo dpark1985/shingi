@@ -30,23 +30,25 @@
           <li ng-repeat="desc in prod.desc">{{desc}}</li>
         </ul>
       </div>
-      <div class="col-xs-2">
-        <img ng-src="{{prod.imgSrc}}">
-      </div>
-      <div class="col-xs-10">
-        <p class="prodCategory" ng-if="prod.usage">적용 범위</p>
-        <ul ng-if="prod.usage">
-          <li ng-repeat="usage in prod.usage">{{usage}}</li>
-        </ul>
-        <p class="prodCategory" ng-if="prod.std">적용 규격</p>
-        <ul ng-if="prod.std" ng-repeat="std in prod.std">
-          <li>{{std.stdName}}</li>
-          <li class="noULstyle" ng-if="std.desc">
-            <ul>
-              <li ng-repeat="desc in std.desc">{{desc}}</li>
-            </ul>
-          </li>
-        </ul>
+      <div class="row row-eq-height">
+        <div class="col-xs-2 verticalCenter">
+          <img ng-src="{{prod.imgSrc}}">
+        </div>
+        <div class="col-xs-10">
+          <p class="prodCategory" ng-if="prod.usage">적용 범위</p>
+          <ul ng-if="prod.usage">
+            <li ng-repeat="usage in prod.usage">{{usage}}</li>
+          </ul>
+          <p class="prodCategory" ng-if="prod.std">적용 규격</p>
+          <ul ng-if="prod.std" ng-repeat="std in prod.std">
+            <li>{{std.stdName}}</li>
+            <li class="noULstyle" ng-if="std.desc">
+              <ul>
+                <li ng-repeat="desc in std.desc">{{desc}}</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

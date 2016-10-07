@@ -1,11 +1,11 @@
 div.pr {
-    background-image: url("/images/intro/sub_bg.png");
+    /*background-image: url("/images/intro/sub_bg.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: local;
-    background-size: 100% 154px;
+    background-size: 75% 154px;*/
     height: 100%;
-    padding: 0 90px 40px 90px;
+    padding: 0 350px 40px 40px;
     overflow: auto;
 }
 div.pr div.content {
@@ -24,11 +24,11 @@ div.pr img {
     padding: 25px;
     width: 100%;
 }
-div.pr h1 {
+div.pr div.content h1 {
     color: #464646;
     font-weight: bold;
     font-size: 20px;
 }
-div.pr h3 {
+div.pr div.content h3 {
     text-align: center;
 }

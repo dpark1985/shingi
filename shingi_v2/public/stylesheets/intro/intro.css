@@ -1,11 +1,11 @@
 div.intro {
-    background-image: url("/images/intro/sub_bg.png");
+    /*background-image: url("/images/intro/sub_bg.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: local;
-    background-size: 100% 154px;
+    background-size: 75% 154px;*/
     height: 100%;
-    padding: 0 90px 40px 90px;
+    padding: 0 350px 40px 40px;
     overflow: auto;
 }
 
@@ -23,12 +23,8 @@ div.ceo div.content p:first-child span {
 }
 div.ceo div.content p {
     font-size: 13px;
-    color: #999;
     line-height: 24px;
     margin-top: 25px;
-}
-div.ceo div.content p {
-    color: #777;
 }
 div.ceo div.content img {
     width: 100%;
@@ -48,7 +44,9 @@ div.ceo div.content div.signature h2 {
     font-weight: bold;
     margin: 0 0 20px 0;
 }
-div.info {} div.info div.content {} div.info div.content p:first-child {
+div.info {}
+div.info div.content {}
+div.info div.content p:first-child {
     font-size: 21px;
     font-weight: bold;
     color: #555;
@@ -56,9 +54,13 @@ div.info {} div.info div.content {} div.info div.content p:first-child {
 }
 div.info div.content p {
     font-size: 13px;
-    color: #999;
     line-height: 24px;
     margin-top: 25px;
+}
+div.info div.content img {
+    padding-top: 20px;
+    border-top: 1px solid #d3d3d3;
+    width: 100%;
 }
 div.vision {} div.vision div.content {
     overflow: auto;
@@ -86,7 +88,6 @@ div.vision div.content div.top div.leftContent h3 {
 }
 div.vision div.content div.top div.leftContent p {
     font-size: 13px;
-    color: #999;
     line-height: 24px;
     margin-top: 10px;
 }
@@ -243,7 +244,7 @@ div.history div.content div.bottomContent div.leftContent ul li {
     font-size: 14px;
 }
 div.history div.content div.bottomContent div.leftContent span.year {
-    color: #464646;
+    color: rgb(87, 87, 87);
     font-weight: bold;
 }
 div.history div.content div.bottomContent div.rightContent {
@@ -279,7 +280,6 @@ div.org div.content p:first-child {
 }
 div.org div.content p {
     font-size: 13px;
-    color: #999;
     line-height: 24px;
     margin-top: 25px;
 }
@@ -290,6 +290,7 @@ div.org div.content img {
 div.job {}
 div.job div.jobMenu {
     overflow: auto;
+    margin-top: 25px;
 }
 div.job div.jobMenu ul {
     list-style-type: none;
@@ -326,7 +327,6 @@ div.job div.content img {
 }
 div.job div.content p {
     font-size: 13px;
-    color: #999;
     line-height: 24px;
     margin-top: 25px;
 }
@@ -406,7 +406,6 @@ div.job div.content div.rightContent div.jobCore p {
     clear: both;
     float: left;
     margin: 0
-
 }
 div.job div.content table tr:first-child {
     background-color: #b9b7b7;
@@ -427,7 +426,6 @@ div.job div.content table.jobTable tr:last-child td {
 div.job div.content table tr td img {
     margin: 0;
     width: 38px;
-    ;
     height: 38px;
 }
 div.job div.content table tr th {
@@ -458,8 +456,12 @@ div.job div.content div.addressBlock ul {
     padding-left: 200px;
     padding-top: 50px;
 }
-div.job div.content div.addressBlock ul li {} div.job div.content div.addressBlock ul li address {
+div.job div.content div.addressBlock ul li {
+    color: rgb(87, 87, 87);
+}
+div.job div.content div.addressBlock ul li address {
     display: inline-block;
+    color: rgb(87, 87, 87);
     margin: 0;
 }
 div.job div.content table.jobDetail {

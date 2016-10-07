@@ -29,14 +29,16 @@
           <li ng-repeat="desc in prod.desc">{{desc}}</li>
         </ul>
       </div>
-      <div class="col-xs-2">
-        <img ng-src="{{prod.imgSrc}}">
-      </div>
-      <div class="col-xs-10">
-        <p class="prodCategory" ng-if="prod.desc2">제품 설명</p>
-        <ul ng-if="prod.desc2">
-          <li ng-repeat="desc in prod.desc2">{{desc}}</li>
-        </ul>
+      <div class="row row-eq-height">
+        <div class="col-xs-2">
+          <img ng-src="{{prod.imgSrc}}">
+        </div>
+        <div class="col-xs-10">
+          <p class="prodCategory" ng-if="prod.desc2">제품 설명</p>
+          <ul ng-if="prod.desc2">
+            <li ng-repeat="desc in prod.desc2">{{desc}}</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

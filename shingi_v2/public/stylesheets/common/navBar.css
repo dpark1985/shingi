@@ -130,7 +130,7 @@ div.sideSubMenu div.title {
     height: 68px;
 }
 div.sideSubMenu div.title h1 {
-    color: #7d7d7d;
+    color: #464646;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -179,13 +179,9 @@ div.sideSubMenu div.list h3 a {
 }
 div.sideSubMenu div.leftBanner {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     width: 134px;
     height: 306px;
-}
-div.sideSubMenu div.leftBanner img {
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
 }
 .sideSubMenu.ng-enter,
 .sideSubMenu.ng-leave {

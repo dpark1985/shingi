@@ -1,15 +1,16 @@
 div.product {
-    background-image: url("/images/business/sub_bg2.png");
+    /*background-image: url("/images/business/sub_bg2.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: local;
-    background-size: 100% 154px;
+    background-size: 75% 154px;*/
     height: 100%;
-    padding: 0 90px 40px 90px;
+    padding: 0 350px 40px 40px;
     overflow: auto;
 }
 div.product div.subMenus {
     overflow: auto;
+    margin-top: 25px;
 }
 div.product div.subMenus ul {
     list-style-type: none;
@@ -70,7 +71,7 @@ div.product div.content div.header div.col-xs-12 img {
 div.product div.content div.prodList {
     margin-top: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+    /*border-bottom: 1px solid #ddd;*/
     cursor: pointer;
 }
 /*div.product div.content div.prodList.construct {

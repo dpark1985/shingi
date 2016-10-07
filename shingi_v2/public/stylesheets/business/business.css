@@ -1,15 +1,16 @@
 div.business {
-    background-image: url("/images/business/sub_bg2.png");
+    /*background-image: url("/images/business/sub_bg2.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: local;
-    background-size: 100% 154px;
+    background-size: 75% 154px;*/
     height: 100%;
-    padding: 0 90px 40px 90px;
+    padding: 0 350px 40px 40px;
     overflow: auto;
 }
 div.business div.subMenus {
     overflow: auto;
+    margin-top: 25px;
 }
 div.business div.subMenus ul {
     list-style-type: none;
@@ -46,20 +47,20 @@ div.business div.content h1 {
     color: #0b4da2;
     display: inline-block;
 }
-div.business div.content div.rowContent div {
+div.business div.content div.row div {
     margin-top: 20px;
 }
-div.business div.content div.rowContent div img {
-  width: 60%;
-  margin-left: 20%;
+div.business div.content div.row div img {
+    width: 60%;
+    margin-left: 20%;
 }
-div.business div.content div.rowContent div div.constTitle h2 {
+div.business div.content div.row div div.constTitle h2 {
     font-size: 22px;
     margin: 0;
     font-weight: bold;
     color: #5a5a5a;
 }
-div.business div.content div.rowContent div div.constTitle h3 {
+div.business div.content div.row div div.constTitle h3 {
     font-size: 16px;
     margin: 0;
     color: #5a5a5a;

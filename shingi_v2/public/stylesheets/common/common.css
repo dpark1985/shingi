@@ -34,8 +34,11 @@ a:hover {
 }
 
 div.pageTitle {
-    padding-top: 100px;
-    margin-bottom: 45px;
+    padding-top: 25px;
+    /*padding-top: 100px;*/
+    /*margin-bottom: 45px;*/
+    padding-bottom: 26px;
+    border-bottom: 1px solid #d3d3d3;
 }
 div.pageTitle h1 {
     color: #464646;
@@ -49,6 +52,9 @@ div.pageTitle div.decoLine {
 }
 div.breadCrumb {
     height: 28px;
+    position: absolute;
+    right: 350px;
+    top: 50px;
 }
 div.breadCrumb ul {
     list-style-type: none;
@@ -88,4 +94,13 @@ div.clearFloat {
 
 .noULstyle {
     list-style-type: none;
+}
+
+.verticalCenter {
+    display: flex;
+    align-items: center;
+}
+
+p {
+  color: rgb(87, 87, 87);
 }

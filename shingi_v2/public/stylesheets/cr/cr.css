@@ -1,11 +1,11 @@
 div.cr {
-    background-image: url("/images/intro/sub_bg.png");
+    /*background-image: url("/images/intro/sub_bg.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: local;
-    background-size: 100% 154px;
+    background-size: 75% 154px;*/
     height: 100%;
-    padding: 0 90px 40px 90px;
+    padding: 0 350px 40px 40px;
     overflow: auto;
 }
 div.contact table {
@@ -31,8 +31,7 @@ div.cr div.content {} div.cr div.content h1 {
     color: #464646;
 }
 div.cr div.content h2 {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 14px;
     color: #464646;
 }
 div.cr div.content div.radio {
@@ -80,7 +79,7 @@ div.inquiry div.sendInquiry {
     text-align: center;
 }
 div.notice table {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 div.notice table tr {} div.notice table tr:first-child {
     background-color: #e4e4e4;
