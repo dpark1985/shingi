@@ -1,13 +1,45 @@
+@font-face {
+    font-family: 'audiowideregular';
+    src: url('../../libraries/font/audiowide/audiowide-regular-webfont.woff2') format('woff2'),
+         url('../../libraries/font/audiowide/audiowide-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../../libraries/font/nanumgothic/NanumGothic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'bm_dohyeonregular';
+    src: url('../../libraries/font/bmdohyeon/bmdohyeon_ttf-webfont.woff2') format('woff2'),
+         url('../../libraries/font/bmdohyeon/bmdohyeon_ttf-webfont.woff') format('woff');
+}
+
+.audioWide {
+    font-family: 'audiowideregular', sans-serif;
+}
+
+.gothic {
+    font-family: 'Malgun Gothic', sans-serif;
+}
+
+.bmdohyeon {
+    font-family: 'bm_dohyeonregular', sans-serif;
+}
+
+
+
+
 html {
     height: 100%;
 }
 body {
     font-size: 12px;
     line-height: 1.5;
-    font-family: 'Nanum Gothic';
-    color: #7d7d7d;
+    color: rgb(87, 87, 87);
     width: 100%;
     height: 100%;
+    font-family: 'Malgun Gothic', sans-serif;
 }
 
 a,
@@ -102,9 +134,73 @@ div.clearFloat {
 }
 
 p {
-  color: rgb(87, 87, 87);
+    color: rgb(87, 87, 87);
 }
 
 .white {
-  color: #fff;
+    color: #fff;
+}
+
+.noLines {
+    border: 0;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+
+.colorBlue {
+    color: rgb(0, 112, 192);
+}
+
+.colorGreen {
+    color: rgb(129, 188, 0);
+}
+
+.fontSize15 {
+    font-size: 15px;
+}
+
+.fontBod {
+    font-weight: bold;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginTop20 {
+    margin-top: 20px;
+}
+
+.marginTop50 {
+    margin-top: 50px;
+}
+
+.margin0 {
+    margin: 0;
+}
+
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+
+.bgPattern {
+    background-image: url('../../images/bg/bgPattern.png');
 }

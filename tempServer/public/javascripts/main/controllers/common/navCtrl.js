@@ -103,7 +103,7 @@ var h3Framework = angular.module('h3Framework')
 		$nav.clearSubMenuActive();
 		subMenu.active = true;
 		$location.path(subMenu.href);
-		$scope.mainContentStyle = {'margin':'0 190px 0 325px'};
+		$scope.mainContentStyle = {'margin':'0 190px 40px 325px'};
 	};
 
 	// Logo Click
@@ -117,9 +117,9 @@ var h3Framework = angular.module('h3Framework')
 	$nav.resizeWindownSubMenu = function() {
 		$nav.menuClicked = true;
 		if($window.innerWidth <= 1680){
-			$scope.mainContentStyle = {'margin':'0 0 0 325px'};
+			$scope.mainContentStyle = {'margin':'0 0 40px 325px'};
 		} else {
-			$scope.mainContentStyle = {'margin':'0 190px 0 325px'};
+			$scope.mainContentStyle = {'margin':'0 190px 40px 325px'};
 		}
 
 		if($location.path().split('/')[1]){

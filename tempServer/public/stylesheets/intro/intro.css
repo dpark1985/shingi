@@ -5,7 +5,7 @@ div.intro {
     background-attachment: local;
     background-size: 75% 154px;*/
     height: 100%;
-    padding: 0 400px 40px 40px;
+    padding: 0 450px 40px 40px;
     /*overflow: auto;*/
 }
 
@@ -35,12 +35,11 @@ div.ceo div.content div.signature {
 div.ceo div.content div.signature h3 {
     display: inline-block;
     padding-left: 10px;
-    border-left: 3px solid #368eff;
     font-size: 15px;
     font-weight: bold;
 }
 div.ceo div.content div.signature h2 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     margin: 0 0 20px 0;
 }
@@ -49,8 +48,7 @@ div.info div.content {}
 div.info div.content p:first-child {
     font-size: 21px;
     font-weight: bold;
-    color: #555;
-    line-height: 36px;
+    color: #000;
 }
 div.info div.content p {
     font-size: 13px;
@@ -59,7 +57,6 @@ div.info div.content p {
 }
 div.info div.content img {
     padding-top: 20px;
-    border-top: 1px solid #d3d3d3;
     width: 100%;
 }
 div.vision div.content div.top {} div.vision div.content div.top div.leftContent {
@@ -292,6 +289,8 @@ div.job div.jobMenu {
 div.job div.jobMenu ul {
     list-style-type: none;
     padding: 0;
+    height: 43px;
+    border-bottom: 3px solid rgb(129, 188, 0);
 }
 div.job div.jobMenu ul li {
     float: left;
@@ -303,29 +302,23 @@ div.job div.jobMenu ul li {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    color: #464646;
-    background-color: #e4e6ea;
+    color: #fff;
+    background-color: rgb(49, 49, 49);
     margin-right: 5px;
 }
 div.job div.jobMenu ul li:hover {
-    color: #fff;
-    background-color: #52647b;
+    background-color: rgb(129, 188, 0);
 }
 div.job div.jobMenu ul li.active {
-    color: #fff;
-    background-color: #52647b;
+    background-color: rgb(129, 188, 0);
 }
 div.job div.content {} div.job div.content div.wrapper {
     overflow: auto;
 }
-div.job div.content img {
-    margin-top: 20px;
-    width: 100%;
-}
+
 div.job div.content p {
     font-size: 13px;
     line-height: 24px;
-    margin-top: 25px;
 }
 .borderTop {
   margin: 0;
@@ -404,15 +397,11 @@ div.job div.content div.rightContent div.jobCore p {
     float: left;
     margin: 0
 }
-div.job div.content table tr:first-child {
-    background-color: #b9b7b7;
-    color: #fff;
-}
 div.job div.content table.jobTable tr:nth-child(n+2) {
     cursor: pointer;
 }
 div.job div.content table.jobTable tr.jobListing {
-    background-color: #f6f9fb;
+    background-color: rgb(242, 242, 242);
 }
 div.job div.content table.jobTable tr.jobListing th {
     border-top: 1px solid #6d9dcf;
@@ -432,7 +421,6 @@ div.job div.content table tr th {
 }
 div.job div.content table tr td {
     color: #717171;
-    text-align: center;
     vertical-align: middle;
 }
 div.job div.content table tr td span {

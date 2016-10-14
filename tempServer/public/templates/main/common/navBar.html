@@ -5,12 +5,12 @@
   </div>
 
   <div class="lang">
-    <div class="ko langActive" ng-click="nav.lang('ko')">KOR</div>
-    <div class="en " ng-click="nav.lang('en')">ENG</div>
+    <div class="ko langActive audioWide" ng-click="nav.lang('ko')">KOR</div>
+    <div class="en audioWide" ng-click="nav.lang('en')">ENG</div>
   </div>
 
   <div class="mainMenus">
-    <div class="menuList" ng-class="{'activeTextColor': route.active}" ng-repeat="route in nav.routeConfig" ng-click="nav.menuClick(route)">
+    <div class="menuList audioWide" ng-class="{'activeTextColor': route.active}" ng-repeat="route in nav.routeConfig" ng-click="nav.menuClick(route)">
       <h1>{{route.name}} <i class="fa fa-angle-right" aria-hidden="true"></i></h1>
     </div>
   </div>
@@ -28,7 +28,7 @@
 
   <div class="info">
     <img src="images/logos/logo.png">
-    <address>서울특별시 강남구 역삼동 681-26 역삼하나빌 305 신기씨엔에스㈜</address>
+    <address>(주)신기씨앤에스<br>서울특별시 강남구 역삼동 681-26 역삼하나빌 305 신기씨엔에스㈜</address>
     <div class="copyright">
       Copyright&copy; <br/>2016 SHINGI CABLE & SYSTEM <br/>All rights reserved.
     </div>
@@ -40,8 +40,8 @@
   <div class="title">
     <h1>{{nav.mainMenu.name}}</h1>
   </div>
-  <div class="list" ng-class="{'sideSubMenuBorderTop': $first}" ng-repeat="subMenu in nav.subMenu.routeConfig" ng-click="nav.subMenuClick(subMenu)">
-    <h3><a ng-class="{'activeTextColor': subMenu.active}">{{subMenu.name}}</a></h3>
+  <div class="list audioWide" ng-class="{'sideSubMenuBorderTop': $first}" ng-repeat="subMenu in nav.subMenu.routeConfig" ng-click="nav.subMenuClick(subMenu)">
+    <h3><a ng-class="{'activeTextColor': subMenu.active}">{{subMenu.name}} <i class="fa fa-angle-right" aria-hidden="true"></i></a></h3>
   </div>
   <div class="leftBanner">
     <img ng-src="{{nav.subMenu.imgSrc}}">

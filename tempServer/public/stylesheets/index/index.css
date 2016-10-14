@@ -2,6 +2,7 @@ div.index div.content {
   width: 110%;
   height: 100%;
   margin-left: -135px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1680px) {
