@@ -6,10 +6,10 @@ var h3Framework = angular.module('h3Framework')
 	// cable menu config
 	$pCable.routeConfig = [
 		{name: '전력케이블', enName: "powerCable", templateUrl: 'templates/main/product/cable/0.html', active: true},
-		{name: '전연케이블', enName: "insulatedWire", templateUrl: 'templates/main/product/cable/0.html', active: false},
-		{name: '제어용케이블', enName: "controlCable", templateUrl: 'templates/main/product/cable/0.html', active: false},
-		{name: '통신케이블', enName: "communicationCable", templateUrl: 'templates/main/product/cable/0.html', active: false},
-		{name: '소방케이블', enName: "fireCable", templateUrl: 'templates/main/product/cable/0.html', active: false},
+		{name: '전연케이블', enName: "insulatedWire", templateUrl: 'templates/main/product/cable/1.html', active: false},
+		{name: '제어용케이블', enName: "controlCable", templateUrl: 'templates/main/product/cable/2.html', active: false},
+		{name: '통신케이블', enName: "communicationCable", templateUrl: 'templates/main/product/cable/3.html', active: false},
+		{name: '소방케이블', enName: "fireCable", templateUrl: 'templates/main/product/cable/4.html', active: false},
 		// {name: '기타', enName: "oterCable", templateUrl: 'templates/main/product/cable/5.html', active: false}
 	];
 
@@ -74,12 +74,6 @@ var h3Framework = angular.module('h3Framework')
 			$pCable.fireCable
 	*/
 	$pCable.powerCable = {
-		title: "Power Cable",
-		header: {
-			strongTxt: "신기의 다양한 산업 특성에 맞는 전력케이블을 제공합니다.",
-			defaultTxt: "전력용 케이블은 도체 위에 비닐, 폴리에틸렌, 가교폴리에틸렌 등의 절연재료로 원형의 압출물로 성형하여 제작된 송배전용 케이블을 말합니다. 0.6/1kV부터 22.9kV까지의 일반 전력용 배전 케이블을 공급하고 있으며, 우수한 내열 성능과 기능에 따라 난연, 내화성능을 강화한 친환경 케이블을 생산/공급하고 있습니다.",
-			imgSrc: ["images/product/cable/0/Picture1.png", "images/product/cable/0/Picture2.png"],
-		},
 		data: [
 			{
 				prodID: "101",

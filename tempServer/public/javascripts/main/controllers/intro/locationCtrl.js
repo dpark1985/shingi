@@ -6,8 +6,8 @@ var h3Framework = angular.module('h3Framework')
 	// loc menu config
 	$loc.routeConfig = [
 		{name: '본사', 		templateUrl: 'templates/main/intro/location/0.html', active: true},
-		{name: '목동사옥', templateUrl: 'templates/main/intro/location/1.html', active: false},
-		{name: '문류센터', templateUrl: 'templates/main/intro/location/2.html', active: false},
+		{name: '목동 사무소', templateUrl: 'templates/main/intro/location/1.html', active: false},
+		{name: '물류 센터', templateUrl: 'templates/main/intro/location/2.html', active: false},
 	];
 
 
