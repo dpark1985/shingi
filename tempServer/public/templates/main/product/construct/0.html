@@ -1,36 +1,38 @@
-<div class="content">
-  <div class="row header" ng-if="!pConstruct.subSubMenuOn">
+<div class="content marginBottom20">
+
+  <div ng-if="!pConstruct.subSubMenuOn" class="row marginTop20">
+    <img class="flagImg" src="images/icons/flag2.png">
     <div class="col-xs-12">
-      <img src="images/icons/picture2.png">
-      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
-      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
-    </div>
-    <div class="col-xs-8">
-      <div class="well well-lg">
-        <p><strong>{{pConstruct.dataSet.header.strongTxt}}</strong></p>
-        <p>{{pConstruct.dataSet.header.defaultTxt}}</p>
+      <div class="well well-lg flagBgColor3">
+        <h2>축적된 <span class="colorGreen">전 기 공 사</span> 노하우 및 전문인력을 기반으로 <br>최고의 서비스를 제공합니다.</h2>
+        <p>신기의 전기공사는 전기공사법에 의해 자격을 갖춘 전기기술자가 직접 시공 및 관리하여  안전하고 확실하게 사용할 수 있습니다. 전력, 플랜트, 공공시설, 주택 등 다양한 산업분야에 걸쳐 종합건설 서비스를  제공하고 있으며, 그간 축적된 기술 및 경험을 기반으로 최적의 서비스를 지향합니다.</p>
+        <div>
+          <a class="floatRight marginRight10" href="#cr/contact">문의사항</a>
+        </div>
       </div>
-    </div>
-    <div class="col-xs-4 single">
-      <div>
-        <h4>{{pConstruct.dataSet.title}}</h4>
-      </div>
-      <img ng-src="{{pConstruct.dataSet.header.imgSrc}}">
     </div>
   </div>
 
-  <div ng-if="!pConstruct.subSubMenuOn" class="row prodList" ng-repeat="prod in pConstruct.dataSet.data" ng-click="pConstruct.selectProduct(prod)" ng-style="pConstruct.cursorStyle">
-    <div class="col-xs-2">
-      <img ng-src="{{prod.imgSrc}}">
+  <div class="" ng-if="!pConstruct.subSubMenuOn" ng-repeat="prod in pConstruct.dataSet.data" ng-style="pConstruct.cursorStyle">
+    <div class="row">
+      <div class="col-xs-12">
+        <img class="width100" src="images/product/construct/0/Picture3.png">
+      </div>
     </div>
-    <div class="col-xs-10">
-      <p>
-        <strong class="noHeaders" ng-if="prod.desc">{{prod.desc}}</strong>
-      </p>
-      <p class="prodCategory" ng-if="prod.services.length > 0">서비스 영역:</p>
-      <ul ng-if="prod.services.length > 0">
-        <li ng-repeat="service in prod.services">{{service}}</li>
-      </ul>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <p>전력계통 안정화 및 고객에게 고품질의 전력을 공급하기 위해 지중배전, 가공배전, 무정전 공사 등 전문적인 원전정비 서비스를 지원하고 있습니다.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="prodCategory" ng-if="prod.services.length > 0">서비스 영역:</p>
+        <ul ng-if="prod.services.length > 0">
+          <li ng-repeat="service in prod.services">{{service}}</li>
+        </ul>
+      </div>
     </div>
   </div>
 

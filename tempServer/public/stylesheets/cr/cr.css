@@ -82,7 +82,7 @@ div.notice table {
     margin-top: 40px;
 }
 div.notice table tr {} div.notice table tr:first-child {
-    background-color: #e4e4e4;
+    background-color: rgb(242, 242, 242);
     cursor: auto;
 }
 div.notice table tr {

@@ -185,12 +185,6 @@ div.vision div.content div.mid div.bottomContent div.rightContent span {
     font-size: 14px;
     border-top: 1px solid #e3e3e3;
 }
-div.history {} div.history div.content {
-    overflow: auto;
-}
-div.history div.content div.topContent {
-    overflow: auto;
-}
 div.history div.content div.topContent div.leftContent {
     width: 60%;
     float: left;
@@ -260,9 +254,6 @@ div.history div.content div.bottomContent div.rightContent span.year {
     color: #464646;
     font-weight: bold;
 }
-div.org {} div.org div.content {
-    overflow: auto;
-}
 div.org div.content p:first-child {
     font-size: 21px;
     font-weight: bold;
@@ -279,7 +270,6 @@ div.job {}
 div.job div.jobMenu {
     overflow: auto;
     margin-top: 25px;
-    background-color: #e9e9e9;
 }
 div.job div.jobMenu ul {
     list-style-type: none;

@@ -6,7 +6,7 @@ var h3Framework = angular.module('h3Framework')
 	// cable menu config
 	$pTrade.routeConfig = [
 		{name: '항공등화',	enName: "aviation", templateUrl: 'templates/main/product/trade/0.html', active: true},
-		{name: '에너지 및 전력', enName: "energyElec", templateUrl: 'templates/main/product/trade/0.html', active: false},
+		{name: '에너지 및 전력', enName: "energyElec", templateUrl: 'templates/main/product/trade/1.html', active: false},
 		// {name: '기타', enName: "otherMaterial", templateUrl: 'templates/main/product/trade/2.html', active: false}
 	];
 
@@ -69,12 +69,6 @@ var h3Framework = angular.module('h3Framework')
 			$pTrade.energyElec
 	*/
 	$pTrade.aviation = {
-		title: "Aviation",
-		header: {
-			strongTxt: "고객 요구사항에 대한 최고의 가치 및 솔루션을 제공합니다.",
-			defaultTxt: "xxxxxxx",
-			imgSrc: "images/product/trade/0/Picture1.png",
-		},
 		data: [
 			{
 				prodID: "101",
@@ -168,12 +162,6 @@ var h3Framework = angular.module('h3Framework')
 	};
 
 	$pTrade.energyElec = {
-		title: "Energy & Electrical",
-		header: {
-			strongTxt: "고객 요구사항에 대한 최고의 가치 및 솔루션을 제공합니다.",
-			defaultTxt: "xxxxxxx",
-			imgSrc: "images/product/trade/1/Picture1.png",
-		},
 		data: [
 			{
 				prodID: "201",

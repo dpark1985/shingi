@@ -1,65 +1,40 @@
-<div class="content">
-  <div class="row header" ng-if="!pRealestate.subSubMenuOn">
+<div class="content marginBottom20">
+
+  <div ng-if="!pRealestate.subSubMenuOn" class="row marginTop20">
+    <img class="flagImg" src="images/icons/flag2.png">
     <div class="col-xs-12">
-      <img src="images/icons/picture2.png">
-      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
-      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
-    </div>
-    <div class="col-xs-8">
-      <div class="well well-lg">
-        <p><strong>풍부한 부동산 경험 및 최적의 맞춤형 컨설팅을 통해 최고의 자산 자문 및 관리 서비스를 제공합니다.</strong></p>
+      <div class="well well-lg flagBgColor4">
+        <h2>풍부한 부동산 경험 및 최적의 맞춤형 컨설팅을 통해 최고의 <span class="colorGreen">투 자 자 문</span> 서비스를 제공합니다.</h2>
         <p>임대 건물, 복합 상업 지구를 비롯한 모든 유형의 사무 시설과 복합 시나리오를 임대차 또는 구매하고 있습니다. 사무실 임대 시 혁신적인 거래 설계, 빌딩관리, 임대관리, 금융 전문지식 및 최신 마케팅을 제공하여 최적의 결과를 보장합니다.</p>
+        <div>
+          <a class="floatRight marginRight10" href="#cr/contact">문의사항</a>
+        </div>
       </div>
-    </div>
-    <div class="col-xs-4 single">
-      <div>
-        <h4>Portfoli/Lease Management</h4>
-      </div>
-      <img src="images/product/re/2/Picture1.png">
     </div>
   </div>
 
-  <div ng-if="!pRealestate.subSubMenuOn" class="row prodList" ng-repeat="prod in pRealestate.mgmtRE" ng-click="pRealestate.selectProduct(prod)" ng-style="pTrade.cursorStyle">
-    <div class="col-xs-2">
-      <img ng-src="{{prod.imgSrc}}">
-    </div>
-    <div class="col-xs-10">
-      <p>
-        <strong ng-if="prod.desc">{{prod.desc}}</strong>
-      </p>
-      <p class="prodCategory" ng-if="prod.services.length > 0">서비스 영역:</p>
-      <ul ng-if="prod.services.length > 0">
-        <li ng-repeat="service in prod.services">{{service}}</li>
-      </ul>
-    </div>
-  </div>
 
-  <div ng-if="pConstruct.subSubMenuOn" class="subSubMenu">
+  <div class="" ng-if="!pRealestate.subSubMenuOn" ng-repeat="prod in pRealestate.dataSet.data" ng-style="pRealestate.cursorStyle">
     <div class="row">
       <div class="col-xs-12">
-        <p><strong>상세 제품 설명</strong></p>
+        <img class="width100" src="images/product/re/2/Picture3.png">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-2">
-        <img ng-src="{{pConstruct.selectedItem.imgSrc}}">
+      <div class="col-xs-12">
+        <p>부동산 운영관리는 고객의 선택, 실행, 지속적으로 유지하는 데 있어 편견 없는 자문을 제공하여 고객이 부동산 자산을 주도적이고 전향적으로 관리할 수 있도록 지원합니다.</p>
       </div>
-      <div class="col-xs-10">
-        <p>
-          <strong ng-if="pConstruct.selectedItem.desc">{{pConstruct.selectedItem.desc}}</strong>
-        </p>
-        <p class="prodCategory" ng-if="pConstruct.selectedItem.services.length > 0">서비스 영역:</p>
-        <ul ng-if="pConstruct.selectedItem.services.length > 0">
-          <li ng-repeat="service in pConstruct.selectedItem.services">{{service}}</li>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="prodCategory" ng-if="prod.services.length > 0">서비스 영역:</p>
+        <ul ng-if="prod.services.length > 0">
+          <li ng-repeat="service in prod.services">{{service}}</li>
         </ul>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-xs-12">
-        <div ng-bind-html="pConstruct.selectedItem.descSrc"></div>
-      </div>
-    </div>
   </div>
+
 </div>

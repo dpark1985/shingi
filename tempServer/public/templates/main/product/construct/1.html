@@ -1,36 +1,38 @@
-<div class="content">
-  <div class="row header" ng-if="!pConstruct.subSubMenuOn">
+<div class="content marginBottom20">
+
+  <div ng-if="!pConstruct.subSubMenuOn" class="row marginTop20">
+    <img class="flagImg" src="images/icons/flag2.png">
     <div class="col-xs-12">
-      <img src="images/icons/picture2.png">
-      <a href="cr/contact"><img src="images/icons/picture1.png"></a>
-      <a href="cr/inquiry"><img src="images/icons/picture3.png"></a>
-    </div>
-    <div class="col-xs-8">
-      <div class="well well-lg">
-        <p><strong>축적된 통신공사 노하우 및 전문인력을 기반으로 최고의 서비스를 제공합니다.</strong></p>
-        <p>정보통신설비의 설치 및 유지보수에 관한 공사와 이에 따르는 부대공사로 유선, 무선, 광선 및 그 밖의 전자적 방식으로 부호, 문자, 음향 또는 영상 등의 정보를 처리하거나 송수신하기 위한 설비를 설치하는 공사입니다.<p>
+      <div class="well well-lg flagBgColor3">
+        <h2>축적된 <span class="colorGreen">통 신 공 사</span> 노하우 및 전문인력을 기반으로 <br>최고의 서비스를 제공합니다.</h2>
+        <p>정보통신설비의 설치 및 유지보수에 관한 공사와 이에 따르는 부대공사로 유선, 무선, 광선 및 그 밖의 전자적 방식으로 부호, 문자, 음향 또는 영상 등의 정보를 처리하거나 송수신하기 위한 설비를 설치하는 공사입니다.</p>
+        <div>
+          <a class="floatRight marginRight10" href="#cr/contact">문의사항</a>
+        </div>
       </div>
-    </div>
-    <div class="col-xs-4 single">
-      <div>
-        <h4>Telecommunication Construction</h4>
-      </div>
-      <img src="images/product/construct/1/Picture1.png">
     </div>
   </div>
 
-  <div ng-if="!pConstruct.subSubMenuOn" class="row prodList" ng-repeat="prod in pConstruct.commConstruct" ng-click="pConstruct.selectProduct(prod)" ng-style="pConstruct.cursorStyle">
-    <div class="col-xs-2">
-      <img ng-src="{{prod.imgSrc}}">
+  <div class="" ng-if="!pConstruct.subSubMenuOn" ng-repeat="prod in pConstruct.dataSet.data" ng-style="pConstruct.cursorStyle">
+    <div class="row">
+      <div class="col-xs-12">
+        <img class="width100" src="images/product/construct/1/Picture6.png">
+      </div>
     </div>
-    <div class="col-xs-10">
-      <p>
-        <strong ng-if="prod.desc">{{prod.desc}}</strong>
-      </p>
-      <p class="prodCategory" ng-if="prod.services.length > 0">서비스 영역:</p>
-      <ul ng-if="prod.services.length > 0">
-        <li ng-repeat="service in prod.services">{{service}}</li>
-      </ul>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <p>다양한 분야의 산업을 대상으로 통신 설비, 방송설비, 구내 통신설비 등의 전문적인 경험과 역량을 축적하였으며, 이를 통해 폭 넓게 사업 범위를 확장해 나가고 있습니다.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="prodCategory" ng-if="prod.services.length > 0">서비스 영역:</p>
+        <ul ng-if="prod.services.length > 0">
+          <li ng-repeat="service in prod.services">{{service}}</li>
+        </ul>
+      </div>
     </div>
   </div>
 

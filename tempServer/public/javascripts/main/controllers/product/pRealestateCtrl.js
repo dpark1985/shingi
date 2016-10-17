@@ -6,8 +6,8 @@ var h3Framework = angular.module('h3Framework')
 	// cable menu config
 	$pRealestate.routeConfig = [
 		{name: '투자자문',	enName: "investRE", templateUrl: 'templates/main/product/re/0.html', active: true},
-		{name: '구조화 서비스', enName: "structureRE", templateUrl: 'templates/main/product/re/0.html', active: false},
-		{name: '운영관리', enName: "mgmtRE", templateUrl: 'templates/main/product/re/0.html', active: false},
+		{name: '구조화 서비스', enName: "structureRE", templateUrl: 'templates/main/product/re/1.html', active: false},
+		{name: '운영관리', enName: "mgmtRE", templateUrl: 'templates/main/product/re/2.html', active: false},
 		// {name: '기타', enName: "otherRe", templateUrl: 'templates/main/product/re/3.html', active: false}
 	];
 
