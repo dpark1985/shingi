@@ -16,7 +16,7 @@ var h3FrameworkProviders = angular.module('h3FrameworkProviders')
 	];
 
   var jobList = [
-    {id: "job001", index: "1", title: "[경력][2016년] 인재Pool", subTitle: "접수기간: 2016.01.04 ~ 2016.12.31", status: 1, date: "2016-01-01", author: "관리자", desc: "<p>신기씨엔에스에서는 우수 인재 채용을 위하여 상시적으로 인재를 모집하고 있습니다.</p><p>직무에 대한 내용을 채용안내에서 확인하시고, 아래 이메일 주소로 자기소개서 및 이력서를 보내주시면 됩니다.</p><br><br><p>이메일: <a href='mailto:smpark@sgcns.com'>smpark@sgcns.com</a></p><p>채용문의: 02.539.4144</p>", imgSrc: "http://dummyimage.com/50x50/2e62b3/fff&text=EX"},
+    {id: "job001", index: "1", title: "[경력][2016년] 인재Pool", subTitle: "접수기간: 2016.01.04 ~ 2016.12.31", status: 1, date: "2016-01-01", author: "관리자", desc: "<p>신기씨엔에스에서는 우수 인재 채용을 위하여 상시적으로 인재를 모집하고 있습니다.</p><p>직무에 대한 내용을 채용안내에서 확인하시고, 아래 이메일 주소로 자기소개서 및 이력서를 보내주시면 됩니다.</p><br><br><p>이메일: <a href='mailto:smpark@sgcns.com'>smpark@sgcns.com</a></p><p>채용문의: 02.539.4144</p>", imgSrc: "images/icons/job_icon1.png"},
 	];
 
   return {

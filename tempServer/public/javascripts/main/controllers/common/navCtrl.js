@@ -14,7 +14,7 @@ var h3Framework = angular.module('h3Framework')
 
 	/*	menu & submenu config	*/
 	$nav.routeConfig = [
-		{name:"회사소개", marginTop:"1px", active: false, subMenu: {
+		{name:"회사소개",  active: false, subMenu: {
 			imgSrc: "/images/banner/left-banner1.png",
 			routeConfig: [
 				{href:"/intro/ceo", 							name:"CEO 인사말", active: false},
@@ -26,7 +26,7 @@ var h3Framework = angular.module('h3Framework')
 				{href:"/intro/location", 				name:"오시는길", active: false}
 			]
 		}},
-		{name:"사업분야", marginTop:"51px", active: false, subMenu: {
+		{name:"사업분야", active: false, subMenu: {
 			imgSrc: "/images/banner/left-banner2.png",
 			routeConfig: [
 				{href:"/business/cable", 				name:"케이블사업부", active: false},
@@ -35,7 +35,7 @@ var h3Framework = angular.module('h3Framework')
 				{href:"/business/realestate", 		name:"부동산사업부", active: false}
 			]
 		}},
-		{name:"제품소개", marginTop:"101px", active: false, subMenu: {
+		{name:"제품소개", active: false, subMenu: {
 			imgSrc: "/images/banner/left-banner3.png",
 			routeConfig: [
 				{href:"/product/cable", 					name:"케이블사업제품", active: false},
@@ -44,7 +44,7 @@ var h3Framework = angular.module('h3Framework')
 				{href:"/product/realestate", 		name:"부동산사업제품", active: false}
 			]
 		}},
-		{name:"기업홍보", marginTop:"151px", active: false, subMenu: {
+		{name:"기업홍보", active: false, subMenu: {
 			imgSrc: "/images/banner/left-banner4.png",
 			routeConfig: [
 				{href:"/pr/management", 					name:"윤리경영", active: false},
@@ -52,7 +52,7 @@ var h3Framework = angular.module('h3Framework')
 				{href:"/pr/iso", 								name:"ISO인증서", active: false}
 			]
 		}},
-		{name:"고객지원", marginTop:"201px", active: false, subMenu: {
+		{name:"고객지원", active: false, subMenu: {
 			imgSrc: "/images/banner/left-banner5.png",
 			routeConfig: [
 				{href:"/cr/contact", 						name:"연락처", active: false},
@@ -104,6 +104,18 @@ var h3Framework = angular.module('h3Framework')
 		subMenu.active = true;
 		$location.path(subMenu.href);
 		$scope.mainContentStyle = {'margin':'0 190px 0 325px'};
+	};
+
+	$nav.extraLinkClick = function() {
+
+		$nav.clearMainMenuActive();
+		$nav.menuClicked = true;
+		$nav.subMenu = {
+			imgSrc: "/images/banner/left-banner6.png"
+		};
+		$nav.mainMenu = {name:"", active: false, subMenu: {
+			imgSrc: "/images/banner/left-banner6.png"
+		}};
 	};
 
 	// Logo Click

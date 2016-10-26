@@ -46,36 +46,25 @@ a,
 a:link,
 a:active,
 a:visited {
-    color: #7d7d7d;
+    color: rgb(87, 87, 87);
     border: 0px;
+    text-decoration: none;
 }
 a:hover {
     color: #000;
-}
-
-.padding0 {
-  padding: 0;
-}
-
-.padding10 {
-  padding: 10px;
-}
-
-.border0 {
-  border: 0;
 }
 
 div.pageTitle {
     padding-top: 25px;
     /*padding-top: 100px;*/
     /*margin-bottom: 45px;*/
-    padding-bottom: 26px;
+    padding-bottom: 35px;
     border-bottom: 1px solid #d3d3d3;
 }
 div.pageTitle h1 {
     color: #464646;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 22px;
 }
 div.pageTitle div.decoLine {
     width: 50px;
@@ -86,7 +75,7 @@ div.breadCrumb {
     height: 28px;
     position: relative;
     right: 0;
-    top: -60px;
+    top: -68px;
 }
 div.breadCrumb ul {
     list-style-type: none;
@@ -129,7 +118,14 @@ p {
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 20px;
+}
+
+pre.privacy {
+  overflow: inherit;
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
 }
 
 .noULstyle {
@@ -141,12 +137,47 @@ h2 {
     align-items: center;
 }
 
+.verticalCenter2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bgColor1 {
+    background-color: #f3f3f3;
+}
+
+.marginLeft80 {
+    margin-left: 80px;
+}
+
+.marginCenter {
+    margin: 0 auto;
+}
+
 .white {
     color: #fff;
 }
 
 .noLines {
     border: 0;
+}
+
+.padding0 {
+  padding: 0;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.paddingLeft100 {
+    padding-left: 100px;
+}
+
+.paddingRight100 {
+    padding-right: 100px;
 }
 
 .floatLeft {
@@ -177,16 +208,40 @@ h2 {
     color: rgb(129, 188, 0);
 }
 
-.fontSize15 {
-    font-size: 15px;
-}
-
 .fontSize10 {
     font-size: 10px;
 }
 
+.fontSize15 {
+    font-size: 15px;
+}
+
+.fontSize20 {
+    font-size: 20px;
+}
+
+.fontSize30 {
+    font-size: 30px;
+}
+
 .fontBod {
     font-weight: bold;
+}
+
+.fontWeight200 {
+    font-weight: 200;
+}
+
+.border0 {
+    border: 0;
+}
+
+.border1 {
+    border: 1px solid rgb(242, 242, 242);
+}
+
+.borderBottom1 {
+    border-bottom: 1px solid #ccc;
 }
 
 .width100 {
@@ -203,6 +258,10 @@ h2 {
 
 .width40 {
     width: 40%;
+}
+
+.width9 {
+    width: 9%;
 }
 
 .marginTop10 {
@@ -229,6 +288,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+.marginBottom50 {
+    margin-bottom: 50px;
+}
+
 .marginRight10 {
     margin-right: 10px;
 }
@@ -240,4 +303,13 @@ h2 {
 
 .bgPattern {
     background-image: url('../../images/bg/bgPattern.png');
+}
+
+.fillHeight100 {
+    height: 100%;
+    position: relative;
+}
+
+.positionR {
+    position: relative;
 }

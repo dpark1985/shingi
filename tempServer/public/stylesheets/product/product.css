@@ -125,9 +125,6 @@ div.product div.content div.subSubMenu {
 div.product div.content div.subSubMenu div.col-xs-2 img {
     width: 100%;
 }
-div.product div.content div.subSubMenu div.col-xs-12 {
-    margin-top: 20px;
-}
 div.product div.content div.subSubMenu strong {
     font-size: 14px;
 }
@@ -135,7 +132,7 @@ div.product div.content div.subSubMenu strong {
 div.desc table thead tr th {
     text-align: center;
     vertical-align: middle;
-    background-color: #efefef;
+    background-color: rgb(242, 242, 242);
 }
 div.desc h1 {
   font-size: 16px;
@@ -144,4 +141,14 @@ div.desc h1 {
 div.desc table tbody tr td {
     text-align: center;
     vertical-align: middle;
+}
+
+.evenImage {
+  position: absolute;
+  left: 40px;
+}
+
+.oddImage {
+  position: absolute;
+  left: 550px;
 }

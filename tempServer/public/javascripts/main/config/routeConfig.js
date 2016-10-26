@@ -38,7 +38,11 @@ var h3Framework = angular.module('h3Framework')
 			{path: '/cr/contact', 						templateUrl: 'templates/main/cr/contact.html', 						controller: 'contactCtrl', 			controllerAs: 'contact'},
 			{path: '/cr/inquiry', 						templateUrl: 'templates/main/cr/inquiry.html', 						controller: 'inquiryCtrl', 			controllerAs: 'inquiry'},
 			{path: '/cr/notice', 							templateUrl: 'templates/main/cr/notice.html', 						controller: 'noticeCtrl', 			controllerAs: 'notice'},
-			{path: '/cr/notice/:noticeId',		templateUrl: 'templates/main/cr/noticeDetail.html', 			controller: 'noticeCtrl', 			controllerAs: 'notice'}
+			{path: '/cr/notice/:noticeId',		templateUrl: 'templates/main/cr/noticeDetail.html', 			controller: 'noticeCtrl', 			controllerAs: 'notice'},
+
+			/*	Extra Links */
+			{path: '/extra/privacy',					templateUrl: 'templates/main/cr/privacy.html', 						controller: '', 			controllerAs: ''},
+			{path: '/extra/sitemap',					templateUrl: 'templates/main/cr/siteMap.html', 						controller: '', 			controllerAs: ''}
 		];
 
 		// var enRouteConfig = [

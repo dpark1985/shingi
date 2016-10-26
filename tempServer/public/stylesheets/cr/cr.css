@@ -28,7 +28,6 @@ div.contact table tr td {
 div.cr div.content {} div.cr div.content h1 {
     font-size: 20px;
     font-weight: bold;
-    color: #464646;
 }
 div.cr div.content h2 {
     font-size: 14px;
@@ -114,7 +113,6 @@ div.notice table.noticeDetail thead tr td {
     background-color: #fff;
     text-align: center;
 }
-
 div.notice table.noticeDetail tbody tr td {
     background-color: #fff;
     text-align: center;

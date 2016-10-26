@@ -73,7 +73,7 @@ var h3Framework = angular.module('h3Framework')
 			{
 				prodID: "101",
 				name: "RUNWAY & TAXIWAY INSET LIGHTS",	//제품 이름
-				desc: ["xxxxxx"],				//제품 이름2
+				desc: ["활주로 및 유도로 인셋 조명"],				//제품 이름2
 				desc2: ["Eaton's inset airfield lights are designed to produce high quality light output, be energy-efficient and reliable on the airfield.  Location, color and intensity are all important to the pilot when determining his position on the airfield."],	// 제품설명
 				descSrc: null,
 				imgSrc: "images/product/trade/0/Picture2.png"
@@ -81,7 +81,7 @@ var h3Framework = angular.module('h3Framework')
 			{
 				prodID: "102",
 				name: "Runway & Taxiway Elevated Lights",	//제품 이름
-				desc: ["xxxxxx"],				//제품 이름2
+				desc: ["활주로 및 유도로 인셋 조명"],				//제품 이름2
 				desc2: ["Eaton's elevated airfield lights are designed to be durable, energy-efficient and reliable on the airfield.  These lights are designed to last and hold up to the elements"],	// 제품설명
 				descSrc: null,
 				imgSrc: "images/product/trade/0/Picture3.png"
@@ -89,7 +89,7 @@ var h3Framework = angular.module('h3Framework')
 			{
 				prodID: "103",
 				name: "Airport Light Bases",	//제품 이름
-				desc: ["xxxxxx"],				//제품 이름2
+				desc: ["활주로 및 유도로"],				//제품 이름2
 				desc2: ["There are a variety of bases to which airport lights may be mounted.  These bases are designed for locations that are exposed to aircraft and vehicles."],	// 제품설명
 				descSrc: null,
 				imgSrc: "images/product/trade/0/Picture4.png"
@@ -97,7 +97,7 @@ var h3Framework = angular.module('h3Framework')
 			{
 				prodID: "104",
 				name: "Approach & Navigational Aids",	//제품 이름
-				desc: ["xxxxxx"],				//제품 이름2
+				desc: ["활주로 및 유도로 인셋 조명"],				//제품 이름2
 				desc2: ["Designed to aid the pilot in visual landings, a combination of lights from PAPI to approach and threshold lights are required to visually identify the runway."],	// 제품설명
 				descSrc: null,
 				imgSrc: "images/product/trade/0/Picture5.png"
@@ -105,7 +105,7 @@ var h3Framework = angular.module('h3Framework')
 			{
 				prodID: "105",
 				name: "Guidance Signs",	//제품 이름
-				desc: ["xxxxxx"],				//제품 이름2
+				desc: ["활주로 및 유도로 인셋 조명"],				//제품 이름2
 				desc2: ["The safe and efficient movement of aircraft around the airfield is of para­mount importance.  The FAA and ICAO have set color, intensity, perfor­mance and location standards for all airfield guidance signs."],	// 제품설명
 				descSrc: null,
 				imgSrc: "images/product/trade/0/Picture6.png"
@@ -153,7 +153,7 @@ var h3Framework = angular.module('h3Framework')
 			{
 				prodID: "111",
 				name: "Tools & Accessoris",	//제품 이름
-				desc: ["xxxxxx"],				//제품 이름2
+				desc: ["기타 제품"],				//제품 이름2
 				desc2: ["The safe and efficient maintenance of the airfield is of the highest importance to ensure the airfield continues to run properly.  Tools and accessories are sold to help diagnose and repair products on the airfield and in the lighting vault.  Taxiway reflective markers are used to mark the edges of taxiways and ramps at airports and heliports."],	// 제품설명
 				descSrc: null,
 				imgSrc: "images/product/trade/0/Picture12.png"
