@@ -40,42 +40,8 @@
     </div>
   </div>
 
-<!--
-  <div ng-if="!pCable.subSubMenuOn" class="row prodList" ng-repeat="prod in pCable.dataSet.data" ng-click="pCable.selectProduct(prod)">
-    <div class="col-xs-12">
-      <div class="prodTitle padding10">
-        <p class="white" ng-if="prod.name">
-          <strong>{{prod.name}}</strong>
-        </p>
-        <ul class="noULstyle padding0" ng-if="prod.desc">
-          <li ng-repeat="desc in prod.desc">{{desc}}</li>
-        </ul>
-      </div>
-      <div class="row row-eq-height">
-        <div class="col-xs-2 verticalCenter">
-          <img ng-src="{{prod.imgSrc}}">
-        </div>
-        <div class="col-xs-10">
-          <p class="prodCategory" ng-if="prod.usage">적용 범위</p>
-          <ul ng-if="prod.usage">
-            <li ng-repeat="usage in prod.usage">{{usage}}</li>
-          </ul>
-          <p class="prodCategory" ng-if="prod.std">적용 규격</p>
-          <ul ng-if="prod.std" ng-repeat="std in prod.std">
-            <li>{{std.stdName}}</li>
-            <li class="noULstyle" ng-if="std.desc">
-              <ul>
-                <li ng-repeat="desc in std.desc">{{desc}}</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
   <div ng-if="pCable.subSubMenuOn" class="prodList subSubMenu">
-    <div class="row">
+    <div class="row perfectWidth">
       <div class="col-xs-12 prodBgColor">
         <h2 class="paddingLeft100" ng-if="pCable.selectedItem.name">
           <strong>{{pCable.selectedItem.name}}</strong>
@@ -87,11 +53,11 @@
       <img class="evenImage width9" ng-src="{{pCable.selectedItem.imgSrc}}">
     </div>
 
-    <div class="row">
+    <div class="row perfectWidth">
       <div class="col-xs-offset-3 col-xs-9">
-        <div class="row border1 marginTop10 fillHeight100 ">
+        <div class="row border1 marginTop10 fillHeight100 " ng-if="pCable.selectedItem.usage">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter" ng-if="pCable.selectedItem.usage">적용<br>범위</p>
+            <p class="prodCategory textAlignCenter marginCenter" >적용<br>범위</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10" ng-if="pCable.selectedItem.usage">
@@ -99,9 +65,9 @@
             </ul>
           </div>
         </div>
-        <div class="row border1 marginTop10 fillHeight100 ">
+        <div class="row border1 marginTop10 fillHeight100 " ng-if="pCable.selectedItem.std">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter" ng-if="pCable.selectedItem.std">적용<br>규격</p>
+            <p class="prodCategory textAlignCenter marginCenter" >적용<br>규격</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10" ng-if="pCable.selectedItem.std" ng-repeat="std in pCable.selectedItem.std">
@@ -114,9 +80,9 @@
             </ul>
           </div>
         </div>
-        <div class="row border1 marginTop10 fillHeight100 ">
+        <div class="row border1 marginTop10 fillHeight100 " ng-if="pCable.selectedItem.materials.conductor || pCable.selectedItem.materials.internal || pCable.selectedItem.materials.insulation || pCable.selectedItem.materials.external || pCable.selectedItem.materials.neutralConductor || pCable.selectedItem.materials.daeyeon || pCable.selectedItem.materials.shielding || pCable.selectedItem.materials.alliance || pCable.selectedItem.materials.sheath">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter" ng-if="pCable.selectedItem.materials.conductor || pCable.selectedItem.materials.internal || pCable.selectedItem.materials.insulation || pCable.selectedItem.materials.external || pCable.selectedItem.materials.neutralConductor || pCable.selectedItem.materials.daeyeon || pCable.selectedItem.materials.shielding || pCable.selectedItem.materials.alliance || pCable.selectedItem.materials.sheath">재료 및<br>구조</p>
+            <p class="prodCategory textAlignCenter marginCenter" >재료 및<br>구조</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10" ng-if="pCable.selectedItem.materials.conductor || pCable.selectedItem.materials.internal || pCable.selectedItem.materials.insulation || pCable.selectedItem.materials.external || pCable.selectedItem.materials.neutralConductor || pCable.selectedItem.materials.daeyeon || pCable.selectedItem.materials.shielding || pCable.selectedItem.materials.alliance || pCable.selectedItem.materials.sheath">
@@ -135,9 +101,9 @@
             </ul>
           </div>
         </div>
-        <div class="row border1 marginTop10 fillHeight100 ">
+        <div class="row border1 marginTop10 fillHeight100" ng-if="pCable.selectedItem.color">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter" ng-if="pCable.selectedItem.color">색상</p>
+            <p class="prodCategory textAlignCenter marginCenter">색상</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10" ng-if="pCable.selectedItem.color">
@@ -145,9 +111,9 @@
             </ul>
           </div>
         </div>
-        <div class="row border1 marginTop10 fillHeight100 ">
+        <div class="row border1 marginTop10 fillHeight100 " ng-if="pCable.selectedItem.prdStd.kc || pCable.selectedItem.prdStd.k || pCable.selectedItem.prdStd.em">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter" ng-if="pCable.selectedItem.prdStd.kc || pCable.selectedItem.prdStd.k || pCable.selectedItem.prdStd.em">제품<br>규격</p>
+            <p class="prodCategory textAlignCenter marginCenter">제품<br>규격</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10" ng-if="pCable.selectedItem.prdStd.kc || pCable.selectedItem.prdStd.k || pCable.selectedItem.prdStd.em">
@@ -157,14 +123,11 @@
             </ul>
           </div>
         </div>
-
       </div>
     </div>
 
-
-
-    <div class="row marginTop50">
-      <div class="col-xs-12">
+    <div class="row perfectWidth marginTop50">
+      <div class="col-xs-12 padding0">
         <div class="desc" ng-bind-html="pCable.selectedItem.descSrc"></div>
       </div>
     </div>

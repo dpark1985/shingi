@@ -107,7 +107,6 @@ var h3Framework = angular.module('h3Framework')
 	};
 
 	$nav.extraLinkClick = function() {
-
 		$nav.clearMainMenuActive();
 		$nav.menuClicked = true;
 		$nav.subMenu = {

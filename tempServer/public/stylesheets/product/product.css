@@ -152,3 +152,8 @@ div.desc table tbody tr td {
   position: absolute;
   left: 550px;
 }
+
+.perfectWidth {
+    width: 100%;
+    margin: 0;
+}
