@@ -100,7 +100,7 @@ var h3Framework = angular.module('h3Framework')
 		title: "Transaction Advisory",
 		header: {
 			strongTxt: "풍부한 부동산 경험 및 최적의 맞춤형 컨설팅을 통해 최고의 자산 자문 및 관리 서비스를 제공합니다.",
-			defaultTxt: "부실자산 시장으로 업무영역을 확장한 신기씨엔에스는 매출구조를 다변화하고 고객들에게 새로운 투자기회를 제공하기 위해 노력하고 있습니다. 고객에게 부동산 및 법인 수준의 금융 상품과 자문 서비스를 제공합니다.",
+			defaultTxt: "부실자산 시장으로 업무영역을 확장한 신기씨앤에스는 매출구조를 다변화하고 고객들에게 새로운 투자기회를 제공하기 위해 노력하고 있습니다. 고객에게 부동산 및 법인 수준의 금융 상품과 자문 서비스를 제공합니다.",
 			imgSrc: "images/product/re/1/Picture1.png"
 		},
 		data: [{

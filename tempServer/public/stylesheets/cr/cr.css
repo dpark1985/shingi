@@ -88,7 +88,7 @@ div.notice table tr {
     cursor: pointer;
 }
 div.notice table tr:first-child td {
-    font-weight: bold;
+    /*font-weight: bold;*/
     border-top: 2px solid #8c8c8c;
 }
 div.notice table tr:last-child td {

@@ -85,7 +85,7 @@ div.sideMenu div.extraLinks div.brochure {
     cursor: pointer;
 }
 div.sideMenu div.extraLinks div.misc {
-    margin-top: 20px;
+    margin-top: 8px;
 }
 div.sideMenu div.extraLinks div.misc ul {
     padding-left: 20px;
@@ -134,7 +134,7 @@ div.sideSubMenu div.title {
 }
 div.sideSubMenu div.title h1 {
     color: rgb(87, 87, 87);
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     margin: 0;

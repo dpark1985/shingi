@@ -145,7 +145,7 @@ var h3Framework = angular.module('h3Framework')
 			{
 				prodID: "110",
 				name: "Utility Lights",	//제품 이름
-				desc: ["xxxxxx"],				//제품 이름2
+				desc: ["유틸리티 조명"],				//제품 이름2
 				desc2: ["Utility lights are used in a variety of general lighting applications, such as boundary markings, apron areas, heliport applications and alternate traffic areas."],	// 제품설명
 				descSrc: null,
 				imgSrc: "images/product/trade/0/Picture11.png"

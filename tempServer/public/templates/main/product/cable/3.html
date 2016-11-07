@@ -15,21 +15,32 @@
   </div>
 
   <div ng-if="!pCable.subSubMenuOn" class="prodList marginLeftRight15 marginBottom50" ng-repeat="prod in pCable.dataSet.data" ng-click="pCable.selectProduct(prod)">
-    <div class="row">
+    <div ng-if="$even" class="row">
       <div class="col-xs-12 prodBgColor">
         <h2 class="paddingLeft100" ng-if="prod.name">
           <strong>{{prod.name}}</strong>
         </h2>
         <ul class="noULstyle padding0 paddingLeft100" ng-if="prod.desc">
-          <li ng-repeat="desc in prod.desc">{{desc}}</li>
+          <li ng-repeat="desc in prod.desc" class="paddingRight100">{{desc}}</li>
         </ul>
       </div>
       <img class="evenImage width9" ng-src="{{prod.imgSrc}}">
     </div>
+
+    <div ng-if="$odd" class="row">
+      <div class="col-xs-12 prodBgColor">
+        <h2 class="textAlignRight paddingRight100" ng-if="prod.name">
+          <strong>{{prod.name}}</strong>
+        </h2>
+        <ul class="noULstyle textAlignRight padding0 paddingRight100" ng-if="prod.desc">
+          <li ng-repeat="desc in prod.desc" class="paddingLeft100">{{desc}}</li>
+        </ul>
+      </div>
+      <img class="oddImage width9" ng-src="{{prod.imgSrc}}">
+    </div>
   </div>
 
   <div ng-if="pCable.subSubMenuOn" class="prodList subSubMenu">
-
     <div class="row perfectWidth">
       <div class="col-xs-12 prodBgColor">
         <h2 class="paddingLeft100" ng-if="pCable.selectedItem.name">

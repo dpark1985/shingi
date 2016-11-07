@@ -30,7 +30,7 @@
       </tr>
     </thead>
     <tr>
-      <td colspan="4">{{notice.selectedItem.desc}}</td>
+      <td colspan="4" ng-bind-html="notice.selectedItem.desc"></td>
     </tr>
   </table>
   <button class="btn btn-darker" type="button" ng-click="notice.toBack()">목록</button>

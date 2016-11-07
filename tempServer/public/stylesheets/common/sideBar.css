@@ -1,24 +1,23 @@
-div.sideBar {
+ul.sideBar {
   height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-div.sideBar div.side1 {
+ul.sideBar li.side1 {
   height: 50%;
-  background-color: red;
-  cursor: pointer;
-  background-image: url("../../images/banner/hiring.png");
 }
 
-div.sideBar div.side2 {
+ul.sideBar li.side2 {
   height: 25%;
-  background-color: blue;
-  cursor: pointer;
-  background-image: url("../../images/banner/contact.png");
 }
 
-div.sideBar div.side3 {
+ul.sideBar li.side3 {
   height: 25%;
-  background-color: yellow;
-  cursor: pointer;
-  background-image: url("../../images/banner/inquiry.png");
+}
+
+ul.sideBar li a img {
+  height: 100%;
+  width: 100%;
 }

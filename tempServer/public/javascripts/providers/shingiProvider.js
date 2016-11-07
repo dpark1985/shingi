@@ -4,19 +4,11 @@ var h3FrameworkProviders = angular.module('h3FrameworkProviders')
 
 
   var noticeList = [
-		{id: "notice001", index: "1", title: "필리핀 부수양가 공항준공1", date: "2015-12-03", visits: "455", author: "관리자", desc: ""},
-		{id: "notice002", index: "2", title: "필리핀 부수양가 공항준공2", date: "2015-12-03", visits: "455", author: "관리자", desc: ""},
-		{id: "notice003", index: "3", title: "필리핀 부수양가 공항준공3", date: "2015-12-03", visits: "455", author: "관리자", desc: ""},
-		{id: "notice004", index: "4", title: "필리핀 부수양가 공항준공4", date: "2015-12-03", visits: "455", author: "관리자", desc: ""},
-    {id: "notice005", index: "5", title: "필리핀 부수양가 공항준공5", date: "2015-12-03", visits: "455", author: "관리자", desc: ""},
-		{id: "notice006", index: "6", title: "필리핀 부수양가 공항준공6", date: "2015-12-03", visits: "455", author: "관리자", desc: ""},
-    {id: "notice007", index: "7", title: "필리핀 부수양가 공항준공7", date: "2015-12-03", visits: "455", author: "관리자", desc: ""},
-    {id: "notice008", index: "8", title: "필리핀 부수양가 공항준공8", date: "2015-12-03", visits: "455", author: "관리자", desc: ""},
-		{id: "notice009", index: "9", title: "필리핀 부수양가 공항준공9", date: "2015-12-03", visits: "455", author: "관리자", desc: ""}
+		{id: "notice001", index: "1", title: "홈페이지 오픈", date: "2015-12-03", visits: "455", author: "관리자", desc: "지속적인 관심과 사랑에 보답하기 위해 신기씨앤에스 공식 홈페이지를 오픈 하였습니다.<br><br>고객의 신뢰와 가치 극대화를 위해 최선의 노력을 하고 있으며, 기본과 원칙을 지키며 변화와 혁신을 거듭하는 기업이 되겠습니다.<br><br>감사합니다."},
 	];
 
   var jobList = [
-    {id: "job001", index: "1", title: "[경력][2016년] 인재Pool", subTitle: "접수기간: 2016.01.04 ~ 2016.12.31", status: 1, date: "2016-01-01", author: "관리자", desc: "<p>신기씨엔에스에서는 우수 인재 채용을 위하여 상시적으로 인재를 모집하고 있습니다.</p><p>직무에 대한 내용을 채용안내에서 확인하시고, 아래 이메일 주소로 자기소개서 및 이력서를 보내주시면 됩니다.</p><br><br><p>이메일: <a href='mailto:smpark@sgcns.com'>smpark@sgcns.com</a></p><p>채용문의: 02.539.4144</p>", imgSrc: "images/icons/job_icon1.png"},
+    {id: "job001", index: "1", title: "[경력][2016년] 인재Pool", subTitle: "접수기간: 2016.01.04 ~ 2016.12.31", status: 1, date: "2016-01-01", author: "관리자", desc: "<p>신기씨엔에스에서는 우수 인재 채용을 위하여 상시적으로 인재를 모집하고 있습니다.</p><p>직무에 대한 내용을 채용안내에서 확인하시고, 아래 이메일 주소로 자기소개서 및 이력서를 보내주시면 됩니다.</p><br><br><br><br><p>이메일: <a href='mailto:smpark@sgcns.com'>smpark@sgcns.com</a></p><p>채용문의: 02.539.4144</p>", imgSrc: "images/icons/job_icon1.png"},
 	];
 
   return {

@@ -6,15 +6,13 @@ div.intro {
     background-size: 75% 154px;*/
     height: 100%;
     padding: 0 450px 40px 40px;
-    /*overflow: auto;*/
+    /*신기씨앤에스w: auto;*/
 }
-
-div.ceo {}
-div.ceo div.content {}
 div.ceo div.content p:first-child {
     font-size: 21px;
     color: #555;
     line-height: 36px;
+    margin-top: 10px;
 }
 div.ceo div.content p:first-child span {
     color: #0b4da2;
@@ -22,7 +20,7 @@ div.ceo div.content p:first-child span {
     font-weight: bold;
 }
 div.ceo div.content p {
-    font-size: 13px;
+    /*font-size: 13px;*/
     line-height: 24px;
     margin-top: 25px;
 }
@@ -43,20 +41,21 @@ div.ceo div.content div.signature h2 {
     font-weight: bold;
     margin: 0 0 20px 0;
 }
-div.info {}
-div.info div.content {}
 div.info div.content p:first-child {
     font-size: 21px;
     font-weight: bold;
-    color: #000;
+    margin-top: 10px;
 }
 div.info div.content p {
-    font-size: 13px;
-    line-height: 24px;
     margin-top: 25px;
+    font-size: 15px;
 }
 
-div.vision div.content div.top {} div.vision div.content div.top div.leftContent {
+div.vision div.content {
+    overflow: auto;
+    width: 100%;
+}
+div.vision div.content div.top div.leftContent {
     width: 60%;
     float: left;
 }
@@ -88,7 +87,7 @@ div.vision div.content h3 {
     font-weight: bold;
 }
 div.vision div.content div.mid div.topContent {
-    overflow: hidden;
+    신기씨앤에스w: hidden;
 }
 div.vision div.content div.mid div.topContent div.leftContent {
     padding-right: 25px;
@@ -185,6 +184,10 @@ div.vision div.content div.mid div.bottomContent div.rightContent span {
     font-size: 14px;
     border-top: 1px solid #e3e3e3;
 }
+div.history div.content {
+    overflow: auto;
+    width: 100%;
+}
 div.history div.content div.topContent div.leftContent {
     width: 60%;
     float: left;
@@ -208,7 +211,7 @@ div.history div.content div.topContent div.leftContent p {
     margin-top: 10px;
 }
 div.history div.content div.bottomContent {
-    overflow: auto;
+    신기씨앤에스w: auto;
 }
 div.history div.content div.bottomContent div.leftContent {
     width: 50%;
@@ -254,6 +257,10 @@ div.history div.content div.bottomContent div.rightContent span.year {
     color: #464646;
     font-weight: bold;
 }
+div.org div.content {
+  overflow: auto;
+  width: 100%;
+}
 div.org div.content p:first-child {
     font-size: 21px;
     font-weight: bold;
@@ -266,10 +273,9 @@ div.org div.content p {
     margin-top: 25px;
 }
 
-div.job {}
 div.job div.jobMenu {
+    width: 100%;
     overflow: auto;
-    margin-top: 25px;
 }
 div.job div.jobMenu ul {
     list-style-type: none;
@@ -297,7 +303,7 @@ div.job div.jobMenu ul li.active {
     background-color: rgb(129, 188, 0);
 }
 div.job div.content {} div.job div.content div.wrapper {
-    overflow: auto;
+    신기씨앤에스w: auto;
 }
 div.job div.content p {
     font-size: 13px;
@@ -318,7 +324,6 @@ div.job div.content h3 {
     font-weight: bold;
     color: #464646;
     clear: both;
-    margin-top: 40px;
 }
 div.job div.content h4 {
     color: #464646;
@@ -356,7 +361,7 @@ div.job div.content div.rightContent h3.italic {
     font-style: italic;
 }
 div.job div.content div.rightContent div.jobCore {
-    overflow: auto;
+    신기씨앤에스w: auto;
     float: left;
     padding-left: 10px;
     border-left: 3px solid #368eff;
@@ -410,7 +415,7 @@ div.job div.content table tr td span {
     font-size: 10px;
 }
 div.job div.content div.addressBlock {
-    overflow: auto;
+    신기씨앤에스w: auto;
 }
 div.job div.content div.addressBlock img {
     width: 10%;

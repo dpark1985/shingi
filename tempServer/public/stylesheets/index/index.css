@@ -51,7 +51,6 @@ ul.indexLinks li a:visited {
   color: #fff;
   text-align: center;
 }
-
 ul.indexLinks li a h2 {
   font-size: 16px;
   font-weight: bold;
@@ -65,4 +64,13 @@ ul.indexLinks li a h3 {
   color: rgb(180, 180, 180);
   text-align: center;
   margin: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #e37e37;
+  border: 1px solid #e37e37;
+}
+
+.carousel-indicators li {
+  background-color: #fff;
 }

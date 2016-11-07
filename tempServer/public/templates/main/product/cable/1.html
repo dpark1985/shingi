@@ -21,7 +21,7 @@
           <strong>{{prod.name}}</strong>
         </h2>
         <ul class="noULstyle padding0 paddingLeft100" ng-if="prod.desc">
-          <li ng-repeat="desc in prod.desc">{{desc}}</li>
+          <li ng-repeat="desc in prod.desc" class="paddingRight100">{{desc}}</li>
         </ul>
       </div>
       <img class="evenImage width9" ng-src="{{prod.imgSrc}}">
@@ -33,7 +33,7 @@
           <strong>{{prod.name}}</strong>
         </h2>
         <ul class="noULstyle textAlignRight padding0 paddingRight100" ng-if="prod.desc">
-          <li ng-repeat="desc in prod.desc">{{desc}}</li>
+          <li ng-repeat="desc in prod.desc" class="paddingLeft100">{{desc}}</li>
         </ul>
       </div>
       <img class="oddImage width9" ng-src="{{prod.imgSrc}}">
