@@ -8,7 +8,8 @@ div.sideMenu {
 }
 div.sideMenu div.header {
     background-color: #fff;
-    padding: 25px;
+    /*padding: 25px;*/
+    padding: 22px 15px;
 }
 div.sideMenu div.header img {
     width: 100%;
@@ -100,6 +101,7 @@ div.sideMenu div.info {
     font-size: 10px;
     position: absolute;
     width: 190px;
+    height: 306px;
     bottom: 0;
     background-color: #fff;
     border-right: 1px solid #e1e1e1;
@@ -111,12 +113,18 @@ div.sideMenu div.info img {
 
     filter: grayscale(100%);
 }
+div.sideMenu div.info ul {
+    list-style: none;
+    padding: 0;
+}
 div.sideMenu div.info address {
-    margin-top: 10px;
-    color: #918b8a;
+    margin-top: 20px;
+    /*color: #918b8a;*/
 }
 div.sideMenu div.info div.copyright {
-    color: #b7b7b7;
+    /*color: #b7b7b7;*/
+    position: absolute;
+    bottom: 10px;
 }
 div.sideSubMenu {
     position: fixed;

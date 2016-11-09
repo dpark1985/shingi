@@ -5,7 +5,7 @@ div.cr {
     background-attachment: local;
     background-size: 75% 154px;*/
     height: 100%;
-    padding: 0 450px 40px 40px;
+    padding: 0 0 40px 40px;
     /*overflow: auto;*/
 }
 div.contact table {
@@ -78,7 +78,7 @@ div.inquiry div.sendInquiry {
     text-align: center;
 }
 div.notice table {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 div.notice table tr {} div.notice table tr:first-child {
     background-color: rgb(242, 242, 242);

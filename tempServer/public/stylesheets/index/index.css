@@ -1,13 +1,8 @@
 div.index div.content {
-  width: 120%;
+  width: 100%;
   height: 100%;
-  margin-left: -135px;
-}
-
-@media (max-width: 1680px) {
-  div.index div.content {
-    padding: 0;
-  }
+  /*margin-left: -135px;*/
+  position: fixed;
 }
 
 div.index div.content img {
@@ -27,9 +22,27 @@ ul.indexLinks {
 
 @media (max-width: 1190px) {
   ul.indexLinks {
-    right: 0;
+    left: 950px;
+  }
+  div.index div.content {
+    padding: 0;
+    width: 1190px;
+  }
+  .slide {
+    width: 760px;
+    /*margin-right: 430px;*/
   }
 }
+
+@media (min-width: 1190px) {
+  .slide {
+    margin-right: 620px;
+  }
+  div.index div.content {
+    /*padding: 0;*/
+  }
+}
+
 
 ul.indexLinks li {
   width: 100%;
@@ -73,4 +86,37 @@ ul.indexLinks li a h3 {
 
 .carousel-indicators li {
   background-color: #fff;
+}
+
+
+.carousel-caption {
+  top: 5%;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+}
+
+.carousel-caption h2 {
+  text-align: left;
+  font-size: 50px;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.carousel-caption p {
+  color: #fff;
+  text-align: left;
+
+  margin-top: 20px;
+  text-align: right;
+  padding-right: 5%;
+  padding-left: 50%;
+}
+
+.carousel-indicators {
+  width: 10%;
+  margin-left: 0;
+  left:90%;
+  right:0;
 }

@@ -194,6 +194,10 @@ pre.privacy {
     padding: 0 5px;
 }
 
+.paddingWidthLeft20 {
+    padding: 0 0 0 20px;
+}
+
 .floatLeft {
     float: left;
 }
@@ -222,6 +226,10 @@ pre.privacy {
     color: rgb(129, 188, 0);
 }
 
+.colorWhite {
+    color: #fff;
+}
+
 .fontSize10 {
     font-size: 10px;
 }
@@ -238,8 +246,16 @@ pre.privacy {
     font-size: 20px;
 }
 
+.fontSize25 {
+    font-size: 25px;
+}
+
 .fontSize30 {
     font-size: 30px;
+}
+
+.fontStyleItalic {
+    font-style: italic;
 }
 
 .fontBod {
@@ -294,6 +310,10 @@ pre.privacy {
     margin-top: 20px;
 }
 
+.marginTop25 {
+    margin-top: 25px;
+}
+
 .marginTop50 {
     margin-top: 50px;
 }
@@ -308,6 +328,10 @@ pre.privacy {
 
 .marginBottom20 {
     margin-bottom: 20px;
+}
+
+.marginBottom25 {
+    margin-bottom: 25px;
 }
 
 .marginBottom50 {

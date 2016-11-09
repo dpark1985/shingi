@@ -10,17 +10,17 @@
       <li><i class="fa fa-home" aria-hidden="true"></i></li>
       <li>HOME</li>
       <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-      <li>회사소개</li>
+      <li>고객지원</li>
       <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
       <li>고객문의</li>
     </ul>
   </div>
 
-  <div class="content">
-    <h1>개인정보 보호를 위한 이용자 동의</h1>
+  <div class="content marginBottom50">
+    <h1 class="marginTop10">개인정보 보호를 위한 이용자 동의</h1>
     <h2>자세한 내용은 개인정보 취급방침을 확인해주세요.</h2>
 
-    <pre>
+<pre class="gothic">
 1. 개인정보의 수집 및 이용목적
 신기씨앤에스는 수집한 개인정보를 다음의 목적을 위해 활용합니다.
 - 서비스 제공을 위한 본인 식별 절차에 이용
@@ -31,9 +31,9 @@
 - 수집방법 : 홈페이지(고객문의, 채용문의, IR문의)
 3. 개인정보의 보유 및 이용기간
 원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 
-관계법령의 규정에 의하여 보존할 필요가 있는 경우 일진전기 아래와 같이 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.
-- 보존항목 : 이름, 이메일, 연락처
-    </pre>
+관계법령의 규정에 의하여 보존할 필요가 있는 경우 아래와 같이 관계법령에서 정한 일정한 기간 동안
+회원정보를 보관합니다.
+- 보존항목 : 이름, 이메일, 연락처</pre>
 
     <div class="radio">
       <label>
@@ -118,7 +118,7 @@
     </table>
 
     <div class="sendInquiry">
-      <button type="button" class="btn btn-primary" ng-click="inquiry.send()">보내기</button>
+      <a class="btn btn-primary" style="color: white;" ng-href="mailto:smpark@sgcns.com?Subject={{inquiry.formData.title}}" role="button">보내기</a>
     </div>
   </div>
 

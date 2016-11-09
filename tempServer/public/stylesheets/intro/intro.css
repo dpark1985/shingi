@@ -5,9 +5,11 @@ div.intro {
     background-attachment: local;
     background-size: 75% 154px;*/
     height: 100%;
-    padding: 0 450px 40px 40px;
+    padding: 0 0 40px 40px;
     /*신기씨앤에스w: auto;*/
 }
+
+
 div.ceo div.content p:first-child {
     font-size: 21px;
     color: #555;
@@ -48,11 +50,10 @@ div.info div.content p:first-child {
 }
 div.info div.content p {
     margin-top: 25px;
-    font-size: 15px;
 }
 
 div.vision div.content {
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
 }
 div.vision div.content div.top div.leftContent {
@@ -267,11 +268,6 @@ div.org div.content p:first-child {
     color: #555;
     line-height: 36px;
 }
-div.org div.content p {
-    font-size: 13px;
-    line-height: 24px;
-    margin-top: 25px;
-}
 
 div.job div.jobMenu {
     width: 100%;
@@ -306,8 +302,8 @@ div.job div.content {} div.job div.content div.wrapper {
     신기씨앤에스w: auto;
 }
 div.job div.content p {
-    font-size: 13px;
-    line-height: 24px;
+    /*font-size: 13px;*/
+    /*line-height: 24px;*/
 }
 .borderTop {
     margin: 0;
@@ -324,6 +320,7 @@ div.job div.content h3 {
     font-weight: bold;
     color: #464646;
     clear: both;
+    font-size: 21px;
 }
 div.job div.content h4 {
     color: #464646;
@@ -356,6 +353,7 @@ div.job div.content div.rightContent h3 {
     font-weight: bold;
     font-size: 20px;
     display: inline-block;
+    margin-bottom: 10px;
 }
 div.job div.content div.rightContent h3.italic {
     font-style: italic;

@@ -10,6 +10,7 @@ var h3Framework = angular.module('h3Framework')
 	$nav.initVariables = function() {
 		$nav.menuClicked = false;				//Opens subMenus
 		$nav.subMenu = null;						//SubMenu Object
+		$scope.mainContentStyle = {'padding':'0 0px 0 190px', 'min-width': '1100px', 'max-width': '1100px'};
 	};
 
 	/*	menu & submenu config	*/
@@ -103,7 +104,7 @@ var h3Framework = angular.module('h3Framework')
 		$nav.clearSubMenuActive();
 		subMenu.active = true;
 		$location.path(subMenu.href);
-		$scope.mainContentStyle = {'margin':'0 190px 0 325px'};
+		$scope.mainContentStyle = {'padding':'0 190px 0 325px', 'min-width': '1100px', 'max-width': '1100px'};
 	};
 
 	$nav.extraLinkClick = function() {
@@ -127,11 +128,13 @@ var h3Framework = angular.module('h3Framework')
 	// Resize window and set the menus active status
 	$nav.resizeWindownSubMenu = function() {
 		$nav.menuClicked = true;
-		if($window.innerWidth <= 1680){
-			$scope.mainContentStyle = {'margin':'0 0 0 325px'};
+		if($window.innerWidth <= 1190){
+			$scope.mainContentStyle = {'padding':'0 0 0 325px', 'min-width': '1100px', 'max-width': '1100px'};
 		} else {
-			$scope.mainContentStyle = {'margin':'0 190px 0 325px'};
+			$scope.mainContentStyle = {'padding':'0 190px 0 325px', 'min-width': '1100px', 'max-width': '1100px'};
 		}
+
+
 
 		if($location.path().split('/')[1]){
 			$nav.clearMainMenuActive();
@@ -156,7 +159,21 @@ var h3Framework = angular.module('h3Framework')
 				}
 			}
 		}
+
+		if($location.path().split('/')[1] == 'extra') {
+			$nav.extraLinkClick();
+		}
 	};
+
+	$nav.resizeMainView = function() {
+		console.log('aaa');
+		if($window.innerWidth <= 1680){
+			$scope.mainContentStyle = {'padding':'0 0 0 190px', 'width':'100%', 'min-width': '', 'max-width': ''};
+		} else {
+			$scope.mainContentStyle = {'padding':'0 0 0 190px', 'width':'100%', 'min-width': '', 'max-width': ''};
+		}
+
+	}
 
 
 	/*	Initialize variables	*/
@@ -168,6 +185,7 @@ var h3Framework = angular.module('h3Framework')
 			$nav.resizeWindownSubMenu();
 		} else {
 			$nav.menuClicked = false;
+			$nav.resizeMainView();
 		}
 	});
 
