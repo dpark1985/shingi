@@ -408,3 +408,20 @@ pre.privacy {
 .letterSpacing9 {
     letter-spacing: 9px;
 }
+
+.siteMapTitle {
+  background-color: #404040;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.siteMapSubTitle {
+  background-color: #d9d9d9;
+  padding: 4px 0 4px 4px;
+}
+
+.siteMapUl {
+  background-color: #f2f2f2;
+  padding-left: 23px;
+}
