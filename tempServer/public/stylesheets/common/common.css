@@ -401,6 +401,10 @@ pre.privacy {
     line-height: 30px;
 }
 
+.letterSpacing3 {
+      letter-spacing: 3px;
+}
+
 .letterSpacing5 {
       letter-spacing: 5px;
 }
