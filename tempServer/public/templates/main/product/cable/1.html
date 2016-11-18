@@ -4,8 +4,8 @@
     <img class="flagImg" src="images/icons/flag1.png">
     <div class="col-xs-12">
       <div class="well well-lg flagBgColor1">
-        <h2>신기의 다양한 산업 특성에 <br>맞는 <span class="colorBlue">전 연 케 이 블</span>을 제공합니다.</h2>
-        <p>절연전선이란 750V 이하 옥내외 배선에 사용되는 전선으로 도체 위에 PVC 또는 XLPE로 절연한 전선입니다. 저압으로 단선 또는 연선에 절연물을 피복한 것으로 종류로는 IV, DV, GV, OW등이 있습니다.</p>
+        <h2 class="fontBod">신기의 다양한 산업 특성에 <br>맞는 <span class="colorBlue">전 연 케 이 블</span>을 제공합니다.</h2>
+        <p class="fontSize13">절연전선이란 750V 이하 옥내외 배선에 사용되는 전선으로 도체 위에 PVC 또는 XLPE로 절연한 전선입니다. 저압으로 단선 또는 연선에 절연물을 피복한 것으로 종류로는 IV, DV, GV, OW등이 있습니다.</p>
         <div>
           <a class="floatRight marginRight10" href="pdfs/cable2016A.pdf" target="_blank">카탈로그</a>
           <a class="floatRight marginRight10" href="#cr/contact">문의사항</a>
@@ -21,7 +21,7 @@
           <strong>{{prod.name}}</strong>
         </h2>
         <ul class="noULstyle padding0 paddingLeft100" ng-if="prod.desc">
-          <li ng-repeat="desc in prod.desc" class="paddingRight100">{{desc}}</li>
+          <li ng-repeat="desc in prod.desc" class="paddingRight100 fontSize13">{{desc}}</li>
         </ul>
       </div>
       <img class="evenImage width9" ng-src="{{prod.imgSrc}}">
@@ -33,7 +33,7 @@
           <strong>{{prod.name}}</strong>
         </h2>
         <ul class="noULstyle textAlignRight padding0 paddingRight100" ng-if="prod.desc">
-          <li ng-repeat="desc in prod.desc" class="paddingLeft100">{{desc}}</li>
+          <li ng-repeat="desc in prod.desc" class="paddingLeft100 fontSize13">{{desc}}</li>
         </ul>
       </div>
       <img class="oddImage width9" ng-src="{{prod.imgSrc}}">
@@ -41,7 +41,6 @@
   </div>
 
   <div ng-if="pCable.subSubMenuOn" class="prodList subSubMenu">
-
     <div class="row perfectWidth">
       <div class="col-xs-12 prodBgColor">
         <h2 class="paddingLeft100" ng-if="pCable.selectedItem.name">
