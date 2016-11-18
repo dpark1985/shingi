@@ -57,7 +57,7 @@
       <div class="col-xs-offset-3 col-xs-9">
         <div class="row border1 marginTop10 fillHeight100 " ng-if="pCable.selectedItem.usage">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter fontSize13" >적용<br>범위</p>
+            <p class="prodCategory fontSize13 marginTop10" >적용<br>범위</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10 paddingLeft20" ng-if="pCable.selectedItem.usage">
@@ -65,9 +65,10 @@
             </ul>
           </div>
         </div>
+
         <div class="row border1 marginTop10 fillHeight100 " ng-if="pCable.selectedItem.std">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter fontSize13" >적용<br>규격</p>
+            <p class="prodCategory fontSize13 marginTop10" >적용<br>규격</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10 paddingLeft20" ng-if="pCable.selectedItem.std" ng-repeat="std in pCable.selectedItem.std">
@@ -80,46 +81,49 @@
             </ul>
           </div>
         </div>
+
         <div class="row border1 marginTop10 fillHeight100 " ng-if="pCable.selectedItem.materials.conductor || pCable.selectedItem.materials.internal || pCable.selectedItem.materials.insulation || pCable.selectedItem.materials.external || pCable.selectedItem.materials.neutralConductor || pCable.selectedItem.materials.daeyeon || pCable.selectedItem.materials.shielding || pCable.selectedItem.materials.alliance || pCable.selectedItem.materials.sheath">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter" >재료 및<br>구조</p>
+            <p class="prodCategory fontSize13 marginTop10" >재료 및<br>구조</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10 paddingLeft20" ng-if="pCable.selectedItem.materials.conductor || pCable.selectedItem.materials.internal || pCable.selectedItem.materials.insulation || pCable.selectedItem.materials.external || pCable.selectedItem.materials.neutralConductor || pCable.selectedItem.materials.daeyeon || pCable.selectedItem.materials.shielding || pCable.selectedItem.materials.alliance || pCable.selectedItem.materials.sheath">
-              <li ng-if="pCable.selectedItem.materials.conductor">도체: {{pCable.selectedItem.materials.conductor}}</li>
-              <li ng-if="pCable.selectedItem.materials.internal">내부 반도전: {{pCable.selectedItem.materials.internal}}</li>
-              <li ng-if="pCable.selectedItem.materials.insulation">절연체:
+              <li ng-if="pCable.selectedItem.materials.conductor" class="fontSize13">도체: {{pCable.selectedItem.materials.conductor}}</li>
+              <li ng-if="pCable.selectedItem.materials.internal" class="fontSize13">내부 반도전: {{pCable.selectedItem.materials.internal}}</li>
+              <li ng-if="pCable.selectedItem.materials.insulation" class="fontSize13">절연체:
                 <ul>
-                  <li ng-repeat="insulation in pCable.selectedItem.materials.insulation">{{insulation}}</li>
+                  <li ng-repeat="insulation in pCable.selectedItem.materials.insulation" class="fontSize13">{{insulation}}</li>
                 </ul>
               </li>
-              <li ng-if="pCable.selectedItem.materials.external">외부 반도전: {{pCable.selectedItem.materials.external}}</li>
-              <li ng-if="pCable.selectedItem.materials.neutralConductor">중성선: {{pCable.selectedItem.materials.neutralConductor}}</li>
-              <li ng-if="pCable.selectedItem.materials.shielding">차폐: {{pCable.selectedItem.materials.shielding}}</li>
-              <li ng-if="pCable.selectedItem.materials.alliance">연합: {{pCable.selectedItem.materials.alliance}}</li>
-              <li ng-if="pCable.selectedItem.materials.sheath">시스: {{pCable.selectedItem.materials.sheath}}</li>
+              <li ng-if="pCable.selectedItem.materials.external" class="fontSize13">외부 반도전: {{pCable.selectedItem.materials.external}}</li>
+              <li ng-if="pCable.selectedItem.materials.neutralConductor" class="fontSize13">중성선: {{pCable.selectedItem.materials.neutralConductor}}</li>
+              <li ng-if="pCable.selectedItem.materials.shielding" class="fontSize13">차폐: {{pCable.selectedItem.materials.shielding}}</li>
+              <li ng-if="pCable.selectedItem.materials.alliance" class="fontSize13">연합: {{pCable.selectedItem.materials.alliance}}</li>
+              <li ng-if="pCable.selectedItem.materials.sheath" class="fontSize13">시스: {{pCable.selectedItem.materials.sheath}}</li>
             </ul>
           </div>
         </div>
+
         <div class="row border1 marginTop10 fillHeight100" ng-if="pCable.selectedItem.color">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter">색상</p>
+            <p class="prodCategory fontSize13 marginTop10">색상</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10 paddingLeft20" ng-if="pCable.selectedItem.color">
-              <li ng-repeat="color in pCable.selectedItem.color">{{color}}</li>
+              <li ng-repeat="color in pCable.selectedItem.color" class="fontSize13">{{color}}</li>
             </ul>
           </div>
         </div>
+
         <div class="row border1 marginTop10 fillHeight100 " ng-if="pCable.selectedItem.prdStd.kc || pCable.selectedItem.prdStd.k || pCable.selectedItem.prdStd.em">
           <div class="col-xs-2 verticalCenter verticalCenter2 bgColor1">
-            <p class="prodCategory textAlignCenter marginCenter">제품<br>규격</p>
+            <p class="prodCategory fontSize13 marginTop10">제품<br>규격</p>
           </div>
           <div class="col-xs-10 marginLeft80">
             <ul class="marginTop10 paddingLeft20" ng-if="pCable.selectedItem.prdStd.kc || pCable.selectedItem.prdStd.k || pCable.selectedItem.prdStd.em">
-              <li ng-if="pCable.selectedItem.prdStd.kc">전기용품 안전인증: </li>
-              <li ng-if="pCable.selectedItem.prdStd.k">한국 산업 규격: </li>
-              <li ng-if="pCable.selectedItem.prdStd.em">환경표지 인증: </li>
+              <li ng-if="pCable.selectedItem.prdStd.kc" class="fontSize13">전기용품 안전인증: </li>
+              <li ng-if="pCable.selectedItem.prdStd.k" class="fontSize13">한국 산업 규격: </li>
+              <li ng-if="pCable.selectedItem.prdStd.em" class="fontSize13">환경표지 인증: </li>
             </ul>
           </div>
         </div>
