@@ -137,6 +137,7 @@ pre.privacy {
 .verticalCenter {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .verticalCenter2 {
@@ -230,6 +231,14 @@ pre.privacy {
     color: #fff;
 }
 
+.colorBlack {
+    color: #000;
+}
+
+.colorDefault {
+    color: rgb(87, 87, 87);
+}
+
 .fontSize10 {
     font-size: 10px;
 }
@@ -242,8 +251,16 @@ pre.privacy {
     font-size: 15px;
 }
 
+.fontSize16 {
+    font-size: 16px;
+}
+
 .fontSize20 {
     font-size: 20px;
+}
+
+.fontSize23 {
+    font-size: 23px;
 }
 
 .fontSize25 {
@@ -302,8 +319,16 @@ pre.privacy {
     margin-top: 0px;
 }
 
+.marginTop5 {
+    margin-top: 5px;
+}
+
 .marginTop10 {
     margin-top: 10px;
+}
+
+.marginTop15 {
+    margin-top: 15px;
 }
 
 .marginTop20 {
@@ -374,6 +399,10 @@ pre.privacy {
 
 .lineHeight30 {
     line-height: 30px;
+}
+
+.letterSpacing5 {
+      letter-spacing: 5px;
 }
 
 .letterSpacing9 {

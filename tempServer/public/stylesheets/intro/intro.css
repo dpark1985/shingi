@@ -14,17 +14,16 @@ div.ceo div.content p:first-child {
     font-size: 21px;
     color: #555;
     line-height: 36px;
-    margin-top: 10px;
 }
 div.ceo div.content p:first-child span {
     color: #0b4da2;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
 }
 div.ceo div.content p {
     /*font-size: 13px;*/
     line-height: 24px;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
 }
 div.ceo div.content img {
     width: 100%;
@@ -46,10 +45,9 @@ div.ceo div.content div.signature h2 {
 div.info div.content p:first-child {
     font-size: 21px;
     font-weight: bold;
-    margin-top: 10px;
 }
 div.info div.content p {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
 }
 
 div.vision div.content {
@@ -186,7 +184,7 @@ div.vision div.content div.mid div.bottomContent div.rightContent span {
     border-top: 1px solid #e3e3e3;
 }
 div.history div.content {
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
 }
 div.history div.content div.topContent div.leftContent {
@@ -259,7 +257,7 @@ div.history div.content div.bottomContent div.rightContent span.year {
     font-weight: bold;
 }
 div.org div.content {
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
 }
 div.org div.content p:first-child {
@@ -283,7 +281,7 @@ div.job div.jobMenu ul li {
     float: left;
     display: block;
     width: 100px;
-    height: 40px;
+    height: 41px;
     line-height: 40px;
     text-align: center;
     font-size: 16px;
