@@ -166,7 +166,6 @@ var h3Framework = angular.module('h3Framework')
 	};
 
 	$nav.resizeMainView = function() {
-		console.log('aaa');
 		if($window.innerWidth <= 1680){
 			$scope.mainContentStyle = {'padding':'0 0 0 190px', 'width':'100%', 'min-width': '', 'max-width': ''};
 		} else {
